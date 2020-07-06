@@ -1,0 +1,18 @@
+En lista består av två filer:
+
+  xxx.FCW - själva utseendet på listan
+  xxx.COL - vad som ska placeras i vilken kolumn
+
+xxx.COL
+-------
+Kan bestå av upp till 10 kolumner avgränsade med semikolon.
+
+Varje värde kan vara:
+
+- en kod för en eltext. Till exempel N4:1
+- ett specialvärde:
+    *A - Hämta kod som finns i dialogrutan
+    *B - Bladnummer
+    *C - Antal blad
+
+

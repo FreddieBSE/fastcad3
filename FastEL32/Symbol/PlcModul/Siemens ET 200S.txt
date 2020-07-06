@@ -1,0 +1,23 @@
+#Namn: Di 8x24VDC
+#Sortering: 900
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" T{ET 200S DI8 x 24 V=}o{;1}   o{;5}   o{;2}   o{;6}   o{;3}   o{;7}   o{;4}   o{;8}  "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning:ET 200S DI8 x 24 V
+#Material - Artikel:6ES7131-4BF00-0AA0
+#Material - Height: 100
+#Material - Width: 15
+---------------------------------------------------------------------
+#Namn: Do 8x24VDC 0,5A
+#Sortering: 910
+#Komponent: 1
+#Typ: UT
+#Kod:" T{ET 200S 8DO DC24V/0.5 A}o{;1}   o{;5}   o{;2}   o{;6}   o{;3}   o{;7}   o{;4}   o{;8}  "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning:ET 200S 8DO DC24V/0.5 A
+#Material - Artikel:6ES7132-4BF00-0AA0
+#Material - Height: 100
+#Material - Width: 15

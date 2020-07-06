@@ -1,0 +1,70 @@
+#Namn: BAS2 XE16-COM CPU
+#Sortering: 100
+#Komponent: 1
+#Typ: CPU
+#Kod:"  m{24VAC;GND}T{XE16 - COM}   o{Tx}n{+12V}  o{Rx}n{GND}  o{GND}n{A}  o{A}n{B}  o{B}    o{A}  o{B}  o{GND}  o{M}   "
+#Material - Fabrikat: Bastec
+#Material - Beskrivning: BAS2 XE16-COM
+#Material - Height: 120.000
+#Material - Width: 173.000
+---------------------------------------
+#Namn: BAS2 E16 Expansion
+#Sortering: 101
+#Komponent: 1
+#Typ: CPU
+#Kod:"  m{24VAC;GND}T{E16}   n{A}  n{B}  "
+#Material - Fabrikat: Bastec
+#Material - Beskrivning: BAS2 E16
+#Material - Height: 120.000
+#Material - Width: 125.000
+---------------------------------------
+#Namn: BAS2 XE16 LT
+#Sortering: 102
+#Komponent: 1
+#Typ: CPU
+#Kod:"  m{24VAC;GND}T{XE16 LT}   n{+12V}   n{GND}   n{A}   n{B}   "
+#Material - Fabrikat: Bastec
+#Material - Beskrivning: BAS2 XE16 LT
+#Material - Height: 120.000
+#Material - Width: 173.000
+---------------------------------------
+#Namn: BAS2 XE16 ingångar
+#Sortering: 103
+#Typ: KOMBINERAD
+#Kod:"  o{IN1} o{GND} o{IN2}    o{IN3} o{GND} o{IN4}    o{IN5} o{GND} o{IN6}    o{IN7} o{GND} o{IN8}  "
+---------------------------------------
+#Namn: BAS2 XE16 utgångar
+#Sortering: 104
+#Typ: KOMBINERAD
+#Kod:"  o{DO1}   o{DO2}   o{DO3}   o{DO4}   o{AO1}   o{AO2}   o{AO3}   o{AO4}  "
+---------------------------------------
+#Namn:-----------------
+#Sortering: 105
+#Typ: CPU
+#Kod:" "
+---------------------------------------
+#Namn: BAS2 XL13 Kraftaggregat
+#Sortering: 111
+#Komponent: 1
+#Typ: CPU
+#Kod:"  M{L;N}T{XL13 Kraft}   n{GND}   n{12V}   n{GND}   "
+#Material - Fabrikat: Bastec
+#Material - Beskrivning: BAS2 XE13 Kraftaggregat
+---------------------------------------
+#Namn: BAS2 XL13 CPU
+#Sortering: 112
+#Komponent: 1
+#Typ: CPU
+#Kod:"  T{XL13 CPU}o{TxD}n{TxD}   o{RxD}n{RxD}   o{CTS}n{GND}   o{GND}   o{TxD}n{A}   o{RxD}n{B}   o{CTS}   o{GND}    "
+#Material - Fabrikat: Bastec
+#Material - Beskrivning: BAS2 XE13 CPU
+---------------------------------------
+#Namn: BAS2 XL13 in och utgångar
+#Sortering: 113
+#Komponent: 1
+#Typ: KOMBINERAD
+#Kod:"  o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7}   o{8}   o{C}   "
+#Material - Fabrikat: Bastec
+#Material - Beskrivning: BAS2 XE13 
+---------------------------------------
+

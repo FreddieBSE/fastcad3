@@ -1,0 +1,3 @@
+Kretsschema
+Standardram för kretsschema.
+Kolumner märkta A..K.

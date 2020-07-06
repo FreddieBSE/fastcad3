@@ -1,0 +1,3 @@
+Kretsschema
+Ram för kretsschema.
+Kolumner märkta 1..9.

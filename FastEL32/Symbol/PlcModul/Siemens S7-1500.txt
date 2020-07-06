@@ -1,0 +1,95 @@
+#Namn: CPU 1515F-2 PN
+#Sortering: 100
+#Komponent: 1
+#Typ: CPU
+#Kod: "  TCPU 1515F-2 PN}m{L+;M}     "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 1515F-2 PN
+#Material - Artikel: 6ES7515-2FM01-0AB0
+#Material - Height: 147.000
+#Material - Width: 70.000
+#Material - Typ: CPU
+---------------------------------------
+#Namn:---
+#Sortering: 499
+---------------------------------------
+#Namn: DI 16x24VDC ST (Del 1)
+#Sortering: 500
+#Komponent: 1
+#Typ: IN
+#Kod: "T{DI 16x24VDC ST}+{L+}-{M}   o{DI0;1}   o{DI1;2}   o{DI2;3}   o{DI3;4}   o{DI4;5}   o{DI5;6}   o{DI6;7}   o{DI7;8}  "
+#Material - Fabrikat: Siemens
+#Material - Artikel: 6ES7131-6BH00-0BA0
+#Material - Beskrivning: DI 16x24VDC ST
+#Material - Height: 147.000
+#Material - Width: 15.000
+---------------------------------------
+#Namn: DI 16x24VDC ST (Del 2)
+#Sortering: 501
+#Typ: IN
+#Kod: "T{DI 16x24VDC ST}   o{DI8;9}   o{DI9;10}   o{DI10;11}   o{DI11;12}   o{DI12;13}   o{DI13;14}   o{DI14;15}   o{DI15;16}  "
+---------------------------------------
+#Namn:---
+#Sortering: 600
+---------------------------------------
+#Namn: DQ 8x24VDC/0.5A ST
+#Sortering: 601
+#Komponent: 1
+#Typ: UT
+#Kod: "M{L+;;M} T{DQ 8x24VDC/0.5A ST}  o{DQ0;1}   o{DQ1;2}   o{DQ2;3}   o{DQ3;4}   o{DQ4;5}   o{DQ5;6}   o{DQ6;7}   o{DQ7;8}  "
+#Material - Fabrikat: Siemens
+#Material - Artikel: 6ES7132-6BF00-0BA0
+#Material - Beskrivning: DQ 8x24VDC/0,5A ST
+#Material - Height: 147.000
+#Material - Width: 15.000
+---------------------------------------
+#Namn:---
+#Sortering: 700
+---------------------------------------
+#Namn: AI 4xU/I 2-wire ST (Del 1)
+#Sortering: 701
+#Komponent: 1
+#Typ: IN
+#Kod: "T{AI 4xU/I 2-wire ST}+{L+}-{M}   o{U0+;1}  o{U0-;5}    o{U1+;2}  o{U1-;6}    o{U2+;3}  o{U2-;7}    o{U3+;4}  o{U3-;8}  "
+#Material - Fabrikat: Siemens
+#Material - Artikel: 6ES7134-6HD00-0BA1
+#Material - Beskrivning: AI 4xU/I 2-wire ST
+6ES7134-6HD00-0BA1
+---------------------------------------
+#Namn: AI 4xU/I 2-wire ST (Del 2)
+#Sortering: 702
+#Typ: IN
+#Kod: "T{AI 4xU/I 2-wire ST}    o{Uv0+;9}  o{I0+;13}    o{Uv1+;10}  o{I1+;14}    o{Uv2+;11}  o{I2+;15}    o{Uv3+;12}  o{I3+;16}  "
+---------------------------------------
+#Namn:---
+#Sortering: 800
+---------------------------------------
+#Namn: F-DI 8x24VDC HF (Del 1)
+#Sortering: 801
+#Komponent: 1
+#Typ: IN
+#Kod: "T{F-DI 8x24VDC HF}+{L+}-{M}   o{DI0;1} o{VS0;9}    o{DI1;2} o{VS1;10}    o{DI2;3} o{VS2;11}    o{DI3;4} o{VS3;12}  "
+#Material - Fabrikat: Siemens
+#Material - Artikel: 6ES7136-6BA00-0CA01
+#Material - Beskrivning: F-DI 8x24VDC HF
+6ES7134-6HD00-0BA1
+---------------------------------------
+#Namn: F-DI 8x24VDC HF (Del 2)
+#Sortering: 802
+#Typ: IN
+#Kod: "T{F-DI 8x24VDC HF}   o{DI4;5} o{VS4;13}   o{DI5;6} o{VS5;14}   o{DI6;7} o{VS6;15}   o{DI7;8} o{VS7;16}  
+---------------------------------------
+#Namn:---
+#Sortering: 900
+---------------------------------------
+#Namn: F-DQ 4x24VDC/2A PM HF
+#Sortering: 901
+#Komponent: 1
+#Typ: UT
+#Kod: "M{;L+;M} T{F-DQ 4x24VDC/2A PM HF}  o{DQ-P0;1} o{DQ-M0;9}    o{DQ-P1;2} o{DQ-M1;10}    o{DQ-P2;3} o{DQ-Q2;11}    o{DQ-P3;4} o{DQ-P3;12}  "
+#Material - Fabrikat: Siemens
+#Material - Artikel: 6ES7136-6BA00-0CA01
+#Material - Beskrivning: F-DI 8x24VDC HF
+6ES7134-6HD00-0BA1
+---------------------------------------
+

@@ -1,0 +1,21 @@
+M matning.fcw
+f felsäker ingång.fcw
+a felsäker analog digital ingång.fcw
+s felsäker utgång.fcw
+r felsäker utgång forts.fcw
+b fördröjd utgång.fcw
+u uttag uppåt.fcw
+j övervakning kontakter.fcw
+  mellanrum.fcw
+| linje.fcw
+- relälinje.fcw
+
+d felsäker in-ut.fcw
+m felsäker mät.fcw
+t felsäker transistor.fcw
+n uttag nedåt.fcw 
+y växlande utgång.fcw
+h matning till transistor.fcw
+i indikering transistor.fcw 
+T text.fcw
+

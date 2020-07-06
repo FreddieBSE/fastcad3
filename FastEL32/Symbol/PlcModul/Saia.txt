@@ -1,0 +1,171 @@
+---------------------------------------------------------------------
+#Namn: PCD3.M5340
+#Sortering: 1
+#Komponent: 1
+#Typ: CPU
+#Kod:"  T{PCD3.M5340}m{24VDC;7;8}   o{D}  o{/D}  o{INT0}  o{INT1}  o{WD}  o{WD}  o{PE}  b{RS232}b{RS485}b{ETH1}b{USB}"
+#Material - Fabrikat: Saia
+#Material - Beskrivning: CPU
+#Material - Artikel: PCD3.M5340
+---------------------------------------------------------------------
+#Namn:-----------------
+#Sortering: 100
+#Typ: CPU
+#Kod:" "
+---------------------------------------
+#Namn: PCD3.E110
+#Sortering: 101
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.E110}o{0}   o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7}   o{+;8} o{-;9} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Digital ingångsmodul
+#Material - Artikel: PCD3.E110
+---------------------------------------------------------------------
+#Namn: PCD3.E111
+#Sortering: 101
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.E111}o{0}   o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7}   o{+;8} o{-;9} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Digital ingångsmodul
+#Material - Artikel: PCD3.E111
+---------------------------------------------------------------------
+#Namn: PCD3.E610
+#Sortering: 102
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.E610}o{0}   o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7}   o{+;8} o{-;9} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Digital ingångsmodul
+#Material - Artikel: PCD3.E610
+---------------------------------------------------------------------
+#Namn: PCD3.E165 0-7
+#Sortering: 103
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.E165}o{0}   o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Digital ingångsmodul
+#Material - Artikel: PCD3.E165
+---------------------------------------------------------------------
+#Namn: PCD3.E165 8-15
+#Sortering: 104
+#Typ: Kombinerad
+#Kod:"T{PCD3.E165}o{8}   o{9}   o{10}   o{11}   o{12}   o{13}   o{14}   o{15}   o{+;8} o{-;9} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Digital ingångsmodul
+---------------------------------------------------------------------
+#Namn:-----------------
+#Sortering: 200
+#Typ: CPU
+#Kod:" "
+---------------------------------------
+#Namn: PCD3.A200
+#Sortering: 201
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.A200}     a{;0}-r{;1}   a{;2}-r{;3}   a{;4}-r{;5}   a{;6}-r{;7}   o{+;8} o{-;9} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Digital utgångsmodul
+#Material - Artikel: PCD3.A200
+---------------------------------------------------------------------
+#Namn: PCD3.A400
+#Sortering: 202
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.A400}  o{0}   o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7}  o{+;8} o{-;9} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Digital utgångsmodul
+#Material - Artikel: PCD3.A400
+---------------------------------------------------------------------
+#Namn: PCD3.A410
+#Sortering: 203
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.A410}  o{0}   o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7}  o{+;8} o{-;9} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Digital utgångsmodul
+#Material - Artikel: PCD3.A410
+---------------------------------------------------------------------
+#Namn: PCD3.A465 0-7
+#Sortering: 204
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.A465}  o{0}   o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7}  "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Digital utgångsmodul
+#Material - Artikel: PCD3.A465
+---------------------------------------------------------------------
+#Namn: PCD3.A465 8-15
+#Sortering: 205
+#Typ: Kombinerad
+#Kod:"T{PCD3.A465}  o{8}   o{9}   o{10}   o{11}   o{12}   o{13}   o{14}   o{15}  o{+;16} o{-;17} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Digital utgångsmodul
+#Material - Artikel: PCD3.A465
+---------------------------------------------------------------------
+#Namn:-----------------
+#Sortering: 300
+#Typ: CPU
+#Kod:" "
+---------------------------------------
+#Namn: PCD3.W200
+#Sortering: 301
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.W200}o{0}   o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7}   o{COM} o{-} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Analog ingångsmodul
+#Material - Artikel: PCD3.W200
+---------------------------------------------------------------------
+#Namn: PCD3.W300
+#Sortering: 302
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.W300}o{0}   o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7}   o{COM} o{-} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Analog ingångsmodul
+#Material - Artikel: PCD3.W300
+---------------------------------------------------------------------
+#Namn: PCD3.W340
+#Sortering: 303
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.W340}o{0}   o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7}   o{COM} o{-} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Analog ingångsmodul
+#Material - Artikel: PCD3.W340
+---------------------------------------------------------------------
+#Namn: PCD3.W360
+#Sortering: 304
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.W360}o{0}   o{1}   o{2}   o{3}   o{4}   o{5}   o{6}   o{7}   o{COM} o{-} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Analog ingångsmodul
+#Material - Artikel: PCD3.W360
+---------------------------------------------------------------------
+#Namn:-----------------
+#Sortering: 400
+#Typ: CPU
+#Kod:" "
+---------------------------------------
+#Namn: PCD3.W400
+#Sortering: 401
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.W400}   o{;0}o{-;1}    o{;2}o{-;3}    o{;4}o{-;5}    o{;6}o{-;7}    o{+;8} o{-;9} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Analog utgångsmodul
+#Material - Artikel: PCD3.W400
+---------------------------------------------------------------------
+#Namn: PCD3.W605
+#Sortering: 402
+#Komponent: 1
+#Typ: Kombinerad
+#Kod:"T{PCD3.W605}   o{;0}o{-;1}   o{;2}o{-;3}   o{;4}o{-;5}   o{;6}o{-;7}   o{;8}o{-;9}   o{;10}o{-;11}   o{+;12} o{-;13} "
+#Material - Fabrikat: Saia
+#Material - Beskrivning: Analog utgångsmodul
+#Material - Artikel: PCD3.W605
+

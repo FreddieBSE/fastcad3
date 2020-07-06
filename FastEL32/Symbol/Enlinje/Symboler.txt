@@ -1,0 +1,29 @@
+SLB			Säkringslastbrytare	SLB / ISLB / IISLB
+HB2			Huvudbrytare	HB2	
+HB			Inkommande huvudbrytare	HB	
+G			Gren	G			
+II			Matningslinjer	I / II / III			
+E			Elmätare	E / IE / EI
+ED			Elmätare	ED / IED / EID
+Dali				Dali / Idali / DaliI			
+SF			Sektionsäkring	SF			
+J			Jordfelsbrytare	J / IJ / IJI			
+F			Automatsäkring	F / IF / IIF			
+D			Smältsäkring	D / ID / IID			
+FB			Fasbrott	FB / IFB / IIFB
+PE			Jordning	PE / IJ / IIJ
+EF			Effektbrytare	EF / IEF  / IIEF
+PS			Personskyddsautomat	PS / IPS / IIPS
+FU			Funktion	FU / IFU / IIFU
+BIL			Se bilaga	BIL / IBIL / IIBIL
+T			Trafo	T / IT / IIT			
+M			Manöversäkring	M / IM / IIM			
+TA			Trafo intern	TA / ITA / IITA			
+U			Kopplingsur	U / IU / IIU			
+K			Kontaktor	K / IK / IIK			
+S			Extern styrning	S / IS / IIS			
+R			Impulsrelä m Kontaktor	R / IR / IIR			
+H			Hand - 0 - Auto	H / IH / IIH			
+P			Impulsrelä	P / IP / IIP			
+TR			Tidrelä	TR / ITR / IITR			
+TK			Tryckknapp	TK / ITK / IITK			

@@ -1,0 +1,301 @@
+#Namn: QX80 8(16) dig in (1)
+#Sortering: 10
+#Komponent: 1
+#Typ: IN
+#Kod:"s{COM}   o   o   o   o   o   o   o   o "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 16 digitala in 24 VDC
+#Material - Beskrivning: QX 80 Ingångsmodul
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: QX80 8(16) dig in (2)
+#Sortering: 10
+#Komponent: 0
+#Typ: IN
+#Kod:"  o   o   o   o   o   o   o   o "
+---------------------------------------------------------------------
+#Namn: QX81 32 dig in
+#Sortering: 10
+#Komponent: 1
+#Typ: IN
+#Kod:"q{00;1}q{01;20}q{02;2}q{03;21}q{04;3}q{05;22}q{06;4}q{07;23}q{08;5}q{09;24}q{0A;6}q{0B;25}q{0C;7}q{0D;26}q{0E;8}q{0F;27}q{10;9}q{11;28}q{12;10}q{13;29}q{14;11}q{15;30}q{16;12}q{17;31}q{18;13}q{19;32}q{1A;14}q{1B;33}q{1C;15}q{1D;34}q{1E;16}q{1F;35}q{COM;17}q{COM;18}q{COM;36}q{ ;19}q{ ;37}
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 32 digitala in 24 VDC
+#Material - Beskrivning: QX 81 Ingångsmodul
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 49
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: QY10-1 16 relä ut
+#Sortering: 50
+#Komponent: 1
+#Typ: UT
+#Kod:"R---r---r---r---r---r---r---r---
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 16 digitala ut relä
+#Material - Beskrivning: QY 10 Utgångsmodul
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: QY10-2 16 relä ut
+#Sortering: 50
+#Komponent: 0
+#Typ: UT
+#Kod:"---r---r---r---r---r---r---r---r
+---------------------------------------------------------------------
+#Namn: QY18A 8 relä ut
+#Sortering: 50
+#Komponent: 1
+#Typ: UT
+#Kod:" R   R   R   R   R   R   R   R 
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 8 digitala ut relä
+#Material - Beskrivning: QY 18A Utgångsmodul
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: QY80-1 16 digitala ut
+#Sortering: 50
+#Komponent: 1
+#Typ: UT
+#Kod:" M{;COM;0V}   o   o   o   o   o   o   o   o  
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 16 digitala ut
+#Material - Beskrivning: QY 80 Utgångsmodul
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: QY80-2 16 digitala ut
+#Sortering: 50
+#Komponent: 0
+#Typ: UT
+#Kod:"   o   o   o   o   o   o   o   o  
+---------------------------------------------------------------------
+#Namn: QY81P 32 digitala ut
+#Sortering: 50
+#Komponent: 1
+#Typ: UT
+#Kod:"h{00;1}h{01;20}h{02;2}h{03;21}h{04;3}h{05;22}h{06;4}h{07;23}h{08;5}h{09;24}h{0A;6}h{0B;25}h{0C;7}h{0D;26}h{0E;8}h{0F;27}h{10;9}h{11;28}h{12;10}h{13;29}h{14;11}h{15;30}h{16;12}h{17;31}h{18;13}h{19;32}h{1A;14}h{1B;33}h{1C;15}h{1D;34}h{1E;16}h{1F;35}h{+24V;17}h{+24V;18}h{+24V;36}h{0V;19}h{0V;37}
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 32 digitala ut
+#Material - Beskrivning: QY 81P Utgångsmodul
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 99
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Q61P-A2 Spänning
+#Sortering: 100
+#Komponent: 1
+#Typ: CPU
+#Kod:"  M{L;N}T{Q61P-A2}j{FG}     j{LG}     n{ ERR}  n{}   "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 
+#Material - Beskrivning: Q61P-A2 Spänningaggregat
+#Material - Height: 98
+#Material - Width: 55.2
+---------------------------------------
+#Namn: Q62P Spänning
+#Sortering: 100
+#Komponent: 1
+#Typ: CPU
+#Kod:"  M{L;N}T{Q62P}j{FG}     j{LG}     n{ ERR}  n{}   "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 
+#Material - Beskrivning: Q62P Spänningaggregat
+#Material - Height: 98
+#Material - Width: 55.2
+---------------------------------------
+#Namn: Q63P Spänning
+#Sortering: 100
+#Komponent: 1
+#Typ: CPU
+#Kod:"  m{L;N}T{Q63P}     j{FG}     j{LG}     n{ ERR}  n{}   "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 
+#Material - Beskrivning: Q63P Spänningaggregat
+#Material - Height: 98
+#Material - Width: 55.2
+---------------------------------------
+#Namn: --------
+#Sortering: 109
+#Typ: CPU
+#Kod:" "
+---------------------------------------
+#Namn: CPU Q01
+#Sortering: 110
+#Komponent: 1
+#Typ: CPU
+#Kod:"  T{CPU Q01}           "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 
+#Material - Beskrivning: CPU Q01
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------
+#Namn: CPU Q02
+#Sortering: 110
+#Komponent: 1
+#Typ: CPU
+#Kod:"  T{CPU Q02}           "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 
+#Material - Beskrivning: CPU Q02
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------
+#Namn: CPU Q00
+#Sortering: 110
+#Komponent: 1
+#Typ: CPU
+#Kod:"  T{CPU Q00}           "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 
+#Material - Beskrivning: CPU Q00
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------
+#Namn: CPU Q00J
+#Sortering: 110
+#Komponent: 1
+#Typ: CPU
+#Kod:"  T{CPU Q00J}           "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 
+#Material - Beskrivning: CPU Q00J
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 199
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Q64AD 4 analoga in
+#Sortering: 200
+#Komponent: 1
+#Typ: IN
+#Kod:"  o{V+}o{I+}T{CH1}o{V-}o{SLD}    o{V+}o{I+}T{CH2}o{V-}o{SLD}    o{V+}o{I+}T{CH3}o{V-}o{SLD}    o{V+}o{I+}T{CH4}o{V-}o{SLD}  
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 4 analoga in
+#Material - Beskrivning: Q64AD 
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: Q68ADI 8 analoga in
+#Sortering: 200
+#Komponent: 1
+#Typ: IN
+#Kod:"  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 8 analoga in
+#Material - Beskrivning: Q68ADI
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: Q68ADV 8 analoga in
+#Sortering: 200
+#Komponent: 1
+#Typ: IN
+#Kod:"  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  o{ ; }o{; }  
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 8 analoga in
+#Material - Beskrivning: Q68ADV
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 399
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Q64DA 4 analoga ut
+#Sortering: 400
+#Komponent: 1
+#Typ: UT
+#Kod:" M{ ; 24 VDC;0V}   o{V+}T{  CH1}o{COM}o{I+}    o{V+}T{  CH2}o{COM}o{I+}    vo{V+}T{  CH3}o{COM}o{I+}    o{V+}T{  CH4}o{COM}o{I+}  
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 4 analoga ut
+#Material - Beskrivning: Q64DA
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: Q68DAI 8 analoga ut
+#Sortering: 400
+#Komponent: 1
+#Typ: UT
+#Kod:" M{ ; 24 VDC;0V}   T{  CH1}o{I+}o{COM}T{  CH2}o{I+}    T{  CH3}o{I+}o{COM}T{  CH4}o{I+}    T{  CH5}o{I+}o{COM}T{  CH6}o{I+}    T{  CH7}o{I+}o{COM}T{  CH8}o{I+}  
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 8 analoga ut
+#Material - Beskrivning: Q68DAI
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: Q68DAV 8 analoga ut
+#Sortering: 400
+#Komponent: 1
+#Typ: UT
+#Kod:" M{ ; 24 VDC;0V}   T{  CH1}o{V+}o{COM}T{  CH2}o{V+}    T{  CH3}o{V+}o{COM}T{  CH4}o{V+}    T{  CH5}o{V+}o{COM}T{  CH6}o{V+}    T{  CH7}o{V+}o{COM}T{  CH8}o{V+}  
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: 8 analoga ut
+#Material - Beskrivning: Q68DAV
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 499
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Profibus QJ71PB92D
+#Sortering: 500
+#Komponent: 1
+#Typ: CPU
+#Kod:"   p    
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: Profibus
+#Material - Beskrivning: QJ71PB92D
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: Ethernet QJ71E71-100
+#Sortering: 500
+#Komponent: 1
+#Typ: CPU
+#Kod:"   p    
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: Ethernet
+#Material - Beskrivning: QJ71E71-100
+#Material - Height: 98
+#Material - Width: 28
+---------------------------------------------------------------------
+#Namn: Serie QJ71C24N-R2
+#Sortering: 500
+#Komponent: 1
+#Typ: CPU
+#Kod:"   p    
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Typ: Serie
+#Material - Beskrivning: QJ71C24N-R2
+#Material - Height: 98
+#Material - Width: 28
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,351 @@
+#Namn: Pluto A20 ingångar 0-7
+#Sortering: 100
+#Typ: Säkerhet
+#Kod:"M{+24V;0V}T{;PLUTO}  f{I0}n{ID}T{;A20}  f{I1}n{CL} n{CH} f{I2}  f{I3}  f{I4}  a{I5}  f{I6}  f{I7} "
+#Komponent: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: Pluto    A20
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 45
+---------------------------------------------------------------------
+#Namn: Pluto A20 ing/utg 10-17
+#Sortering: 101
+#Typ: Säkerhet
+#Kod:" d{IQ10} T{;PLUTO}  d{IQ11}   d{IQ12}T{;A20}   d{IQ13}   d{IQ14}   d{IQ15}   m{IQ16}   m{IQ17} "
+---------------------------------------------------------------------
+#Namn: Pluto A20 säkra utgångar 
+#Sortering: 102
+#Typ: Säkerhet
+#Fri placering: 1
+#Kod:" s{;Q0}   s{;Q1}    t{Q2} T{;PLUTO;A20}   t{Q3}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 103
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Pluto B20 ingångar 0-7
+#Sortering: 104
+#Typ: Säkerhet
+#Kod:"M{+24V;0V}T{;PLUTO}  f{I0}n{ID}T{;B20}  f{I1}n{CL} n{CH} f{I2}  f{I3}  f{I4}  a{I5}  f{I6}  f{I7} "
+#Komponent: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: Pluto    A20
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 45
+---------------------------------------------------------------------
+#Namn: Pluto B20 ing/utg 10-17
+#Sortering: 105
+#Typ: Säkerhet
+#Kod:" d{IQ10} T{;PLUTO}  d{IQ11}   d{IQ12}T{;B20}   d{IQ13}   d{IQ14}   d{IQ15}   m{IQ16}   m{IQ17} "
+---------------------------------------------------------------------
+#Namn: Pluto B20 säkra utgångar 
+#Sortering: 106
+#Typ: Säkerhet
+#Fri placering: 1
+#Kod:" s{;Q0}   s{;Q1}    t{Q2} T{;PLUTO;B20}   t{Q3}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 107
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Pluto B16 ingångar 0-7
+#Sortering: 108
+#Kod:"M{+24V;0V}T{;PLUTO}  f{I0}n{ID}T{;B20}  f{I1}n{CL} n{CH} f{I2}  f{I3}  f{I4}  a{I5}  f{I6}  f{I7} "
+#Komponent: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: Pluto    B16
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 45
+---------------------------------------------------------------------
+#Namn: Pluto B16 ing/utg 10-17
+#Sortering: 109
+#Typ: Säkerhet
+#Kod:" d{IQ10} T{;PLUTO}  d{IQ11}   d{IQ12}T{;B20}   d{IQ13}   d{IQ14}   d{IQ15}   m{IQ16}   m{IQ17} "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 110
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Pluto B42 AS-i ingångar 0-3
+#Sortering: 192
+#Kod:"M{+24V;0V}T{;PLUTO} n{0V} f{I0}n{ID}T{;B42 AS-i}  f{I1}n{CL} n{CH} f{I2}n{ASI+} n{ASI+} f{I3}n{ASI-} n{ASI-} "
+#Komponent: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: Pluto    B42 AS-i
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: Pluto B42 AS-i ing/utg 10-17
+#Sortering: 193
+#Typ: Säkerhet
+#Kod:" d{IQ10} T{;PLUTO}  d{IQ11}   d{IQ12}T{;B42 AS-i}   d{IQ13}   d{IQ14}   d{IQ15}   m{IQ16}   m{IQ17} "
+---------------------------------------------------------------------
+#Namn: Pluto B42 AS-i ing/utg 20-27
+#Sortering: 194
+#Typ: Säkerhet
+#Kod:" d{IQ20} T{;PLUTO}  d{IQ21}   d{IQ22}T{;B42 AS-i}   d{IQ23}   d{IQ24}   d{IQ25}   d{IQ26}   d{IQ27} "
+---------------------------------------------------------------------
+#Namn: Pluto B42 AS-i ingångar 30-37
+#Sortering: 195
+#Typ: Säkerhet
+#Kod:"f{I30} T{;PLUTO} f{I31}  f{I32}T{;B42 AS-i}  f{I33}  f{I34}  f{I35}  f{I36}  f{I37} "
+---------------------------------------------------------------------
+#Namn: Pluto B42 AS-i ingångar 40-47
+#Sortering: 196
+#Typ: Säkerhet
+#Kod:"f{I40} T{;PLUTO} f{I41}  f{I42}T{;B42 AS-i}  f{I43}  f{I44}  f{I45}  f{I46}  f{I47} "
+---------------------------------------------------------------------
+#Namn: Pluto B42 AS-i säker utgång
+#Sortering: 197
+#Typ: Säkerhet
+#Kod:" s{0L;Q0}   s{1L;Q1}    t{Q2}    t{Q3}   s{4L;Q4}---r{Q5} T{;PLUTO;B42 AS-i}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 198
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Pluto B46 ingångar 0-7 
+#Sortering: 211
+#Kod:"M{+24V;0V}T{;PLUTO} n{0V} f{I0}n{ID}T{;B46}  f{I1}n{CL} n{CH} f{I2}  f{I3}  f{I4}  a{I5}  a{I6}  a{I7} "
+#Komponent: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: Pluto    B46
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: Pluto B46 ing/utg 10-17
+#Sortering: 212
+#Typ: Säkerhet
+#Kod:" d{IQ10} T{;PLUTO}  d{IQ11}   d{IQ12}T{;B46}   d{IQ13}   d{IQ14}   d{IQ15}   m{IQ16}   m{IQ17} "
+---------------------------------------------------------------------
+#Namn: Pluto B46 ing/utg 20-27 
+#Sortering: 213
+#Typ: Säkerhet
+#Kod:" d{IQ20} T{;PLUTO}  d{IQ21}   d{IQ22}T{;B46}   d{IQ23}   d{IQ24}   d{IQ25}   d{IQ26}   d{IQ27} "
+---------------------------------------------------------------------
+#Namn: Pluto B46 ingångar 30-37 
+#Sortering: 214
+#Typ: Säkerhet
+#Kod:"f{I30} T{;PLUTO} f{I31}  f{I32}T{;B46}  f{I33}  f{I34}  f{I35}  f{I36}  f{I37} "
+---------------------------------------------------------------------
+#Namn: Pluto B46 ingångar 40-47
+#Sortering: 215
+#Typ: Säkerhet
+#Kod:"f{I40} T{;PLUTO} f{I41}  f{I42}T{;B46}  f{I43}  f{I44}  f{I45}  f{I46}  f{I47} "
+---------------------------------------------------------------------
+#Namn: Pluto B46 säker utgång
+#Sortering: 216
+#Typ: Säkerhet
+#Kod:" s{0L;Q0}   s{1L;Q1}    t{Q2}    t{Q3}   s{4L;Q4}---r{Q5} T{;PLUTO;B46}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 217
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Pluto AS-i ingångar 0-7 
+#Sortering: 220
+#Kod:"M{+24V;0V}T{;PLUTO} n{0V} f{I0}n{ID}T{;AS-i}  f{I1}n{CL} n{CH} f{I2}n{ASI+} n{ASI+} f{I3}n{ASI-} n{ASI-} "
+#Komponent: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: Pluto    AS-i
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 45
+---------------------------------------------------------------------
+#Namn: Pluto AS-i ing/utg 10-13, säkra utgångar 
+#Sortering: 221
+#Typ: Säkerhet
+#Fri placering: 1
+#Kod:" d{IQ10} T{;PLUTO}  d{IQ11}   d{IQ12}T{;AS-i}   d{IQ13}  s{0L;Q0}  s{1L;Q1}   t{Q2}   t{Q3} "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 222
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Pluto S20 ingångar 0-7 
+#Sortering: 223
+#Komponent: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Kod:"M{+24V;0V}T{;PLUTO}  f{I0}n{ID}T{;S20}  f{I1}  f{I2}  f{I3}  f{I4}  a{I5}  f{I6}  f{I7} "
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: Pluto    S20
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 45
+---------------------------------------------------------------------
+#Namn: Pluto S20 ing/utg 10-17 
+#Sortering: 224
+#Typ: Säkerhet
+#Fri placering: 1
+#Kod:" d{IQ10}T{;PLUTO}   d{IQ11}T{;S20}   d{IQ12}   d{IQ13}   d{IQ14}   d{IQ15}   d{IQ16}   d{IQ17} "
+---------------------------------------------------------------------
+#Namn: Pluto S20 säkra utgångar 
+#Sortering: 225
+#Typ: Säkerhet
+#Fri placering: 1
+#Kod:" s{;Q0}   s{;Q1}    t{Q2} T{;PLUTO;S20}   t{Q3}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 226
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Pluto S46 ingångar 0-7 
+#Sortering: 227
+#Kod:"M{+24V;0V}T{;PLUTO} n{0V} f{I0}n{ID}T{;S46}  f{I1}  f{I2}  f{I3}  f{I4}  a{I5}  a{I6}  a{I7} "
+#Komponent: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: Pluto    S46
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: Pluto S46 ing/utg 10-17
+#Sortering: 228
+#Typ: Säkerhet
+#Kod:" d{IQ10} T{;PLUTO}  d{IQ11}   d{IQ12}T{;S46}   d{IQ13}   d{IQ14}   d{IQ15}   m{IQ16}   m{IQ17} "
+---------------------------------------------------------------------
+#Namn: Pluto S46 ing/utg 20-27 
+#Sortering: 229
+#Typ: Säkerhet
+#Kod:" d{IQ20} T{;PLUTO}  d{IQ21}   d{IQ22}T{;S46}   d{IQ23}   d{IQ24}   d{IQ25}   d{IQ26}   d{IQ27} "
+---------------------------------------------------------------------
+#Namn: Pluto S46 ingångar 30-37 
+#Sortering: 230
+#Typ: Säkerhet
+#Kod:"f{I30} T{;PLUTO} f{I31}  f{I32}T{;S46}  f{I33}  f{I34}  f{I35}  f{I36}  f{I37} "
+---------------------------------------------------------------------
+#Namn: Pluto S46 ingångar 40-47
+#Sortering: 231
+#Typ: Säkerhet
+#Kod:"f{I40} T{;PLUTO} f{I41}  f{I42}T{;S46}  f{I43}  f{I44}  f{I45}  f{I46}  f{I47} "
+---------------------------------------------------------------------
+#Namn: Pluto S46 säker utgång
+#Sortering: 232
+#Typ: Säkerhet
+#Kod:" s{0L;Q0}   s{1L;Q1}    t{Q2}    t{Q3}   s{4L;Q4}---r{Q5} T{;PLUTO;S46}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 233
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Vital 
+#Sortering: 250
+#Komponent: 1
+#Master: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Kod:" M{A1;A2}s{13;14}s{23;24}u{S1}u{B1}y{Y14}u{T1}u{B2}u{R1} u{X1}T{;VITAL}u{X4} "
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: Vital
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 22.5
+---------------------------------------------------------------------
+#Namn: RT6 
+#Sortering: 260
+#Komponent: 1
+#Master: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Kod:" M{A1;A2}s{13;14}s{23;24}s{33;34}j{41;42}u{S13}u{S34}h{Y13}u{S14}i{Y14;IN}u{S23}i{Y24;1&2}u{S24}u{S44}u{S53}u{X1}T{;RT6}u{X4} "
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: RT6
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 45
+---------------------------------------------------------------------
+#Namn: RT7
+#Sortering: 261
+#Komponent: 1
+#Master: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Kod:" M{A1;A2}s{13;14}s{23;24}j{33;34}b{43;44}b{53;54}u{S13}u{S34}h{Y13}u{S14}i{Y14;IN}u{S23}i{Y24;1&2}u{S24}i{Y34;4&5}u{S44}n{T0}u{S53}n{T1}u{X1}n{T2}T{;RT7}u{X4} "
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: RT7
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 45
+---------------------------------------------------------------------
+#Namn: RT9
+#Sortering: 262
+#Komponent: 1
+#Master: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Kod:" M{A1;A2}s{13;14}s{23;24}u{S13}y{Y14}u{S34}u{S14}u{S24}u{S44}u{X1}T{;RT9}u{X4} "
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: RT9
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 22.5
+---------------------------------------------------------------------
+#Namn: JSBR4
+#Sortering: 270
+#Komponent: 1
+#Master: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Kod:" M{A1;A2}s{13;14}s{23;24}s{33;34}j{41;42}u{S13}n{S14}u{S23}T{;JSBR4}n{S24}u{X2}n{X3} "
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: JSBR4
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 45
+---------------------------------------------------------------------
+#Namn: JSBRT11
+#Sortering: 271
+#Komponent: 1
+#Master: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Kod:" M{A1;A2}s{13;14}s{23;24}s{33;34}j{41;42}s{53;54}s{63;64}s{73;74}s{83;84}j{91;92}u{S13}u{S34}u{S14}u{S23}u{S24}u{S44}u{S53}u{X1}T{;JSBRT11}u{X4} "
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: JSBRT11
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 72
+#Material - Width: 100
+---------------------------------------------------------------------
+#Namn: ET1 
+#Sortering: 280
+#Komponent: 1
+#Master: 1
+#Fri placering: 1
+#Typ: Säkerhet
+#Kod:" M{A1;A2}T{;ET1}u{S14}n{S24}u{X1}u{X2}s{13;14}s{23;24}s{33;34}s{43;44} "
+#Material - Fabrikat: Jokab Safety AB
+#Material - Typ: ET1
+#Material - Beskrivning: Säkerhetsrelä
+#Material - Height: 84
+#Material - Width: 22.5
+---------------------------------------------------------------------
+
+

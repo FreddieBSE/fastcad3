@@ -1,0 +1,10 @@
+M matning 230V.fcw
+m matning.fcw
+j jordtecken.fcw
+  mellanrum.fcw
+b busskontakt höger.fcw
+p busskontakt nedåt.fcw
+u mellanrum uppåt.fcw
+n uttag nedåt.fcw
+o uttag uppåt.fcw
+T text.fcw

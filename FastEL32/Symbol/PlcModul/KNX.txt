@@ -1,0 +1,26 @@
+#Namn: Binäringång 4 kanaler E1, E2... 
+#Sortering: 100
+#Typ: Kombinerad
+#Kod: "T{KNX} o{E1} o{0V} t{Binäringångar}o{E2}   o{E3} o{0V} o{E4} "
+---------------------------------------
+#Namn: Binäringång 4 kanaler A, B... 
+#Sortering: 101
+#Typ: Kombinerad
+#Kod: "T{KNX} o{A} o{0V} t{Binäringångar}o{B}   o{C} o{0V} o{D} "
+---------------------------------------
+#Namn: --------
+#Sortering: 102
+#Typ: IN
+#Kod:" 0"
+---------------------------------------
+#Namn: Binäringång 8 kanaler E1, E2... 
+#Sortering: 111
+#Typ: Kombinerad
+#Kod: "T{KNX} o{E1} o{0V} t{Binäringångar}o{E2}   o{E3} o{0V} o{E4}   o{E5} o{0V} o{E6}   o{E7} o{0V} o{E8} "
+---------------------------------------
+#Namn: Binäringång 8 kanaler A, B... 
+#Sortering: 112
+#Typ: Kombinerad
+#Kod: "T{KNX} o{A} o{0V} t{Binäringångar}o{B}   o{C} o{0V} o{D}   o{E} o{0V} o{F}   o{G} o{0V} o{H} "
+
+

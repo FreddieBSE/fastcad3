@@ -1,0 +1,167 @@
+#Namn: CPU 1215C AC/DC/Relay i 6 delar (-1)
+#Sortering: 490
+#Komponent: 1
+#Typ: CPU
+#Kod: "  T{CPU 1215C}M{L1;N}n{L+ ->}   n{M ->}    j{FE}   ub{X2}ub{X1}"
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 1215C AC/DC/Relay
+#Material - Artikel: 6ES7 215-1BG40-0XB0
+#Material - Height: 100.000
+#Material - Width: 90.000
+#Material - Typ: CPU
+---------------------------------------
+#Namn: CPU 1215C DC/DC/Relay i 6 delar (-1)
+#Sortering: 491
+#Komponent: 1
+#Typ: CPU
+#Kod: "  T{CPU 1215C}m{L+;M}    o{L+ ->}n{M ->}    j{FE}   ub{X2}ub{X1}"
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 1215C DC/DC/Relay
+#Material - Artikel: 6ES7 215-1HG40-0XB0
+#Material - Height: 100.000
+#Material - Width: 90.000
+#Material - Typ: CPU
+---------------------------------------
+#Namn: CPU 1215C DC/DC/DC i 6 delar (-1)
+#Sortering: 492
+#Komponent: 1
+#Typ: CPU
+#Kod: "  T{CPU 1215C}m{L+;M}    o{L+ ->}n{M ->}    j{FE}   ub{X2}ub{X1}"
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 1215C DC/DC/DC
+#Material - Artikel: 6ES7 215-1AG40-0XB0
+#Material - Height: 100.000
+#Material - Width: 90.000
+#Material - Typ: CPU
+---------------------------------------
+#Namn:---
+#Sortering: 493
+---------------------------------------
+#Namn: CPU 1215C DIa 8x24VDC (-2)
+#Sortering: 501
+#Komponent: 0
+#Fri placering: 1
+#Typ: IN
+#Kod: "-{1M;6}T{DIa 8 x 24 V=}   o{;X10:7}   o{;8}   o{;9}   o{;10}   o{;11}   o{;12}   o{;13}   o{;14}  "
+---------------------------------------
+#Namn: CPU 1215C DIb 6x24VDC (-3)
+#Sortering: 502
+#Komponent: 0
+#Fri placering: 1
+#Typ: IN
+#Kod: "T{DIb 6 x 24 V=}  o{;x10:15}   o{;16}   o{;17}   o{;18}   o{;19}   o{;20}  "
+---------------------------------------
+#Namn:---
+#Sortering: 503
+---------------------------------------
+#Namn: CPU 1215C DQa 5xRelay (-4)
+#Sortering: 504
+#Komponent: 0
+#Fri placering: 1
+#Typ: UT
+#Kod: "T{  DQ}   R{a.0;1L;X12:2}---r{a.1;3}---r{a.2;4}---r{a.3;5}---r{a.4;6}  "
+---------------------------------------
+#Namn: CPU 1215C DQb 5xRelay (-5)
+#Sortering: 505
+#Komponent: 0
+#Fri placering: 1
+#Typ: UT
+#Kod: "T{  DQ}   R{a.5;2L;X12:8}---r{a.6;9}---r{a.7;10}---r{b.0;11}---r{b.1;12}  "
+---------------------------------------
+#Namn:---
+#Sortering: 506
+---------------------------------------
+#Namn: CPU 1215C DQa 8x24VDC (-4)
+#Sortering: 507
+#Komponent: 0
+#Fri placering: 1
+#Typ: UT
+#Kod: "M{;4L+;4M}T{  DQa 8 x 24 V= 0,5A}   o{;X12:3}   o{;4}   o{;5}   o{;6}   o{;7}   o{;8}   o{;9}   o{;10}  "
+---------------------------------------
+#Namn: CPU 1215C DQb 2x24VDC (-5)
+#Sortering: 508
+#Komponent: 0
+#Fri placering: 1
+#Typ: UT
+#Kod: "T{DQb 2 x 24 V= 0,5A}   o{;X12:11}   o{;12}  "
+---------------------------------------
+#Namn:---
+#Sortering: 509
+---------------------------------------
+#Namn: CPU 1215C 2xAO/2xAI (-6)
+#Sortering: 510
+#Komponent: 0
+#Fri placering: 1
+#Typ: IN
+#Kod: " T{2xAO / 2xAI}-{2M;X11:1}    o{AO 0;2}  o{AO 1;3}    -{3M;4}    o{AI 0;5}  o{AI 1;6} "
+---------------------------------------
+#Namn:---------------------
+#Sortering: 511
+---------------------------------------
+#Namn: SM 1221 DI 16x24VDC i 2 delar (-1)
+#Sortering: 520
+#Komponent: 1
+#Typ: IN
+#Kod: "-{1M;3} T{SM 1221 DI 16x24VDC} o{;X10:4}   o{;5}   o{;6}   o{;7}  -{2M;X11:3}  o{;4}   o{;5}   o{;6}   o{;7}  "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: SM 1221 DI 16x24VDC
+#Material - Artikel: 6ES7 221-1BH32-0XB0
+#Material - Height: 100.000
+#Material - Width: 45.000
+#Material - Typ: Digital ingång
+---------------------------------------
+#Namn: SM 1221 DI 16x24VDC i 2 delar (-2)
+#Sortering: 521
+#Komponent: 1
+#Typ: IN
+#Kod: "-{1M;3} T{SM 1221 DI 16x24VDC} o{;X12:4}   o{;5}   o{;6}   o{;7}  -{2M;X13:3}  o{;4}   o{;5}   o{;6}   o{;7}  "
+---------------------------------------
+#Namn:---------------------
+#Sortering: 529
+---------------------------------------
+#Namn: SM 1222 DQ 16x24VDC i 2 delar (-1)
+#Sortering: 530
+#Komponent: 1
+#Typ: UT
+#Kod: "M{;L+;M} T{SM 1222 DQ 16x24VDC} o{;X10:4}   o{;5}   o{;6}   o{;7} o{FE;X11:1} o{;X11:4}   o{;5}   o{;6}   o{;7}  "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: SM 1222 DQ 16x24VDC
+#Material - Artikel: 6ES7 222-1BH32-0XB0
+#Material - Height: 100.000
+#Material - Width: 45.000
+#Material - Typ: Digital utgång
+---------------------------------------
+#Namn: SM 1222 DQ 16x24VDC i 2 delar (-2)
+#Sortering: 531
+#Komponent: 0
+#Typ: UT
+#Kod: "  T{SM 1222 DQ 16x24VDC} o{;X12:4}   o{;5}   o{;6}   o{;7}   o{;X13:4}   o{;5}   o{;6}   o{;7}  "
+---------------------------------------
+#Namn:---------------------
+#Sortering: 539
+---------------------------------------
+#Namn: SM 1231 AI 4x13 bit
+#Sortering: 540
+#Komponent: 1
+#Typ: IN
+#Kod: "T{SM 1231 AI 4x13 bit}+{L+}-{M} o{FE;X10:3}    o{;X10:4}o{AI-;5}    o{;6}o{AI-;7}    o{;X11:4}o{AI-;5}    o{;6}o{AI-;7}  "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: SM 1231 AI 4x13 bit
+#Material - Artikel: 6ES7 231-4HD32-0XB0
+#Material - Height: 100.000
+#Material - Width: 45.000
+#Material - Typ: Analog ingång
+---------------------------------------
+#Namn: SM 1232 AQ 4x14 bit
+#Sortering: 541
+#Komponent: 1
+#Typ: UT
+#Kod: "M{L+;M} T{SM 1232 AI 4x13 bit}o{FE;X10:3}    o{0M;X12:4}o{;5}    o{1M;6}o{;7}    o{2M;X13:4}o{;5}    o{3M;6}o{;7}  "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: SM 1232 AQ 4x14 bit
+#Material - Artikel: 6ES7 232-4HD32-0XB0
+#Material - Height: 100.000
+#Material - Width: 45.000
+#Material - Typ: Analog utgång
+---------------------------------------
+

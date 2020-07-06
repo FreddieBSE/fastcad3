@@ -1,0 +1,258 @@
+macro STEG1
+ISGRID
+gridv 10
+snapv 1
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG2
+ISGRID
+gridv 10
+snapv 2
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG4
+ISGRID
+gridv 10
+snapv 4
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG8
+ISGRID
+gridv 10
+snapv 8
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG10
+ISGRID
+gridv 10
+snapv 10
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG15
+ISGRID
+gridv 15
+snapv 10
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG20
+ISGRID
+gridv 5
+snapv 10
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG1001
+ISGRID
+gridv 1000
+snapv 1
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG1002
+ISGRID
+gridv 1000
+snapv 2
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG1004
+ISGRID
+gridv 1000
+snapv 4
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG1008
+ISGRID
+gridv 1000
+snapv 8
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG1010
+ISGRID
+gridv 1000
+snapv 10
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro STEG1020
+ISGRID
+gridv 500
+snapv 10
+IFERR Done
+GRIDT
+:Done
+ENDM
+
+macro ER
+elsymname
+endm
+
+macro EW
+elsyminfo
+endm
+
+macro I
+instconnect
+endm
+
+macro IC
+instconnectc
+endm
+
+macro SH
+sheet
+endm
+
+macro ff
+|TREPLACE
+endm
+
+
+macro B
+|breakx
+endm
+
+Macro DM
+|designmode
+endm
+
+macro E
+|elerase
+endm
+
+Macro F
+|elinsert #Symbol\Vertikal\Misc\Forb
+endm
+
+Macro K
+|elcopy
+ENDM
+
+Macro KK
+|cop
+endm
+
+Macro KL
+|instbytkoppl
+endm
+
+Macro L
+|lstyle solid
+Pline
+endm
+
+Macro LL
+|lstyle solid
+ledning
+endm
+
+
+MACRO LI
+|LIST
+ENDM
+
+Macro M
+|elmove
+endm
+
+Macro MM
+|mov
+endm
+
+Macro N
+|noll
+endm
+
+
+Macro P
+|elinsert #Symbol\Vertikal\Misc\plint
+endm
+
+macro Q
+|elinsert #symbol\vertikal\givare\slukon;1
+endm
+
+Macro S
+|elstretch
+endm
+
+Macro SA
+|saveas
+endm
+
+MACRO T
+|TRIMX
+ENDM
+
+macro W
+|elinsert #symbol\vertikal\givare\slukon;2
+endm
+
+macro X
+|zwin 80,19;401,266
+endm
+
+macro Z
+~zwin -1,19;320,266
+endm
+
+macro Ä
+|edit
+endm
+
+macro ä
+|edit
+endm
+
+
+macro ÄÄ
+|dynedit
+endm
+
+macro ää
+|dynedit
+endm
+
+macro TT
+|trimint
+endm
+
+macro R
+|ELINSERT #symbol\Vertikal\Matn\hanvsign;1
+endm
+
+macro U
+|tinc
+endm

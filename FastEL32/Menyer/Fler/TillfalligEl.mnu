@@ -1,0 +1,308 @@
+Arkiv(TE):
+Ny ritning:|ELNEWWIZARDINST;
+Öppna...	^O:|OPEN;
+Spara	^S:~SAVE;
+Spara som...:|SAVEAS;
+--------:
+Exportera DWG:|INSTDWGOUT;
+DWG/DXF-inställningar...:|ACADOPT;
+--------:
+Linjetjocklek...:|ELPRINTW;
+Skriv ut...	^P:|ELPRINT;
+Skapa PDF:|PDFOUT;
+-----------:
+Backup...:|elasave;
+-----------:
+Anteckningar (sparas i ritningen):|ELNOTES;
+-----------:
+!1,0:|;
+-----------:
+Avsluta:|EXIT;
+Menyer:
+Vertikalt kretsschema (vanligast):|ELMENU;#Menyer\vertik.mnu;
+Horisontellt kretsschema:|ELMENU;#Menyer\horison.mnu;
+------------:
+Installation:|ELMENU;#Menyer\insta.mnu;
+Larm:|ELMENU;#Menyer\larm.mnu;
+Brandlarm SBF 1021:|ELMENU;#Menyer\SBF2.mnu;
+Styr && regler på planritning:ELMENU;#Menyer\fler\Styr och regler på planritning.mnu;
+Tillfällig el:ELMENU;#Menyer\fler\TillfalligEl.mnu;
+------------:
+Enlinje && huvudledning:|ELMENU;#Menyer\enlinje.mnu;
+Pneumatik och hydraulik:|ELMENU;#Menyer\fluid.mnu;
+Driftkort, styr && regler:|ELMENU;#Menyer\Fler\Styr och regler.mnu;
+Elektronik:|ELMENU;#Menyer\Fler\Elektronik.mnu;
+KNX:|ELMENU;#Menyer\fler\KNX.mnu;
+------------:
+Teleregistrering:|ELMENU;#Menyer\fler\Teleregistrering.mnu;
+Teleregistrering 2006:|ELMENU;#Menyer\fler\Teleregistrering 2006.mnu;
+------------:
+Utbildning - inkopplingsschema:|ELMENU;#Menyer\fler\Utbildning - inkopplingsschema.mnu;
+------------:
+FastCAD:|ELMENU;#Menyer\fastcad.mnu;
+FastCAD (engelsk orginalmeny):|ELMENU;#Menyer\fler\FastCAD (engelsk orginalmeny).mnu;
+Inställning:
+Ritningsinställningar:|newopt;
+Stegavstånd (Snap)>:
+ 1000 mm:~steg1001;
+ 500 mm:~steg1002;
+ 250 mm:~steg1004;
+ 125 mm:~steg1008;
+ 100 mm:~steg1010;
+ 50 mm:~steg1020;
+Rutmönster (Grid)>:
+ Välj... :SGRID;
+ Flytta  :AGRID;
+ Ändra...:EGRID;
+------------:
+Information>:
+ Lista	LI:LIST;
+ Mät area:|AREA;
+ Räkna allt:|COUNTA;
+ Räkna:|COUNT;
+ ----------:
+ Kalkylator :CALC;
+---------:
+Hårkors till/från	^T:XHTOG;
+Automatisk punktlåsning...:ATCHMODE;
+----------:
+Inställning mappar...:|compdir;
+Inställningar FastEL...:|ELOPTIONS;
+Inställningar FastCAD>:
+ Text...:TSPEC;
+ Färg...:COLOR;
+ Markeringsfärg...:MCOLOR;
+ Pilhuvud...:ASTYLE;
+ Måttsättning...:DSTYLES;
+ Linjestil:LSTYLE;
+ Fyllnadsstil:FSTYLE;
+ Linjebredd:LWIDTHD;
+ Aktivt snäpp:|isnap;
+ Frames till/från	^F:FRAMETOG;
+ Välj med...   :SELBY;
+ ---------:
+ FastCAD...:OPTIONS;
+ Verktyg...:|TOOLS;
+----------:
+Designmode	DM:|DM;
+----------:
+Läs in lager:|instbladupd;
+Uppdatera lager>:
+ Tillfällig el:|instbladupdm;#Ritramar\IWizard\Lager\Tillfällig el.lyr;
+Import:
+Öppna DWG-fil:|INSTOPENDWG2;
+Mät avstånd:|DISTX;
+Explodera:|expl;
+Markera väggar/dörrar:|instflytta;
+Sätt in (eller byt ut) ritram:|instnyram;
+------------:
+Importera skannad bild eller PDF:|IMPORTBMP;
+Ange skala för skannad bild:|SCALEBMP;
+Radera i skannad bild:|ERASEBMP;
+------------:
+Rensa symboldefinitioner:|purgesym;
+Ändra färg på allt:|elnewcolor;;
+Blad:
+Bladhantering	F6:~bytblad;
+Nästa	PageUp:~nxeblad;
+Föregående	PageDown:~lteblad;
+Nästa våning	Ctrl+PageUp:~nxblad;
+Föregående våning	Ctrl+PageDown:~ltblad;
+------------:
+Fler ritramar>:
+ Maskera område:|RAMHIDEBOX;
+ Byt ut ritram:|instnyram;
+ ------------:
+ Lägg till en ny ritram:|RAMLAGGTILL;
+ ------------:
+ Ta bort ritram:|RAMERASE;
+Växla mellan ritramar:|RAMVAXLA;
+------------:
+Rita om	^R:~REDRAW;
+Zooma allt :~ZEXT;
+Zooma förinställd vy Hela	^A:~zname;Hela;
+Zooma fönster	^W:~ZWIN;
+Zooma senaste :~ZLAST;
+Rita:
+Linje	L:|lstyle solid;PLINE;
+-------:
+Rektangel:|lstyle solid;fstyle hollow;BOX;
+Cirkel:|lstyle solid;fstyle hollow;CIR;
+Båge:|lstyle solid;ARCB;
+Pil:|lstyle solid;PATHA;
+Revideringsmoln>:
+ Revideringsmoln:|lstyle solid;RMOLN;
+ Revideringspil:|lstyle solid;RPIL;
+ Nytt:|RNEW;
+ Radera moln och pilar:|RMOLNERASE;
+-------:
+Måttsättning>:
+ Linjär    :|DIML;
+ Horisontell:|DIMH;
+ Vertikal  :|DIMV;
+ Parallell  :|DIMP;
+ Vinkel   :|DIMA;
+ Radie    :|DIMR;
+ Diameter  :|DIMD;
+ Ordinate  :|DIMO;
+ Baslinje  :|DIMB;
+ Mät avstånd:|DIST;
+ ------------:
+ Inställning...:DSTYLES;
+Linjal (skallinjal)>:
+ Linjal 0-10 m text skala 50:|elinsert #Symbol\Byggel\Misc\Linjal;1;
+ Linjal 0-10 m text skala 100:|elinsert #Symbol\Byggel\Misc\Linjal;2;
+ Linjal 0-10 m text skala 150:|elinsert #Symbol\Byggel\Misc\Linjal;3;
+ Linjal 0-20 m text skala 200:|elinsert #Symbol\Byggel\Misc\Linjal;4;
+ Linjal 0-20 m text skala 250:|elinsert #Symbol\Byggel\Misc\Linjal;5;
+ Linjal 0-30 m text skala 300:|elinsert #Symbol\Byggel\Misc\Linjal;6;
+ Linjal 0-30 m text skala 350:|elinsert #Symbol\Byggel\Misc\Linjal;7;
+ Linjal 0-40 m text skala 400:|elinsert #Symbol\Byggel\Misc\Linjal;8;
+------------:
+Infoga>:
+ Detalj...:|PAR;
+ Elsymbol:|ELINSERTD;
+ Symbol...:|INSSYMD;
+ Bild...:|INFOGABMP;
+ XREF...:XREF; 
+ -----------:
+ Spara detalj:|CPART;
+Ändra:
+Ångra	^Z:~UNDO;
+Gör om	^Y:|REDO;
+--------:
+Radera del av symbol	F8:|ERASESYM;
+Radera	E:|ELERASE;
+Radera i skannad bild:|ERASEBMP;
+------------:
+Kopiera	K:|ELCOPY;
+Flytta	M:|ELMOVE;
+Tänj	S:|ELSTRETCH;
+Redigera text 	F9:|ELTEDIT;
+------------:
+Trimma	T:|trimx;
+Trimma till objekt:|trimto;
+Trimma till korsning	TT:|trimint;
+Bryt	B:|breakx;
+------------:
+Skala:|sca;
+Skala om symboler:|INSTRESCALE;
+------------:
+Rotera:|rot;
+Spegla>:
+ Kopiera i spegla X-led:|SPEGLA;
+ Kopiera i spegla Y-led:|SPEGLAY;
+ ---------:
+ Kopiera spegla valfri riktning:|MIRCPY;
+ Spegla och flytta:|MIRROR;
+Explodera:|EXPL;
+Klippbordet>:
+ Klipp ut	^X:|CLIPCUT;
+ Kopiera	^C:|CLIPCOPY;
+ Klistra in	^V:|ELPASTE;
+ ---------:
+ Inställningar...:|CLIPOPT;
+---------:
+Numerisk ändra	Ä:|edit;
+Visuell ändra	ÄÄ:|DYNEDIT;
+Ändra egenskaper:|egenskaper;
+---------:
+Gruppera:|GROUP;
+Ogruppera:|UNGROUP;
+PLås:
+Ändpunkt	F5:EPT;^D;
+Korspunkt	F4:INT;^D;^D;
+Mittpunkt	F3:MID;^D;
+Centrum	F2:CEN;^D;
+Mitt emellan två punkter	MID2:MID2;^D;^D;
+--------:
+Flytta referenspunkt	REF:REF;
+--------:
+Närmaste punkt på	ON:ON;^D;
+Parallell till	PRL:PRL;^D;
+Vinkelrät mot	PRP:PRP;^D;
+Text:
+Text	F7:|TEXTSBF;
+Redigera text 	F9:|ELTEDIT;
+Räkna upp	U:|tinc;
+Sök:|tfind;
+Sök och ersätt:|treplace;
+Sök i filer:|TFINDFILES;
+------------:
+Symbolförklaring:|INSTFORKLARING;
+Förklaring text med ring:|TBALLINSTFORKLARING;
+Märk symbol:|INSTMARKSYM;
+Materiallista:|INSTMCOUNT;
+Text listor:|TLIST;
+------------:
+Text ritningshuvud:|rithvd;
+------------:
+Text med rektangel / cirkel:|TBALLINST;
+Symboler:
+Symboler i textform	F12:|imenutext;
+----------:
+Område:
+Markering område:|OMRADE;
+Mät områdesyta:|OMRADEYTA;
+Hjälp:
+Webbaserad manual:|MANUAL;
+Övningsmeny:|OVNING;
+Video (komma igång mm):|VIDEO;
+----------------:
+Hjälp:|Opendoc;#FastELH.chm;
+Om:|OM;
+PK Datas hemsida:|PKDATA;
+----------------:
+PK Data Live Support:|LIVESUPPORT;
+---------------------:
+FastCAD>:
+ Hjälp (engelsk):|HELP;
+ Om:|VER;
+ Hemsida:|WEBINFO;
+#399,FastEL ikoner:
+#300,Gemensam_Glas:[Sök symbol]|IMENUTEXT;
+#302,Tillfallig_Central:[Centraler]|imenu #ikoner\TillfalligEl\Central.fcw;
+#303,Ovning_Svart:[Kabel]|imenu;ikoner\Tillfalligel\Kabel.FCW;
+#305,Tillfallig_Varme:[Aerotemper]|imenu;#ikoner\TillfalligEl\Varme.fcw;
+#306,Tillfallig_Slang:[Slang]|imenu;#ikoner\TillfalligEl\Slang.fcw;
+#308,installation_Mi6:[Belysning]|imenu #ikoner\TillfalligEl\Lampa.fcw;
+#309,Tillfallig_Belmast:[Belysningsmast område]{|TEBELMASTOPT;}|TEBELMAST;
+#310,Tillfallig_Belboj:[Bojbelysning område]|ELINSERT;#Symbol\Tillfalligel\Lampa\boj_eb.FCW;
+#312,Tillfallig_Grind:[Grindar]|imenu;#ikoner\TillfalligEl\Grind.fcw;
+#99,FastEL zoom:
+#0,Gemensam_zoomin:[Zoom In / HK Zoom Ut]{~ZOUT;2;}~ZIN;2;
+#1,Gemensam_zoomext:[Zoom allt / HK zoom ritram]{~zname;Hela;}~zext;
+#2,Gemensam_zoomwin:[Zoom fönster / HK Zooma senaste]{~ZLAST;}~zwin;
+#4,Gemensam_text:[Text / HK - Andra texter]{|CMENU;#ikoner\cmenu\textLarm.cmn;}|TBALLSBF;
+#5,Gemensam_linje:[Heldragen linje / HK - Andra varianter]{|CMENU;#ikoner\cmenu\LineInsta.cmn;}|lstyle solid;PLINE;
+#6,Gemensam_vagg:[Vägg / HK - Mer vägg]{|CMENU;#ikoner\cmenu\vagg.cmn;}|vagg;
+#7,Gemensam_rekt:[Rektangel / HK - Andra varianter]{|CMENU;#ikoner\cmenu\boxInsta.cmn;}|lstyle solid;fstyle hollow;box;
+#8,Gemensam_cirkel:[Cirkel / HK - Andra varianter]{|CMENU;#ikoner\cmenu\circleInsta.cmn;}|lstyle solid;fstyle hollow;CIR;
+#9,Gemensam_matt:[Linjär måttsättning / HK - Andra varianter]{|CMENU;#ikoner\cmenu\matt.cmn;}|DIML;
+#11,Gemensam_undo:[Ångra / HK Gör om]{redo;}~undo;
+#12,Gemensam_raderaDel:[Radera del av symbol]|erasesym;
+#13,Gemensam_sudd:[Radera]|elerase;
+#14,Gemensam_copy:[Kopiera / HK Klippbordet]{|CMENU;#ikoner\cmenu\copyInst.cmn;}|elcopy;
+#15,Gemensam_flytta:[Flytta / HK - Ändra mer]{|CMENU;#ikoner\cmenu\copyInst.cmn;}|elmove;
+#16,Gemensam_tanj:[Tänj / HK - Ändra mer]{|CMENU;#ikoner\cmenu\copyInst.cmn;}|elstretch;
+#17,Gemensam_edittext:[Redigera text/ HK - Ändra mer]{|CMENU;#ikoner\cmenu\edittext.cmn;}|eltedit;
+#18,Gemensam_trim:[Trimma / HK Mer trimma och bryt upp]{|CMENU;#ikoner\cmenu\trim.cmn;}|trimx;
+#19,Gemensam_matris:[Kopiera matris]|instcopy;
+#20,Gemensam_spegla:[Spegla X-led / HK spegla mer]{|CMENU;ikoner\cmenu\SPEGLA.cmn;}|SPEGLA;
+#21,Gemensam_egensk:[Ändra egenskaper / HK - Ändra mer]{|CMENU;ikoner\cmenu\egensk.cmn;}|egenskaper;
+#23,Gemensam_centrum:[Punktlåsning centrum]CEN;^D;
+#24,Gemensam_mitt:[Punktlåsning mittpunkt]MID;^D;
+#25,Gemensam_int:[Punktlåsning korspunkt]INT;^D;^D;
+#26,Gemensam_ept:[Punktlåsning ändpunkt]EPT;^D;
+#27,Gemensam_mellan:[Punktlåsning mitt emellan två punkter]MID2;^D;^D;
+#199,Ikoner för Mac och touch:
+#100,Knappar_ins:[Insert]KEY_INS;
+#101,Knappar_home:[Home]KEY_HOME;
+#102,Knappar_end:[End]KEY_END;
+#103,Knappar_pgup:[Page Up]KEY_PGUP;
+#104,Knappar_pgdn:[Page Down]KEY_PGDN;
+#106,Knappar_up:[Up]KEY_UP;
+#107,Knappar_down:[Down]KEY_DOWN;
+#108,Knappar_left:[Left]KEY_LEFT;
+#109,Knappar_right:[Right]KEY_RIGHT;
+#111,Knappar_tab:[Tab]KEY_TAB;

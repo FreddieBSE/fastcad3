@@ -1,0 +1,11 @@
+o uttag.fcw
+  mellanrum.fcw
+| linje.fcw
+T text modulnamn.fcw
+t text.fcw
+R reläuttag.fcw
+- relämellanrum.fcw
+r reläextrauttag.fcw
+a anslutning.fcw
+b anslutningvänster.fcw
+

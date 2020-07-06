@@ -1,0 +1,17 @@
+ 230, Område,		Område
+ 270, Område,		Sektionsnummer
+1000, Stomme, Väggar
+1001, Stomme, Fönster
+1002, Stomme, Dörrar
+1003, Stomme, Väggskugga
+1004, Stomme, Trappa
+ 270, Stomme,		Sektionsnummer
+ 410, OR,
+ 440, OR,
+ 400, SR,		
+ 420, SR,
+ 440, SR,
+ 420, SR-TUL,
+ 430, SR-TUL,
+ 440, SR-TUL,
+

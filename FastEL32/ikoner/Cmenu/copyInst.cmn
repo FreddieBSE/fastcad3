@@ -1,0 +1,14 @@
+Skala:|sca;
+Skala om symboler:|INSTRESCALE;
+---------:
+Kopiera och skala	KK:|cop;
+Flytta och skala	MM:|mov;
+---------:
+Rotera	R:|rot;
+---------:
+Klipp ut (klippbordet)	^X:|CLIPCUT;
+Kopiera (klippbordet)	^C:|CLIPCOPY;
+Klistra in (klippbordet)	^V:|ELPASTE;
+---------:
+Inställningar (klippbordet)...:|CLIPOPT;
+

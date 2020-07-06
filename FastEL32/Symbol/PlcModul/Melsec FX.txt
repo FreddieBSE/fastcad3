@@ -1,0 +1,322 @@
+#Namn: FX1S-10MR matning CPU
+#Sortering: 100
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{FX1S-10MR}   n{COM}   n{S/S}   "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Beskrivning: FX1S-10MR
+#Material - Typ: PLC
+#Material - Height: 90
+#Material - Width: 60
+---------------------------------------------------------------------
+#Namn: FX1S-10MR ingångar
+#Sortering: 101
+#Fri placering: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X0}   o{X1}   o{X2}   o{X3}   o{X4}   o{X5} "
+---------------------------------------------------------------------
+#Namn: FX1S-10MR utgångar
+#Sortering: 102
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y0;COM0}   R{Y1;COM1}   R{Y2;COM2}   R{Y3;COM3}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 103
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: FX1S-14MR matning CPU
+#Sortering: 110
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{FX1S-14MR}   n{COM}   n{S/S}   "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Beskrivning: FX1S-14MR
+#Material - Typ: PLC
+#Material - Height: 90
+#Material - Width: 60
+---------------------------------------------------------------------
+#Namn: FX1S-14MR ingångar
+#Sortering: 111
+#Komponent: 1
+#Fri placering: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X0}   o{X1}   o{X2}   o{X3}   o{X4}   o{X5}   o{X6}   o{X7} "
+---------------------------------------------------------------------
+#Namn: FX1S-14MR utgångar
+#Sortering: 112
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y0;COM0}   R{Y1;COM1}   R{Y2;COM2}---r{Y3}---r{Y4}---r{Y5}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 113
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: FX1S-20MR matning CPU
+#Sortering: 120
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{FX1S-20MR}   n{COM}   n{S/S}   "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Beskrivning: FX1S-20MR
+#Material - Typ: PLC
+#Material - Height: 90
+#Material - Width: 75
+---------------------------------------------------------------------
+#Namn: FX1S-20MR ingångar
+#Sortering: 121
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X0}   o{X1}   o{X2}   o{X3}   o{X4}   o{X5}   o{X6}   o{X7} "
+---------------------------------------------------------------------
+#Namn: FX1S-20MR ingångar
+#Sortering: 122
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X10}   o{X11}   o{X12}   o{X13} "
+---------------------------------------------------------------------
+#Namn: FX1S-20MR utgångar
+#Sortering: 123
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y0;COM0}   R{Y1;COM1}   R{Y2;COM2}   R{Y3;COM3}---r{Y4}---r{Y5}---r{Y6}---r{Y7}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 124
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: FX1S-30MR matning CPU
+#Sortering: 130
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{FX1S-30MR}   n{COM}   n{S/S}   "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Beskrivning: FX1S-30MR
+#Material - Typ: PLC
+#Material - Height: 90
+#Material - Width: 75
+---------------------------------------------------------------------
+#Namn: FX1S-30MR ingångar
+#Sortering: 131
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X0}   o{X1}   o{X2}   o{X3}   o{X4}   o{X5}   o{X6}   o{X7} "
+---------------------------------------------------------------------
+#Namn: FX1S-30MR ingångar
+#Sortering: 132
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X10}   o{X11}   o{X12}   o{X13}   o{X14}   o{X15}   o{X16}   o{X17} "
+---------------------------------------------------------------------
+#Namn: FX1S-30MR utgångar
+#Sortering: 133
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y0;COM0}   R{Y1;COM1}   R{Y2;COM2}---r{Y3}---r{Y4}---r{Y5}  "
+---------------------------------------------------------------------
+#Namn: FX1S-30MR utgångar
+#Sortering: 134
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y6;COM3}---r{Y7}---r{Y10}---r{Y11}   R{Y12;COM4}---r{Y13}---r{Y14}---r{Y15}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 135
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: FX1N-14MR matning CPU
+#Sortering: 140
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{FX1N-14MR}   n{COM}   n{S/S}   "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Beskrivning: FX1N-14MR
+#Material - Typ: PLC
+#Material - Height: 90
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: FX1N-14MR ingångar
+#Sortering: 141
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X0}   o{X1}   o{X2}   o{X3}   o{X4}   o{X5}   o{X6}   o{X7} "
+---------------------------------------------------------------------
+#Namn: FX1N-14MR utgångar
+#Sortering: 143
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y0;COM0}   R{Y1;COM1}   R{Y2;COM2}   R{Y3;COM3}   R{Y4;COM4}   R{Y5;COM5}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 145
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: FX1N-24MR matning CPU
+#Sortering: 150
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{FX1N-24MR}   n{COM}   n{S/S}   "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Beskrivning: FX1N-24MR
+#Material - Typ: PLC
+#Material - Height: 90
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: FX1N-24MR ingångar
+#Sortering: 151
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X0}   o{X1}   o{X2}   o{X3}   o{X4}   o{X5}   o{X6}   o{X7} "
+---------------------------------------------------------------------
+#Namn: FX1N-24MR ingångar
+#Sortering: 152
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X10}   o{X11}   o{X12}   o{X13}   o{X14}   o{X15} "
+---------------------------------------------------------------------
+#Namn: FX1N-24MR utgångar
+#Sortering: 153
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y0;COM0}   R{Y1;COM1}   R{Y2;COM2}   R{Y3;COM3}---r{Y4}---r{Y5}  "
+---------------------------------------------------------------------
+#Namn: FX1N-24MR utgångar
+#Sortering: 154
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y6;COM4}---r{Y7}---r{Y10}---r{Y11}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 155
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: FX1N-40MR matning CPU
+#Sortering: 160
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{FX1N-40MR}   n{COM}   n{S/S}   "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Beskrivning: FX1N-40MR
+#Material - Typ: PLC
+#Material - Height: 90
+#Material - Width: 130
+---------------------------------------------------------------------
+#Namn: FX1N-40MR ingångar
+#Sortering: 161
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X0}   o{X1}   o{X2}   o{X3}   o{X4}   o{X5}   o{X6}   o{X7} "
+---------------------------------------------------------------------
+#Namn: FX1N-40MR ingångar
+#Sortering: 162
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X10}   o{X11}   o{X12}   o{X13}   o{X14}   o{X15}   o{X16}   o{X17} "
+---------------------------------------------------------------------
+#Namn: FX1N-40MR ingångar
+#Sortering: 163
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X20}   o{X21}   o{X22}   o{X23}   o{X24}   o{X25}   o{X26}   o{X27} "
+---------------------------------------------------------------------
+#Namn: FX1N-40MR utgångar
+#Sortering: 163
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y0;COM0}   R{Y1;COM1}   R{Y2;COM2}---r{Y3}   R{Y4;COM3}---r{Y5}---r{Y6}---r{Y7}  "
+---------------------------------------------------------------------
+#Namn: FX1N-40MR utgångar
+#Sortering: 164
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y10;COM4}---r{Y11}---r{Y12}---r{Y13}   R{Y14;COM5}---r{Y15}---r{Y16}---r{Y17}  "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 165
+#Typ: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: FX1N-60MR matning CPU
+#Sortering: 170
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{FX1N-60MR}   n{COM}   n{S/S}   "
+#Material - Fabrikat: Mitsubishi Electric
+#Material - Beskrivning: FX1N-60MR
+#Material - Typ: PLC
+#Material - Height: 90
+#Material - Width: 175
+---------------------------------------------------------------------
+#Namn: FX1N-60MR ingångar
+#Sortering: 171
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X0}   o{X1}   o{X2}   o{X3}   o{X4}   o{X5}   o{X6}   o{X7} "
+---------------------------------------------------------------------
+#Namn: FX1N-60MR ingångar
+#Sortering: 172
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X10}   o{X11}   o{X12}   o{X13}   o{X14}   o{X15}   o{X16}   o{X17} "
+---------------------------------------------------------------------
+#Namn: FX1N-60MR ingångar
+#Sortering: 173
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X20}   o{X21}   o{X22}   o{X23}   o{X24}   o{X25}   o{X26}   o{X27} "
+---------------------------------------------------------------------
+#Namn: FX1N-60MR ingångar
+#Sortering: 174
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X30}   o{X31}   o{X32}   o{X33}   o{X34}   o{X35}   o{X36}   o{X37} "
+---------------------------------------------------------------------
+#Namn: FX1N-60MR ingångar
+#Sortering: 175
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" o{X40}   o{X41}   o{X42}   o{X43} "
+---------------------------------------------------------------------
+#Namn: FX1N-60MR utgångar
+#Sortering: 176
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y0;COM0}   R{Y1;COM1}   R{Y2;COM2}---r{Y3}   R{Y4;COM3}---r{Y5}---r{Y6}---r{Y7}  "
+---------------------------------------------------------------------
+#Namn: FX1N-60MR utgångar
+#Sortering: 177
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y10;COM4}---r{Y11}---r{Y12}---r{Y13}   R{Y14;COM5}---r{Y15}---r{Y16}---r{Y17}  "
+---------------------------------------------------------------------
+#Namn: FX1N-60MR utgångar
+#Sortering: 178
+#Typ: UT
+#Fri placering: 1
+#Kod:"  R{Y20;COM6}---r{Y21}---r{Y22}---r{Y23}   R{Y24;COM7}---r{Y25}---r{Y26}---r{Y27}  "
+---------------------------------------------------------------------
+

@@ -1,0 +1,50 @@
+ 230, Område,		Område
+ 270, Område,		Sektionsnummer
+1020, Område,		Ledningar Område
+1021, Område,		Bussledning Område
+1000, Stomme, Väggar
+1001, Stomme, Fönster
+1002, Stomme, Dörrar
+1003, Stomme, Väggskugga
+1004, Stomme, Trappa
+ 270, Stomme,		Sektionsnummer
+1010, Kanalisation,	Kanaler
+ 100, Centraler,          Central	
+ 100, Belysning,	Central
+  50, Belysning,	Uttag
+  40, Belysning,	Brytare
+  30, Belysning,	Armaturer
+  10, Belysning,	Plintar
+ 270, Belysning,	Sektionsnummer
+1020, Belysning,	Ledningar belysning
+1021, Belysning,	Ledningar belysning
+1020, Centraler,	Ledningar Centraler
+1021, Centraler,	Ledningar Centraler
+  50, Kraft,		Kraftuttag
+  60, Kraft,		Kraftuttag
+  40, Kraft,		Kraftbrytare
+  20, Kraft,		Central
+ 100, Kraft,		Central
+ 110, Kraft,		Kraft
+ 120, Kraft,		Kraft
+ 130, Kraft,		Kraft
+ 140, Kraft,		Kraft
+  10, Kraft,		Kraft plint
+ 270, Kraft,		Sektionsnummer
+1020, Kraft,		Ledningar kraft
+1021, Kraft,		Ledningar kraft
+ 150, Tele,		Tele
+ 160, Tele,		Tele
+ 170, Tele,		Tele
+ 180, Tele,		Tele
+ 190, Tele,		Tele
+ 210, Tele,		Tele
+ 220, Tele,		Tele
+ 230, Tele,		Tele
+ 240, Tele,		Tele
+ 250, Tele,		Tele
+ 260, Tele,		Tele
+ 270, Tele,		Sektionsnummer
+1020, Tele,		Ledningar tele
+1021, Tele,		Ledningar tele
+ 200, Inredning,	Inredning

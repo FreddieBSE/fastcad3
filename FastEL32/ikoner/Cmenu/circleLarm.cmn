@@ -1,0 +1,16 @@
+Heldragen cirkel:|lstyle solid;fstyle hollow;CIR;
+Punktstreckad cirkel:|lstyle center line;fstyle hollow;CIR;
+Streckad cirkel:|lstyle dash;fstyle hollow;CIR;
+Fylld cirkel:|lstyle solid;fstyle solid;CIR;
+--------:
+Heldragen båge:|lstyle solid;ARCB;
+Punktstreckad båge:|lstyle center line;ARCB;
+Streckad båge:|lstyle dash;ARCB;
+--------:
+Båge med pil (start):|lstyle solid;ARCAS;
+Båge med pil (slut):|lstyle solid;ARCA;
+Båge med pil (båda):|lstyle solid;ARCDA;
+--------:
+Ledarförbindning:|elinsert #Symbol\Larm\forbind;
+Kopplingsdosa:|elinsert #Symbol\Larm\Nat\Dosa;2;
+

@@ -1,0 +1,261 @@
+#Namn: DUC Xenta 301 buss
+#Sortering: 100
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 301}t{24V AC/DC} o{G;21}o{G0;22} |t{COM} o{C1;1}o{C2;2} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 301
+#Material - Height: 110
+#Material - Width: 180
+---------------------------------------------------------------------
+#Namn: DUC Xenta 301 ingångar
+#Sortering: 100
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 301} o{U1;3} o{M;4} t{Universal inputs}o{U2;5}   o{U3;6} o{M;7} o{U4;8} | o{B1;9} o{M;10} t{Termistor inputs}o{B2;11}   o{B3;12} o{M;13} o{B4;14} | o{X1;15} o{M;16} t{Digital inputs}o{X2;17}   o{X3;18} o{M;19} o{X4;20} "
+---------------------------------------------------------------------
+#Namn: DUC Xenta 301 utgångar
+#Sortering: 100
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 301} o{Y1;23}t{0-10V outputs} o{M;24} o{Y2;25} | R{K5;31}-b{KC3;32}-t{Relay}r{K6;33}   R{K1;34}-b{KC1;35}-t{outputs}r{K2;36}   R{K3;37}-b{KC2;38}-r{K4;39} "
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 101
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: DUC Xenta 302 buss
+#Sortering: 110
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 302}t{24V AC/DC} o{G;21}o{G0;22} |t{COM} o{C1;1}o{C2;2} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 302
+#Material - Height: 110
+#Material - Width: 180
+---------------------------------------------------------------------
+#Namn: DUC Xenta 302 ingångar
+#Sortering: 110
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 302} o{U1;3} o{M;4} t{Universal inputs}o{U2;5}   o{U3;6} o{M;7} o{U4;8} | o{B1;9} o{M;10} t{Termistor inputs}o{B2;11}   o{B3;12} o{M;13} o{B4;14} | o{X1;15} o{M;16} t{Digital inputs}o{X2;17}   o{X3;18} o{M;19} o{X4;20} "
+---------------------------------------------------------------------
+#Namn: DUC Xenta 302 utgångar
+#Sortering: 110
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 302} o{Y1;23} o{M;24} o{Y2;25}t{0-10V outputs}   o{Y3;26} o{M;27} o{Y4;28} | R{K1;34}-b{KC1;35}-t{Relay}r{K2;36}   R{K3;37}-b{KC2;38}-r{K4;39} "
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 111
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: DUC Xenta 411 buss
+#Sortering: 112
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 411}t{24V AC/DC} o{G;1}o{G0;2} |t{COM} o{C1;3}o{C2;4} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 411
+#Material - Height: 110
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: DUC Xenta 411 ingångar
+#Sortering: 112
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 411} o{X1;5} o{M;6} o{X2;7}   o{X3;8} o{M;9} o{X4;10}   o{X5;11}t{Digital inputs} o{M;12} o{X6;13}   o{X7;14} o{M;15} o{X8;16}   o{X9;17} o{M;18} o{X10;19} "
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 113
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: DUC Xenta 412 buss
+#Sortering: 120
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 412}t{24V AC/DC} o{G;1}o{G0;2} |t{COM} o{C1;3}o{C2;4} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 412
+#Material - Height: 110
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: DUC Xenta 412 ingångar
+#Sortering: 120
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 412} o{X1;5} o{M;6} o{X2;7}   o{X3;8} o{M;9} o{X4;10}   o{X5;11}t{Digital inputs} o{M;12} o{X6;13}   o{X7;14} o{M;15} o{X8;16}   o{X9;17} o{M;18} o{X10;19} "
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 121
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: DUC Xenta 421 buss
+#Sortering: 130
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 421}t{24V AC/DC} o{G;1}o{G0;2} |t{COM} o{C1;3}o{C2;4} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 421
+#Material - Height: 110
+#Material - Width: 90
+---------------------------------------------------------------------
+#xxxx: DUC Xenta 421 in- utgångar
+#Sortering: 130
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 421} o{X1;5} o{M;6} o{X2;7}t{Digital inputs}   o{X3;8} o{M;9} o{X4;10} | o{K1;11} o{K1C;12}   o{K2;13} o{K2C;14}   o{K3;15} o{K3C;16}   o{K4;17} o{K4C;18}  m o{K5;19} o{K5C;20} "
+---------------------------------------------------------------------
+#Namn: DUC Xenta 421 in- utgångar
+#Sortering: 131
+#Typ: Kombinerad
+#Kod: " T{TAC Xenta 421} o{X1;5} o{M;6} o{X2;7}t{Digital inputs}   o{X3;8} o{M;9} o{X4;10} | R{K1;11}-b{K1C;12}   R{K2;13}-b{K2C;14}   R{K3;15}-b{K3C;16}   R{K4;17}-b{K4C;18}   R{K5;19}-b{K5C;20} "
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 132
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: DUC Xenta 422 buss
+#Sortering: 140
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 422}t{24V AC/DC} o{G;1}o{G0;2} |t{COM} o{C1;3}o{C2;4} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 422
+#Material - Height: 110
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: DUC Xenta 422 in- utgångar
+#Sortering: 140
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 422} o{X1;5} o{M;6} o{X2;7}t{Digital inputs}   o{X3;8} o{M;9} o{X4;10} | R{K1;11}-b{K1C;12}   R{K2;13}-b{K2C;14}   R{K3;15}-b{K3C;16}   R{K4;17}-b{K4C;18}   R{K5;19}-b{K5C;20} "
+---------------------------------------------------------------------
+#Namn: DUC Xenta 422A buss
+#Sortering: 141
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 422A}t{24V AC/DC} o{G;1}o{G0;2} |t{COM} o{C1;3}o{C2;4} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 422A
+#Material - Height: 110
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: DUC Xenta 422A in- utgångar
+#Sortering: 141
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 422A} o{U1;5} o{M;6} o{U2;7}t{Universal inputs}   o{U3;8} o{M;9} o{U4;10} | R{K1;11}-b{K1C;12}   R{K2;13}-b{K2C;14}   R{K3;15}-b{K3C;16}   R{K4;17}-b{K4C;18}   R{K5;19}-b{K5C;20} "
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 142
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: DUC Xenta 451 buss
+#Sortering: 160
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 451}t{24V AC/DC} o{G;1}o{G0;2} |t{COM} o{C1;3}o{C2;4} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 451
+#Material - Height: 110
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: DUC Xenta 451 in- utgångar
+#Sortering: 160
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 451} o{U1;5} o{M;6} t{Universal inputs}o{U2;7}   o{U3;8} o{M;9} o{U4;10} | o{Y1;11}t{0-10 v outputs} o{M;12} o{Y2;13} | o{B1;14} o{M;15} o{B2;16}t{Termistor inputs}   o{B3;17} o{M;18} o{B4;19} "
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 161
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: DUC Xenta 452 buss
+#Sortering: 170
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 452}t{24V AC/DC} o{G;1}o{G0;2} |t{COM} o{C1;3}o{C2;4} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 452
+#Material - Height: 110
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: DUC Xenta 452 in- utgångar
+#Sortering: 170
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 452} o{U1;5} o{M;6} t{Universal inputs}o{U2;7}   o{U3;8} o{M;9} o{U4;10} | o{Y1;11}t{0-10 V outputs} o{M;12} o{Y2;13} | o{B1;14} o{M;15} o{B2;16}t{Termistor inputs}   o{B3;17} o{M;18} o{B4;19} "
+---------------------------------------------------------------------
+#Namn: DUC Xenta 452A buss
+#Sortering: 171
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 452A}t{24V AC/DC} o{G;1}o{G0;2} |t{COM} o{C1;3}o{C2;4} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 452A
+#Material - Height: 110
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: DUC Xenta 452A in- utgångar
+#Sortering: 171
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 452A} o{U1;5} o{M;6} t{Universal inputs}o{U2;7}   o{U3;8} o{M;9} o{U4;10} | o{Y1;11}t{0-10 V outputs} o{M;12} o{Y2;13} | o{U5;14} o{M;15} o{U6;16}t{Universal inputs}   o{U7;17} o{M;18} o{U8;19} | o{20V DC;20} "
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 172
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: DUC Xenta 471 buss
+#Sortering: 180
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 471}t{24V AC/DC} o{G;1}o{G0;2} |t{COM} o{C1;3}o{C2;4} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 471
+#Material - Height: 110
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: DUC Xenta 471 in- utgångar
+#Sortering: 180
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 471} o{U1;5} o{24VDC;6} o{M;7} o{U2;7}    o{U3;8} o{24VDC;9} o{M;10} o{U4;11}t{Analog inputs}    o{U5;12} o{24VDC;13} o{M;14} o{U6;14}    o{U7;15} o{24VDC;16} o{M;17} o{U8;18} "
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 181
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: DUC Xenta 491 buss
+#Sortering: 190
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 491}t{24V AC/DC} o{G;1}o{G0;2} |t{COM} o{C1;3}o{C2;4} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 491
+#Material - Height: 110
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: DUC Xenta 491 in- utgångar
+#Sortering: 190
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 491} o{Y1;5} o{M;6}  o{Y2;7} o{M;8}  o{Y3;9} o{M;10}  o{Y4;11} t{0-10V outputs}o{M;12}  o{Y5;13} o{M;14}  o{Y6;15} o{M;16}  o{Y7;17} o{M;18}  o{Y8;19} o{M;20} "
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 191
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: DUC Xenta 492 buss
+#Sortering: 200
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 492}t{24V AC/DC} o{G;1}o{G0;2} |t{COM} o{C1;3}o{C2;4} "
+#Komponent: 1
+#Material - Fabrikat: Schneider Electric
+#Material - Beskrivning: DUC Xenta 492
+#Material - Height: 110
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: DUC Xenta 492 in- utgångar
+#Sortering:200
+#Typ: Kombinerad
+#Kod:" T{TAC Xenta 492} o{Y1;5} o{M;6}  o{Y2;7} o{M;8}  o{Y3;9} o{M;10}  o{Y4;11} t{0-10V outputs}o{M;12}  o{Y5;13} o{M;14}  o{Y6;15} o{M;16}  o{Y7;17} o{M;18}  o{Y8;19} o{M;20} "
+---------------------------------------------------------------------
+

@@ -1,0 +1,175 @@
+#Namn: CX9000
+#Sortering: 100
+#Komponent: 1
+#Typ: CPU
+#Kod: " m{+24V;0V}T{CX9000}  o{+}n{-}  o{+}n{-}   j  ub{X001}ub{X02}"
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: CPU
+#Material - Height: 100.000
+#Material - Width: 58.000
+#Material - Typ: CX9000
+---------------------------------------------------------------------
+#Namn: BK9050
+#Sortering: 101
+#Komponent: 1
+#Typ: CPU
+#Kod: " m{+24V;0V}T{BK9050}  o{+}n{-}  o{+}n{-}   j  ub{RJ45}"
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: Busskopplare
+#Material - Height: 100.000
+#Material - Width: 58.000
+#Material - Typ: BK9050
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 102
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: KL 1104 4 DI
+#Sortering: 110
+#Typ: Kombinerad
+#Kod:" T{KL1104}o{;1} o{+;2} o{-;3} o{;5} o{;4} o{+;6} o{-;7} o{;8} "
+#Komponent: 1
+#Fri placering: 1
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: KL 1104
+#Material - Typ: 4 DI
+#Material - Height: 100
+#Material - Width: 12
+---------------------------------------------------------------------
+#Namn: KL 1408 8 DI
+#Sortering: 111
+#Typ: Kombinerad
+#Kod:" T{KL1408}o{;1} o{;5} o{;2} o{;6} o{;3} o{;7} o{;4} o{;8} "
+#Komponent: 1
+#Fri placering: 1
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: KL 1408
+#Material - Typ: 8 DI
+#Material - Height: 100
+#Material - Width: 12
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 112
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: KL 2134 4 DO
+#Sortering: 120
+#Typ: Kombinerad
+#Kod:" T{KL2134}o{;1} o{+;2} o{-;3} o{;5} o{;4} o{+;6} o{-;7} o{;8} "
+#Komponent: 1
+#Fri placering: 1
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: KL 2134
+#Material - Typ: 4 DO
+#Material - Height: 100
+#Material - Width: 12
+---------------------------------------------------------------------
+#Namn: KL 2408 8 DO
+#Sortering: 121
+#Typ: Kombinerad
+#Kod:" T{KL2408}o{;1} o{;5} o{;2} o{;6} o{;3} o{;7} o{;4} o{;8} "
+#Komponent: 1
+#Fri placering: 1
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: KL 2408
+#Material - Typ: 8 DO
+#Material - Height: 100
+#Material - Width: 12
+---------------------------------------------------------------------
+#Namn: KL 2622 2 Relä
+#Sortering: 122
+#Typ: Kombinerad
+#Kod:" a{;1}-r{;2} T{KL2622}  a{;5}-r{;6} "
+#Komponent: 1
+#Fri placering: 1
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: KL 2622
+#Material - Typ: 2 Relä
+#Material - Height: 100
+#Material - Width: 12
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 123
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: KL 3022 2 4-20 mA
+#Sortering: 130
+#Typ: Kombinerad
+#Kod:" T{KL3022}o{;1} o{;2}   o{;5} o{;6} "
+#Komponent: 1
+#Fri placering: 1
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: KL 3022
+#Material - Typ: 2 4-20 mA
+#Material - Height: 100
+#Material - Width: 12
+---------------------------------------------------------------------
+#Namn: KL 3112 2 4-20 mA
+#Sortering: 131
+#Typ: Kombinerad
+#Kod:" T{KL3112}o{;1} o{;2}   o{;5} o{;6} "
+#Komponent: 1
+#Fri placering: 1
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: KL 3112
+#Material - Typ: 2 0-20 mA
+#Material - Height: 100
+#Material - Width: 12
+---------------------------------------------------------------------
+#Namn: KL 3204 4 PT100
+#Sortering: 131
+#Typ: Kombinerad
+#Kod:" T{KL3204}o{;1} o{;2}   o{;5} o{;6}   o{;3} o{;4}   o{;7} o{;8} "
+#Komponent: 1
+#Fri placering: 1
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: KL 3204
+#Material - Typ: 2 0-20 mA
+#Material - Height: 100
+#Material - Width: 12
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 133
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: KL 4004 4 AO 0-10V
+#Sortering: 140
+#Typ: Kombinerad
+#Kod:" T{KL4022}o{;1} o{GND;2}   o{;5} o{GND;6}   o{;3} o{GND;4}   o{;7} o{GND;8} "
+#Komponent: 1
+#Fri placering: 1
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: KL 3204
+#Material - Typ: 4 AO 0-10V
+#Material - Height: 100
+#Material - Width: 12
+---------------------------------------------------------------------
+#Namn: KL 4022 2 AO 0-20 mA
+#Sortering: 141
+#Typ: Kombinerad
+#Kod:" T{KL4004}o{;1} o{+;2} o{-;3} o{sh;4}   o{;5} o{-;6} o{-;7} o{sh;8} "
+#Komponent: 1
+#Fri placering: 1
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: KL 4022
+#Material - Typ: 2 AO 0-20 mA
+#Material - Height: 100
+#Material - Width: 12
+---------------------------------------------------------------------
+#Namn: KL 4408 8 AO -10 - +10 V
+#Sortering: 141
+#Typ: Kombinerad
+#Kod:" T{KL4408}o{;1} o{;5} o{;2} o{;6} o{;3} o{;7} o{;4} o{;8} "
+#Komponent: 1
+#Fri placering: 1
+#Material - Fabrikat: Beckhoff
+#Material - Beskrivning: KL 4408
+#Material - Typ: 8 AO -10 - +10 V
+#Material - Height: 100
+#Material - Width: 12
+---------------------------------------------------------------------
+

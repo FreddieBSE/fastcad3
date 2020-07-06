@@ -1,0 +1,399 @@
+Arkiv(H):
+Ny ritning:|ELNEWMAPP;;ELNEW;
+Öppna...	^O:|OPEN;
+Spara	^S:~SAVE;
+Spara som...:|SAVEAS;
+--------:
+Exportera DWG/DXF:|dwgoutd;
+DWG/DXF-inställningar...:|ACADOPT;
+--------:
+Skriv ut...	^P:|ELPRINT;
+Skapa PDF:|PDFOUT;
+-----------:
+Backup...:|elasave;
+-----------:
+Anteckningar (sparas i ritningen):|ELNOTES;
+-----------:
+!1,0:|;
+-----------:
+Avsluta:|EXIT;
+Menyer:
+Vertikalt kretsschema (vanligast):|ELMENU;#Menyer\vertik.mnu;
+Horisontellt kretsschema:|ELMENU;#Menyer\horison.mnu;
+------------:
+Installation:|ELMENU;#Menyer\insta.mnu;
+Larm:|ELMENU;#Menyer\larm.mnu;
+Brandlarm SBF 1021:|ELMENU;#Menyer\SBF2.mnu;
+Styr && regler på planritning:ELMENU;#Menyer\fler\Styr och regler på planritning.mnu;
+Tillfällig el:ELMENU;#Menyer\fler\TillfalligEl.mnu;
+------------:
+Enlinje && huvudledning:|ELMENU;#Menyer\enlinje.mnu;
+Pneumatik och hydraulik:|ELMENU;#Menyer\fluid.mnu;
+Driftkort, styr && regler:|ELMENU;#Menyer\Fler\Styr och regler.mnu;
+Elektronik:|ELMENU;#Menyer\Fler\Elektronik.mnu;
+KNX:|ELMENU;#Menyer\fler\KNX.mnu;
+------------:
+Teleregistrering:|ELMENU;#Menyer\fler\Teleregistrering.mnu;
+Teleregistrering 2006:|ELMENU;#Menyer\fler\Teleregistrering 2006.mnu;
+------------:
+Utbildning - inkopplingsschema:|ELMENU;#Menyer\fler\Utbildning - inkopplingsschema.mnu;
+------------:
+FastCAD:|ELMENU;#Menyer\fastcad.mnu;
+FastCAD (engelsk orginalmeny):|ELMENU;#Menyer\fler\FastCAD (engelsk orginalmeny).mnu;
+Inställning:
+Ritningsinställningar:|newopt;
+Stegavstånd (Snap)>:
+ 10 mm:~steg1;
+ 5 mm:~steg2;
+ 2,5 mm:~steg4;
+ 1,25 mm:~steg8;
+ 1 mm:~steg10;
+ 0,5 mm:~steg20;
+Rutmönster (Grid)>:
+ Välj... :SGRID;
+ Flytta  :AGRID;
+ Ändra...:EGRID;
+------------:
+Information>:
+ Lista	LI:LIST;
+ Mät area:|AREA;
+ Räkna allt:|COUNTA;
+ Räkna:|COUNT;
+ ----------:
+ Kalkylator :CALC;
+---------:
+Hårkors till/från	^T:XHTOG;
+Automatisk punktlåsning...:ATCHMODE;
+----------:
+Inställning mappar...:|compdir;
+Inställningar FastEL...:|ELOPTIONS;
+Inställningar FastCAD>:
+ Text...:TSPEC;
+ Färg...:COLOR;
+ Markeringsfärg...:MCOLOR;
+ Pilhuvud...:ASTYLE;
+ Måttsättning...:DSTYLES;
+ Linjestil:LSTYLE;
+ Fyllnadsstil:FSTYLE;
+ Linjebredd:LWIDTHD;
+ Aktivt snäpp:|isnap;
+ Frames till/från	^F:FRAMETOG;
+ Välj med...   :SELBY;
+ ---------:
+ FastCAD...:OPTIONS;
+ Verktyg...:|TOOLS;
+----------:
+Designmode	DM:|DM;
+----------:
+Textregler:|textregler;
+Textregler (avancerad):|elbet;
+Uppdatera textregler:|loadbetm;#Ritramar\normal.BET;
+Import:
+Importera DWG/DXF:|dwgin2;
+------------:
+Omnumrera alla blad:|pagereorder;
+Ändra färg på allt:|elnewcolor;;
+Flytta ram från varje blad:|moveram;
+Ändra typsnitt till arial:|setarial;
+Flytta insättningspunkt för fasta symboler:|isnap;
+Blad:
+Gå till	F6:~bytblad;
+Nästa	PageUp:~nxeblad;
+Föregående	PageDown:~lteblad;
+Skapa nästa blad	Ctrl+PageUp:~nxblad;
+Skapa föregående blad	Ctrl+PageDown:~ltblad;
+------------:
+Infoga/ta bort blad:~insblad;
+Döp om blad:|elrename;
+Kopiera blad från annan ritning:|ELBLADHAMTA;
+------------:
+Rita om	^R:~REDRAW;
+Zooma allt :~ZEXT;
+Zooma förinställd vy Hela	^A:~zname;Hela;
+Zooma fönster	^W:~ZWIN;
+Zooma senaste :~ZLAST;
+Rita:
+Linje	L:|lstyle solid;PLINE;
+Plint	P:|elinsert #Symbol\Vertikal\Misc\plint;
+Förbindningspunkt	F:|elinsert #Symbol\Vertikal\Misc\Forb;
+-------:
+Rektangel:|lstyle solid;fstyle hollow;BOX;
+Cirkel:|lstyle solid;fstyle hollow;CIR;
+Båge:|lstyle solid;ARCB;
+Pil:|lstyle solid;PATHA;
+Revideringsmoln>:
+ Revideringsmoln:|lstyle solid;RMOLN;
+ Revideringspil:|lstyle solid;RPIL;
+ Nytt:|RNEW;
+ Radera moln och pilar:|RMOLNERASE;
+ Sammanställ revideringsmoln:|RMOLNINFO;
+-------:
+Måttsättning>:
+ Skåp linjär (skalad 10x):|SKAPDIM;
+ Skåp baslinje (skalad 10x):|SKAPDIMB;
+ ------------:
+ Linjär    :|DIML;
+ Horisontell:|DIMH;
+ Vertikal  :|DIMV;
+ Parallell  :|DIMP;
+ Vinkel   :|DIMA;
+ Radie    :|DIMR;
+ Diameter  :|DIMD;
+ Ordinate  :|DIMO;
+ Baslinje  :|DIMB;
+ Mät avstånd:|DIST;
+ ------------:
+ Inställning...:DSTYLES;
+------------:
+Infoga>:
+ Detalj...:|PAR;
+ Elsymbol:|ELINSERTD;
+ Symbol...:|INSSYMD;
+ Bild...:|INFOGABMP;
+ XREF...:XREF; 
+ -----------:
+ Spara detalj:|CPART;
+Ändra:
+Ångra	^Z:~UNDO;
+Gör om	^Y:|REDO;
+--------:
+Radera del av symbol	F8:|ERASESYM;
+Radera	E:|ELERASE;
+Radera i skannad bild:|ERASEBMP;
+------------:
+Kopiera	K:|ELCOPY;
+Flytta	M:|ELMOVE;
+Tänj	S:|ELSTRETCH;
+Redigera text 	F9:|ELTEDIT;
+------------:
+Trimma	T:|trimx;
+Trimma till korsning	TT:|trimint;
+Bryt	B:|breakx;
+------------:
+Skala:|sca;
+Rotera:|rot;
+Spegla>:
+ Kopiera i spegla X-led:|SPEGLA;
+ Kopiera i spegla Y-led:|SPEGLAY;
+ ---------:
+ Kopiera spegla valfri riktning:|MIRCPY;
+ Spegla och flytta:|MIRROR;
+Kopiera matris:|REPEAT;
+Explodera:|EXPL;
+Klippbordet>:
+ Klipp ut	^X:|CLIPCUT;
+ Kopiera	^C:|CLIPCOPY;
+ Klistra in	^V:|ELPASTE;
+ ---------:
+ Inställningar...:|CLIPOPT;
+---------:
+Numerisk ändra	Ä:|edit;
+Visuell ändra	ÄÄ:|DYNEDIT;
+Ändra egenskaper:|egenskaper;
+Typsnitt/storlek text:|chtext;
+---------:
+Gruppera:|GROUP;
+Ogruppera:|UNGROUP;
+PLås:
+Ändpunkt	F5:EPT;^D;
+Korspunkt	F4:INT;^D;^D;
+Mittpunkt	F3:MID;^D;
+Centrum	F2:CEN;^D;
+Mitt emellan två punkter	MID2:MID2;^D;^D;
+--------:
+Flytta referenspunkt	REF:REF;
+--------:
+Närmaste punkt på	ON:ON;^D;
+Parallell till	PRL:PRL;^D;
+Vinkelrät mot	PRP:PRP;^D;
+Text:
+Text	F7:|tex;
+Redigera text 	F9:|ELTEDIT;
+Partnummer	N:|noll;
+Automatisk partmärkning:|autonoll;
+Infoga partnummer:|nollins;
+Ta bort partnummer:|nolldel;
+--------:
+Korsreferens linje>:
+ referens höger	R:|ELINSERT #symbol\Vertikal\Matn\hanvsign;1;
+ referens vänster:|ELINSERT #symbol\Vertikal\Matn\hanvsign;2;
+ referens nedåt:|ELINSERT #symbol\Vertikal\Matn\hanvsign;3;
+ referens uppåt:|ELINSERT #symbol\Vertikal\Matn\hanvsign;4;
+--------:
+Kopplingslista:|INREPOT;
+------------:
+Räkna upp	U:|tinc;
+Sök:|tfind;
+Sök och ersätt:|treplace;
+Sök i filer:|TFINDFILES;
+Exportera märkning:|listor;
+------------:
+Skyltinfo:|skyltinfo;
+------------:
+Text ritningshuvud:|rithvd;
+Märk skåp:|markskap;
+Uppdatera alla korsreferenser:|elupdrefall;
+------------:
+Standard texter>:
+ Högsta Partnr:|elinsert #Symbol\Listor\Maxpart;
+ Färgkod EU:|elinsert #Symbol\Listor\Eukod;
+ Färgkod Ext:|elinsert #Symbol\Listor\Lanekod;
+Ledningsmarkering:|lmark;
+------------:
+Välj språk:|LANGUAGE;
+Översätt:|TRANSLATE;
+Gör språkberoende:|LANGDEP;
+Översätt med språktabell:|LANGTABLE;
+Symboler:
+Symboler i textform	F12:|imenutext;
+----------:
+Förbindningspunkt	F:|elinsert #Symbol\Vertikal\Misc\Forb;
+Plint	P:|elinsert #Symbol\Vertikal\Misc\plint;
+Allmän apparat:|Apparath;
+----------:
+Givare:|imenu #ikoner\horison\Givare.fcw;
+Kontakter:|imenu #ikoner\horison\Kontakter.fcw;
+Kontaktdon:|imenu #ikoner\vertikal\Kontaktdon.fcw;
+Tryckknappar, vred:|imenu #ikoner\horison\Hand.fcw;
+Reläer, ventiler, lampor:|imenu #ikoner\horison\Rela.fcw;
+----------:
+Matningslinjer, inkommande matning:|imenu #ikoner\horison\matn.fcw;
+3 fas matningar:|imenu #ikoner\horison\3FasPlint.fcw;
+1 fas matningar:|imenu #ikoner\horison\1Fas.fcw;
+Motorer:|imenu #ikoner\horison\Motorer.fcw;
+----------:
+3 fas enskilda symboler:|imenu #ikoner\horison\3FasEnskilda.fcw;
+1 fas enskilda symboler:|imenu #ikoner\vertikal\1FasEnskilda.fcw;
+----------:
+PLC:|imenu #ikoner\horison\plcin1.fcw;
+----------:
+Yttre förbindningsschema:|imenu #ikoner\horison\yttre.fcw;
+Skåplayout:|imenu #ikoner\vertikal\skap.fcw;
+Listor:
+Fyll i text:|TLIST;
+------------:
+Apparatlista:|COMPLISTD;
+Gruppförteckning:|gruppfrt;
+Kabellista:|kabellista2;
+Ritningsförteckning:|Ritfrt;
+Ändringslista>:
+ Ändringslista (bara en gång):|Versionlista;
+ Ny version:|newversion;
+ ------------:
+ Markera blad som ändrade:|setversion;
+ Återställ till A*:|resetversion;
+ ------------:
+ Inställningar:|version;
+ Placera versionsmarkering:|tspech 3.5;addversion;
+--------:
+Exportera lista till Excel:|TLISTOUT;
+--------:
+Kopplingslista:|inrepot;
+------------:
+Apparatlista (manuell):|elinsert #Symbol\Listor\Apparat\Standard;
+Gruppförteckning (manuell):|elinsert #Symbol\Listor\Gruppfrt\Gruppförteckning 2;
+Inre förbindning (manuell):|elinsert #Symbol\Listor\Inre\Standard;
+Kabellista (manuell):|elinsert #Symbol\Listor\Kabellista\Standard;
+Ritningsförteckning (manuell):|elinsert #Symbol\Listor\Ritfrt\Standard;
+Ändringslista (manuell):|elinsert #Symbol\Listor\Version\Standard;
+Diverse:
+Ersätt kontaktspegel:|KSPEGELH;
+Lägg till hjälpkontakt:OVERVAKNING;
+Visa lediga kontakter:|KUNUSED;
+------------:
+Döp om plint / infoga plintar:|DOPOMPLINT;
+X nummer:|xnumtbl;
+Osynlig plint:|elinsert #symbol\Vertikal\Misc\Osynligplint;
+Yttre:
+Rita yttre schema:|getallplints;
+Endast uppritning schema:|createplint;
+Töm plintlista:|clearallplints;
+--------:
+Kabellista:|kabellista2;
+--------:
+Märk yttre komponent:|markyttre;
+X nummer:|xnumtbl;
+Osynlig plint:|elinsert #symbol\Vertikal\Misc\Osynligplint;
+Komponent:
+Tilldela	F11:|COMP;
+Apparatlista:|COMPLISTD;
+--------:
+Sök och ersätt...:|COMPREPLACE;
+--------:
+Gör till komponent:|compflag;
+Extra benämning (komponent):|elinsert #symbol\vertikal\misc\komp;
+Ta bort komponenter:|NOCOMP;
+--------:
+Importera (textfil):|compimport;
+Inställningar:|compdir;
+Hjälp:
+Webbaserad manual:|MANUAL;
+Övningsmeny:|OVNING;
+Video (komma igång mm):|VIDEO;
+----------------:
+Hjälp:|Opendoc;#FastELH.chm;
+Om:|OM;
+PK Datas hemsida:|PKDATA;
+----------------:
+PK Data Live Support:|LIVESUPPORT;
+---------------------:
+FastCAD>:
+ Hjälp (engelsk):|HELP;
+ Om:|VER;
+ Hemsida:|WEBINFO;
+#399,FastEL ikoner:
+#300,Gemensam_Glas:[Sök symbol]|IMENUTEXT;
+#301,vertikal_Forbpunkt:[Förbindningspunkt]|elinsert #Symbol\Vertikal\Misc\Forb;
+#302,vertikal_Plint:[Plint / HK - spridningsplint]{|CMENU;#ikoner\cmenu\Plint.cmn;}|elinsert #Symbol\Vertikal\Misc\plint;
+#303,vertikal_Allman:[Allmän apparat]|Apparath;
+#304,horison_Slukonh:[Slutande kontakt]{|elinsert #symbol\Vertikal\givare\slukon;1;}|elinsert #symbol\horison\givare\slukon;1;
+#305,horison_Brykonh:[Brytande kontakt]{|elinsert #symbol\Vertikal\givare\slukon;2;}|elinsert #symbol\horison\givare\slukon;2;
+#306,horison_Givareh:[Givare, gränslägen, fotoceller]{|imenu #ikoner\vertikal\Givare.fcw;}|imenu #ikoner\horison\Givare.fcw;
+#307,horison_Kontakterh:[Kontakter]{|imenu #ikoner\vertikal\Kontakter.fcw;}|imenu #ikoner\horison\Kontakter.fcw;
+#308,vertikal_Kontaktdon:[Kontaktdon]|imenu #ikoner\vertikal\Kontaktdon.fcw;
+#309,horison_Handh:[Tryckknapp, vred]{|imenu #ikoner\vertikal\Hand.fcw;}|imenu #ikoner\horison\Hand.fcw;
+#310,horison_Relah:[Relä, kontaktor, lampa]{|imenu #ikoner\vertikal\Rela.fcw;}|imenu #ikoner\horison\Rela.fcw;
+#311,horison_Matnh:[Inkommande matning, matningslinjer, linjereferens]{|imenu #ikoner\vertikal\Matning.fcw;}|imenu #ikoner\horison\matn.fcw;
+#312,horison_3Fh:[3-fas matningar]{|sakringar;}|imenu #ikoner\horison\3FasPlint.fcw;
+#313,horison_1Fh:[1-fas matningar]{|sakringar;}|imenu #ikoner\horison\1Fas.fcw;
+#314,horison_motor:[Motorer]{|imenu #ikoner\vertikal\Motorer.fcw;}|imenu #ikoner\horison\Motorer.fcw;
+#315,horison_3FEnskildah:[3-fas enskilda]{|imenu #ikoner\vertikal\3FasEnskilda.fcw;}|imenu #ikoner\horison\3FasEnskilda.fcw;
+#316,horison_1FEnskilda:[1-fas enskilda]{|imenu #ikoner\vertikal\1FasEnskilda.fcw;}|imenu #ikoner\horison\1FasEnskilda.fcw;
+#317,vertikal_plc:[PLC, I/O-PLC]{|imenu #ikoner\vertikal\plcin1.fcw;}|imenu #ikoner\horison\plcin1.fcw;
+#318,vertikal_yttre:[Yttre förbindningsschema]{|imenu #ikoner\horison\yttre.fcw;}|imenu #ikoner\vertikal\yttre.fcw;
+#319,vertikal_skap:[Skåp]|imenu #ikoner\vertikal\skap.fcw;
+#99,FastEL zoom:
+#0,Gemensam_zoomin:[Zoom In / HK Zoom Ut]{~ZOUT;2;}~ZIN;2;
+#1,Gemensam_zoomext:[Zoom allt / HK zoom ritram]{~zname;Hela;}~zext;
+#2,Gemensam_zoomwin:[Zoom fönster / HK Zooma senaste]{~ZLAST;}~zwin;
+#3,Gemensam_backblad:[Senaste blad]~backblad;
+#4,Gemensam_text:[Text / HK - Andra texter]{|CMENU;#ikoner\cmenu\text.cmn;}|tex;
+#5,Gemensam_linje:[Heldragen linje / HK - Andra varianter]{|CMENU;#ikoner\cmenu\Line.cmn;}|lstyle solid;PLINE;
+#6,Gemensam_rekt:[Rektangel / HK - Andra varianter]{|CMENU;#ikoner\cmenu\boxKretsH.cmn;}|lstyle solid;fstyle hollow;box;
+#7,Gemensam_cirkel:[Cirkel / HK - Andra varianter]{|CMENU;#ikoner\cmenu\circle.cmn;}|lstyle solid;fstyle hollow;CIR;
+#9,Gemensam_undo:[Ångra / HK Gör om]{redo;}~undo;
+#10,Gemensam_raderaDel:[Radera del av symbol]|erasesym;
+#11,Gemensam_sudd:[Radera]|elerase;
+#12,Gemensam_copy:[Kopiera / HK Klippbordet]{|CMENU;#ikoner\cmenu\klipp.cmn;}|elcopy;
+#13,Gemensam_flytta:[Flytta / HK - Ändra mer]{|CMENU;#ikoner\cmenu\andraKrets.cmn;}|elmove;
+#14,Gemensam_tanj:[Tänj / HK - Ändra mer]{|CMENU;#ikoner\cmenu\andraKrets.cmn;}|elstretch;
+#15,Gemensam_edittext:[Redigera text/ HK - Ändra mer]{|CMENU;#ikoner\cmenu\edittext.cmn;}|eltedit;
+#16,Gemensam_trim:[Trimma / HK Mer trimma och bryt upp]{|CMENU;#ikoner\cmenu\trim.cmn;}|trimx;
+#17,Gemensam_spegla:[Spegla X-led / HK spegla mer]{|CMENU;ikoner\cmenu\SPEGLA.cmn;}|SPEGLA;
+#18,Gemensam_egensk:[Ändra egenskaper / HK - Ändra mer]{|CMENU;ikoner\cmenu\egensk.cmn;}|egenskaper;
+#20,Gemensam_centrum:[Punktlåsning centrum]CEN;^D;
+#21,Gemensam_mitt:[Punktlåsning mittpunkt]MID;^D;
+#22,Gemensam_int:[Punktlåsning korspunkt]INT;^D;^D;
+#23,Gemensam_ept:[Punktlåsning ändpunkt]EPT;^D;
+#24,Gemensam_mellan:[Punktlåsning mitt emellan två punkter]MID2;^D;^D;
+#199,Ikoner för Mac och touch:
+#100,Knappar_ins:[Insert]KEY_INS;
+#101,Knappar_home:[Home]KEY_HOME;
+#102,Knappar_end:[End]KEY_END;
+#103,Knappar_pgup:[Page Up]KEY_PGUP;
+#104,Knappar_pgdn:[Page Down]KEY_PGDN;
+#106,Knappar_up:[Up]KEY_UP;
+#107,Knappar_down:[Down]KEY_DOWN;
+#108,Knappar_left:[Left]KEY_LEFT;
+#109,Knappar_right:[Right]KEY_RIGHT;
+#111,Knappar_tab:[Tab]KEY_TAB;

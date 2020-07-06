@@ -1,0 +1,26 @@
+#Namn: 8 Ingångar PLC
+#Sortering: 10
+#Typ: IN
+#Kod:" s{COM}   o   o   o   o   o   o   o   o "
+---------------------------------------------------------------------
+#Namn: 16 Ingångar PLC
+#Sortering: 100
+#Typ: IN
+#Kod:" s{COM} o o o o o o o o o o o o o o o o "
+---------------------------------------------------------------------
+#Namn: 16 Utgångar PLC
+#Sortering: 100
+#Typ: UT
+#Kod:" s{COM} o o o o o o o o o o o o o o o o "
+---------------------------------------------------------------------
+#Namn: 8 Utgångar PLC
+#Sortering: 10
+#Typ: UT
+#Kod:" M{COM;+;-}  o   o   o   o   o   o   o   o "
+---------------------------------------------------------------------
+#Namn: 8 Utgångar RELÄ
+#Sortering: 10
+#Typ: UT
+#Kod:"  R   R   R   R   R   R   R   R "
+---------------------------------------------------------------------
+

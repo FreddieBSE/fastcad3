@@ -1,0 +1,544 @@
+File:
+New Drawing...:|NEW;
+Open...	^O:|OPEN;
+Save	^S:|SAVE;
+Save As...	^A:|SAVEAS;
+Multiple Drawings>:
+ Open Separate...:|OPENSEP;
+ Open Overlay...:|OPENOVL;
+ Open Ref...:|OPENREF;
+ ----------:
+ Save All:|SAVEALL;
+ Multi-Dwg Ctl...:|MDCTL;
+Bookmarks>:
+ Edit Bookmarks...:|BOOKMARK;
+ Open Prior:|OPENBP;
+ Open Current:|OPENBC;
+ Open Next:|OPENBN;
+ Search Files...:|SEARCH;
+-----------:
+Print Setup...:|PRINTSU;
+Print...	^P:|PRINT;
+-----------:
+File Notes...:|NOTES;
+Convert Files...:|CONVF;
+Edit File:|NED;
+Protect...:|PROTECT;
+-----------:
+Restore... :|RESTORE;
+Discard... :|DISCARD;
+Rename...  :|RENAME;
+Delete...  :|DELETE;
+--------:
+Menu...    :|MENU;
+Script...  :|SCRIPT;
+Template...:|TEMPLATE;
+--------:
+!1,1:|;
+--------:
+Exit    :|EXIT;
+Menyer:
+Vertikalt (stående) kretsschema:|ELMENU;#Menyer\vertik.mnu;
+Horisontellt (liggande) kretsschema:|ELMENU;#Menyer\horison.mnu;
+Installation:|ELMENU;#Menyer\insta.mnu;
+Larm:|ELMENU;#Menyer\larm.mnu;
+Enlinje:|ELMENU;#Menyer\enlinje.mnu;
+Pneumatik:|ELMENU;#Menyer\fluid.mnu;
+FastCAD:|ELMENU;#Menyer\fastcad.mnu;
+----------:
+Fler...:|othermenus;
+Clip:
+Undo	^Z:~UNDO;
+Redo	^Y:~REDO;
+Redo All:~REDOA;
+Flip:|FLIP;
+--------:
+Copy	^C:|CLIPCOPY;
+Cut	^X:|CLIPCUT;
+Paste	^V:|PASTE;
+Options...:|CLIPOPT;
+View:
+Redraw:~REDRAW;
+Background:~BKGND;
+Change Origin:|ORIGIN;
+View Sets...:|VSET;
+Set View Name:|SVNAME;
+------------:
+Pan View    :~PAN;^D;^D;
+Zoom Window :~ZWIN;^D;^D;
+Zoom Center :~ZCEN;^D;
+Zoom In     :~ZIN;^D;
+Zoom Out    :~ZOUT;^D;
+Zoom Width  :~ZWID;^D;
+Zoom Height :~ZHGT;^D;
+Zoom Extents:~ZEXT;
+Zoom Named  :~ZNAME;^D;
+Zoom Text   :~ZTEXT;^D;
+Zoom Last   :~ZLAST;
+Draw:
+Line:|LINE;
+Lines>:
+ Line:|LINE;
+ Double Lines:|DBLN;
+ Perpendicular:|LNPRP;
+ Perpendicular at length:|LNPRPL;
+ Tangent to two entities:|TANGENT;
+Circles>:
+ Center and Point On:|CIRP;
+ Diameter and Center:|CIRD;
+ Radius and Center  :|CIRR;
+ 2 Point Circle:|CIR2;
+ 3 Point Circle:|CIR3;
+ -----------:
+ Tangent to 2 entities:|CIRTAN2;
+ Tangent to 3 entities:|CIRTAN3;
+ Donut:|DONUT;
+Arcs>:
+ Center, Start, End   :|ARCS;
+ Center and Radius    :|ARCR;
+ Start, Middle and End:|ARC3;
+ Start, End and Bulge :|ARCB;
+ Chained:|CARCD;
+ Wedge (Pie section):|ARCW;
+Text>:
+ Text:|TEXT;
+ File Text:|TFILE;
+ Keep Hgt && Ang:|KEEPTHA;
+Paths and Polys>:
+ Box             :|BOX;
+ Path            :|PATH;
+ Polygon         :|POLY;
+ Regular Polygon :|RPOLY;
+Splines and SPolys>:
+ Bezier          :|BEZ;
+ Cubic B-Spline  :|SPLINE;
+ Cubic B-SPoly   :|SPOLY;
+ Parabolic Spline:|PSPLINE;
+ Parabolic SPoly :|PSPOLY;
+Ellipses       >:
+ Center and Axis Points   :|ELIPP;
+ Circle at Angle to Window:|ELIPC;
+ Center and Inclination   :|ELIPI;
+ Elliptical Arc           :|ELIPA;
+Point:|POINT;
+Walls	>:
+ Wall:|WALL;
+ Room:|ROOM;
+ Offset:|WLOFST;
+ ----------:
+ Add to:|WLADD;
+ Cut from:|WLCUT;
+ Remove side:|WLRMV;
+ ----------:
+ Set Width:|WLWID;
+ Chg Wid All:|WCWIDA;
+ Chg Wid Span:|WCWIDS;
+ Chg Wid End:|WCWIDE;
+-----------:
+Fillets/Chamfer/Offset>:
+ Fillet Only:|FIL;
+ Fillet && Trim:|TFIL;
+ Chamfer Only:|CHAM;
+ Chamfer && Trim:|TCHAM;
+ -----------:
+ Offset Chain:|OFFSET;
+ Offset One:|OFFSET1;
+ Offset Copy:|OFFSETCPY;
+Dimensions      >:
+ Linear    :|DIML;
+ Horizontal:|DIMH;
+ Vertical  :|DIMV;
+ Parallel  :|DIMP;
+ Angular   :|DIMA;
+ Radius    :|DIMR;
+ Diameter  :|DIMD;
+ Ordinate  :|DIMO;
+ Baseline  :|DIMB;
+Arrows>:
+ Path (bends):|PATHA;
+ Line (single):|LINEA;
+ Arc (arrow to end):|ARCA;
+ Arc (arrow from start):|ARCAS;
+ Spline:|SPLINEA;
+Double Arrows>:
+ Path (bend):|PATHDA;
+ Line (single):|LINEDA;
+ Arc:|ARCDA;
+ Spline:|SPLINEDA;
+------------:
+MultiPoly  :|MPOLY2;
+Insert Part...:|PART;
+Draw Symbol...:|INSSYMD;
+Insert Picture...:|PICT;
+Edit:
+Erase:|ERASE;
+Edit...:|EDIT;
+Dynamic Edit:|DYNEDIT;
+Change...:|CHANGE;
+Change>:
+ Color:|CHANGEC;
+ to Color of SymRef:|CHGCBB;
+ Fill (2nd) color:|CHANGEC2;
+ Pen Thickness:|CHANGEPT;
+ Layer:|CHANGEL;
+ Line Style:|CHANGELS;
+ Fill Style:|CHANGEFS;
+ Line Width...:|CHANGELW;
+ Dimension Style...:|CHANGED;
+ Text...:|CHANGETX;
+ Text Properties...:|CHANGET;
+ Arrowhead...:|AHEAD;
+Properties...:|PEDIT;
+------------:
+Drag         :|DRAG;
+Move         :|MOVE;
+Stretch      :|STRETCH;
+Scale	>:
+ Scale value  :|SCALE;
+ Dyn Scale    :|DYNSCL;
+ ScaleXY      :|SCALEXY;
+Rotate	>:
+ Rotate ang   :|ROTATE;
+ Dyn Rotate   :|DYNROT;
+ Rotate Align :|ROTALN;
+Connect      :|CONNECT;
+Mirror       :|MIRROR;
+------------:
+Trims>:
+ Trim:|TRIM;
+ Trim to entity:|TRIMTO;
+ Trim to intersection:|TRIMINT;
+ Trim to length:|TRIML;
+ Trim inside entities:|TRIMIE;
+ Trim outside entities:|TRIMOE;
+Break        :|BREAK;
+Split        :|SPLIT;
+Node Edit>:
+ Insert:|INSNODE;
+ Delete:|DELNODE;
+------------:
+Front	:|FRONT;
+Above	:|ABOVE;
+Below	:|BELOW;
+Back	:|BACK;
+------------:
+Explode      :|EXPLODE;
+Copy:
+Copy:|COPY;
+Drag Copy:|DRAGCPY;
+Copy to Layer:|LAYERCPY;
+Copy Connect:|CONNECTC;
+----------   :
+Dyn Scale Cpy:|DYNSCLC;
+Scaled Copies:|SCLCPY;
+Dyn Rotate Cpy:|DYNROTC;
+Rotated Copies:|ROTCPY;
+Mirrored Copies:|MIRCPY;
+----------   :
+Rectangular Array:|REPEAT;
+Circular Array:|CARY;
+Insert:
+Insert Part...:|PART;
+Insert XREF...:|XREF;
+Part Array...:|PARY;
+Circ Part Array...:|CPARY;
+Create Part:|CPART;
+----------   :
+Group:|GROUP;
+Ungroup:|UNGROUP;
+----------   :
+Sheets...:|SHEET;
+Move to Sheet...:|MOVESHT;
+Copy to Sheet...:|COPYSHT;
+----------   :
+Define Symbol :|DEFSYM;
+Make Control Points:|CTRLP;
+Clone Sym Def...:|CLONESYM;
+Rename Sym Refs...:|RENSYM;
+Edit Symbol Def...:|EDSYMDEF;
+List SymDef...   :|LISTSYM;
+Delete SymDef... :|DELSYM;
+Purge Unused Defs...:|PURGESYM;
+Load Part as SYMDEF...:|LDSYMDEF;
+Change All SymDefs>:
+ Scale All Defs:|CHANGESS;
+ Change All Color:|CHANGESC;
+ Change All Color By Block:|CHANGESCBB;
+----------   :
+Draw Symbol   :|INSSYMD;
+Define Attribute:|ATTRIB;
+Extract Attributes:|EXTRACT;
+Specs:
+Select Grid... :SGRID;
+Align Grid  :AGRID;
+Angle Grid:GRIDANG;
+Edit Grid...   :EGRID;
+----------  :
+Select Color:COLOR;
+Select Layer...:LAYERDLG;
+Layer Options>:
+ Set Current...:SETLAYER;
+ Hide:HIDE;
+ Show:SHOW;
+ Hide All:HIDEA;
+ Show All:SHOWA;
+ Freeze:FREEZE;
+ Thaw:THAW;
+ Freeze All:FREEZEA;
+ Thaw All:THAWA;
+ List:LISTLYR;
+Line Style:LSTYLE;
+Fill Style:FSTYLE;
+Line Width:LWIDTHD;
+Pen Thickness:PTHICK;
+Color Map>:
+ Load Saved:|LOADCMAP;
+ Save Current:|SAVECMAP;
+ Use Dwg Map:|DWGCMAP;
+----------  :
+Dimension Styles...:DSTYLES;
+Arrowhead Style...:ASTYLE;
+Text Properties...:TSPEC;
+----------  :
+!8,10:|;
+Toggle Frames	^F:FRAMETOG;
+!6,10:|;
+Toggle Crosshairs	^T:XHTOG;
+!9,10:|;
+Toggle Attach:ATCHT;
+Attach mode...:ATCHMODE;
+Select by...   :SELBY;
+Installed XPs...:|XPCFG;
+Screen Tools...:|TOOLS;
+----------  :
+Units...    :|UNITS;
+Options...:OPTIONS;
+DWG/DXF...:|ACADOPT;
+Info:
+List:LIST;
+Extents...:|EXTENTS;
+----------:
+Count All:|COUNTA;
+Count:|COUNT;
+----------:
+Coordinate:ID;
+Bearing   :BEARING;
+Distance  :DISTANCE;
+Distance...:DIST2;
+Length along:LENGTH;
+Area      :AREA;
+Calculate :CALC;
+Macros:
+Load Macros...:|LOADMAC;
+Edit Macros...:|EDITMAC;
+Save Macros...:|SAVEMAC;
+Clear Macros:|CLEARM;
+List Variables:|LISTVARS;
+Save Variables:|SAVEVARS;
+Step Debugging>:
+ Step ON:STEP;
+ Step OFF:NOSTEP;
+Mod:
+Endpoint	F5:EPT;^D;
+Center	F4:CEN;^D;
+Midpoint	F3:MID;^D;
+Mid of 2 points:MID2;^D;^D;
+Mid of 2 EPT:MID2;EPT;^D;EPT;^D;
+Mid of 2 CEN:MID2;CEN;^D;CEN;^D;
+------------:
+Nearest point ON	F9:ON;^D;
+Intersection of	F6:INT;^D;^D;
+------------:
+Parallel to	F11:PRL;^D;
+Perpendicular to	F12:PRP;^D;
+Angle to  :ANG;^D;
+Percent Along	F7:%;^D;
+Distance Along	F8:DIST;^D;
+Degrees on:DEG;^D;
+Bearing angle:BRNG;^D;
+Tangent to   :TAN;^D;
+---------------:
+Change @ Ref. Point:REF;
+Same X (vertical):SAMEX;
+Same Y (horizontal):SAMEY;
+Same Z:SAMEZ;
+---------------------:
+Like	F2:LIKE;^D;
+Keep Like :KEEP;^D;
+Actions:
+Define:|ACTION;
+Visible:|ACTVIS;
+Hidden:|ACTHIDE;
+-----------:
+Run Model:|RUN;
+About...:|HELPN 8003;
+Assembly:
+Print:|PRINTA;
+-----------:
+New:|DEFPA;
+Edit:|EDITPA;
+Copy:|COPYPA;
+Delete:|DELPA;
+-----------:
+List:|LISTPA;
+About...:|HELPN 8002;
+Help:
+Contents:HELP;
+Quick Help:QHELP;
+Current command:HELPCON;
+---------------------:
+About FastCAD...     :VER;
+About our website...:|WEBINFO;
+---------------------:
+Guided Tour:|GUIDE;
+#0,ZIN:[Zoom In]~ZIN;2;
+#1,ZOUT:[Zoom Out]~ZOUT;2;
+#2,ZCEN:[Zoom Center]~ZCEN;^D;
+#3,ZWIN:[Zoom Window]~ZWIN;^D;^D;
+#4,ZEXT:[Zoom Extents]~ZEXT;
+#5,ZTEXT:[Zoom Text]~ZTEXT;^D;
+#6,DYNPAN:[Dynamic pan/zoom]~DYNPAN;
+#7,ZLAST:[Zoom Last]~ZLAST;
+#8,LAYERS:[Layer]~LAYERDLG;
+#9,LSTYLES:[Line Style]~LSTYLEDLG;
+#10,FSTYLES:[Fill Style]~FSTYLEDLG;
+#11,DSTYLE:[Dimension Style]~DSTYLES;
+#12,TSPEC:[Text Specs]~TSPEC;
+#13,COLOR:[Select color]~COLORDLG;
+#14,PEDIT:[Edit Properties]~PEDIT;
+#15,SELBY:[Set Select By Mode]~SELBY;
+#16,HELP:[Help]~HELPCON;
+#17,SELAW:[Select Active Window]~SELAW;
+#18,NEWW:[New Drawing Window]~NEWW;
+#19,MDCTL:[Multi-Drawing Control]|MDCTL;
+#20,SHEETS:[Sheets]|SHEET;
+#199,3d Icons:
+#100,Z3D:[Select 3d View]~|Z3D;
+#101,Z3FWD:[3d Zoom Forward]~|ZFWD;
+#102,Z3BACK:[3d Zoom Back]~|ZBACK;
+#103,Z3UP:[3d Zoom Up]~|ZUP;
+#104,Z3DOWN:[3d Zoom Down]~|ZDOWN;
+#105,Z3RT:[3d Zoom Right]~|ZRIGHT;
+#106,Z3LEFT:[3d Zoom Left]~|ZLEFT;
+#107,Z3PU:[PITCH Up]~|PITCH;15;
+#108,Z3PD:[PITCH Down]~|PITCH;-15;
+#109,Z3YL:[YAW Left]~|YAW;15;
+#110,Z3YR:[YAW Right]~|YAW;-15;
+#111,Z3RCCW:[ROLL CCW]~|ROLL;15;
+#112,Z3RCW:[ROLL CW]~|ROLL;-15;
+#113,Z3LOOK:[3d Looking From]~|ZLOOK;
+#115,DRWLINE:[3d Line]|LINE3;
+#116,DRWPATH:[3d Path]|PATH3;
+#117,DRWPOLY:[3d Polygon]|POLY3;
+#299,Edit Icons:
+#200,modept:[mod EPT]EPT;^D;
+#201,modcen:[mod CEN]CEN;^D;
+#202,modmid:[mod MID]MID;^D;
+#203,modint:[mod INT]INT;^D;
+#205,copy:[Copy]|COPY;
+#206,mircpy:[Mirror Copy]|MIRCPY;
+#207,drag:[Drag]|DRAG;
+#208,mirror:[Mirror]|MIRROR;
+#209,offset1:[Offset One]|OFFSET1;
+#210,offset:[Offset Chain]|OFFSET;
+#211,trim:[Trim]|TRIM;
+#212,trimto:[Trim to]|TRIMTO;
+#213,trimint:[Trim Intersection]|TRIMINT;
+#214,break:[Break]|BREAK;
+#215,split:[Split]|SPLIT;
+#216,changels:[Change LS]|CHANGELS;
+#217,changefs:[Change FS]|CHANGEFS;
+#218,erase:[Erase]|ERASE;
+#219,undo:[Undo]|UNDO;
+#399,Draw Icons:
+#300,DRWLINE:[Line]|LINE;
+#301,DRWLINEP:[Perpendicular Line]|LNPRP;
+#302,DRWDLINE:[Double Line]|DBLN;
+#303,DRWCIRP:[Circle]|CIRP;
+#304,DRWARCS:[Center Arc]|ARCS;
+#305,DRWARC3:[3-pt Arc]|ARCB;
+#306,DRWTEXT:[Text]|TEXT;
+#307,DRWBOX:[Box]|BOX;
+#308,DRWPATH:[Path]|PATH;
+#309,DRWPOLY:[Polygon]|POLY;
+#310,DRWSPLN:[Spline]|SPLINE;
+#311,DRWPARW:[Path Arrow]|PATHA;
+#312,DRWFIL:[Fillet]|FIL;
+#313,DRWFILT:[Fillet]|TFIL;
+#314,DRWHDIM:[Horizontal Dimension]|DIMH;
+#315,DRWVDIM:[Vertical Dimension]|DIMV;
+#316,DRWODIM:[Ordinate Dimension]|DIMO;
+#499,FastCAD icons:
+#299,Edit Icons:
+#400,modept:[mod EPT]EPT;^D;
+#401,modcen:[mod CEN]CEN;^D;
+#402,modmid:[mod MID]MID;^D;
+#403,modint:[mod INT]INT;^D;
+#405,copy:[Copy]|COPY;
+#406,mircpy:[Mirror Copy]|MIRCPY;
+#407,drag:[Drag]|DRAG;
+#408,mirror:[Mirror]|MIRROR;
+#409,offset1:[Offset One]|OFFSET1;
+#410,offset:[Offset Chain]|OFFSET;
+#411,trim:[Trim]|TRIM;
+#412,trimto:[Trim to]|TRIMTO;
+#413,trimint:[Trim Intersection]|TRIMINT;
+#414,break:[Break]|BREAK;
+#415,split:[Split]|SPLIT;
+#416,changels:[Change LS]|CHANGELS;
+#417,changefs:[Change FS]|CHANGEFS;
+#418,erase:[Erase]|ERASE;
+#419,undo:[Undo]|UNDO;
+#421,DRWLINE:[Line]|LINE;
+#422,DRWLINEP:[Perpendicular Line]|LNPRP;
+#423,DRWDLINE:[Double Line]|DBLN;
+#424,DRWCIRP:[Circle]|CIRP;
+#425,DRWARCS:[Center Arc]|ARCS;
+#426,DRWARC3:[3-pt Arc]|ARCB;
+#427,DRWTEXT:[Text]|TEXT;
+#428,DRWBOX:[Box]|BOX;
+#429,DRWPATH:[Path]|PATH;
+#430,DRWPOLY:[Polygon]|POLY;
+#431,DRWSPLN:[Spline]|SPLINE;
+#432,DRWPARW:[Path Arrow]|PATHA;
+#433,DRWFIL:[Fillet]|FIL;
+#434,DRWFILT:[Fillet]|TFIL;
+#435,DRWHDIM:[Horizontal Dimension]|DIMH;
+#436,DRWVDIM:[Vertical Dimension]|DIMV;
+#437,DRWODIM:[Ordinate Dimension]|DIMO;
+#599,FastCAD zoom:
+#500,ZIN:[Zoom In]~ZIN;2;
+#501,ZOUT:[Zoom Out]~ZOUT;2;
+#502,ZCEN:[Zoom Center]~ZCEN;^D;
+#503,ZWIN:[Zoom Window]~ZWIN;^D;^D;
+#504,ZEXT:[Zoom Extents]~ZEXT;
+#505,ZTEXT:[Zoom Text]~ZTEXT;^D;
+#506,DYNPAN:[Dynamic pan/zoom]~DYNPAN;
+#507,ZLAST:[Zoom Last]~ZLAST;
+#508,LAYERS:[Layer]~LAYERDLG;
+#509,LSTYLES:[Line Style]~LSTYLEDLG;
+#510,FSTYLES:[Fill Style]~FSTYLEDLG;
+#511,DSTYLE:[Dimension Style]~DSTYLES;
+#512,TSPEC:[Text Specs]~TSPEC;
+#513,COLOR:[Select color]~COLORDLG;
+#514,PEDIT:[Edit Properties]~PEDIT;
+#515,SELBY:[Set Select By Mode]~SELBY;
+#516,HELP:[Help]~HELPCON;
+#517,SELAW:[Select Active Window]~SELAW;
+#518,NEWW:[New Drawing Window]~NEWW;
+#519,MDCTL:[Multi-Drawing Control]|MDCTL;
+#520,SHEETS:[Sheets]|SHEET;
+#699,Bookmark & Search icons:
+#600,NEW:[New drawing]|NEW;
+#601,OPEN:[Open]|OPEN;
+#602,SAVEAS:[Save As]|SAVEAS;
+#603,PRINT:[Print]|PRINT;
+#605,OPENND:[Open Next]|OPENND;
+#606,OPENPD:[Open Prior]|OPENPD;
+#608,BOOKMK:[Bookmarks]|BOOKMARK;
+#609,OPENBN:[Next Bookmark]|OPENBN;
+#610,OPENBC:[Current Bookmark]|OPENBC;
+#611,OPENBP:[Prior Bookmark]|OPENBP;
+#612,SEARCH:[Search Files]|SEARCH;
+#799,custom icons 3:
+#700,DRWLINE:[Line]|LINE;

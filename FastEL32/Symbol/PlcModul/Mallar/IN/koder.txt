@@ -1,0 +1,11 @@
++ plus.fcw
+- minus.fcw
+s minus förskjuten.fcw
+o uttag.fcw
+  mellanrum.fcw
+| linje.fcw
+H hanematning.fcw
+h hane.fcw
+q hona.fcw
+j jordtecken.fcw
+T text.fcw

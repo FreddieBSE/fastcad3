@@ -1,0 +1,183 @@
+:
+:
+::
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+::
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+::
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+::
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+::
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+::
+:
+:
+:
+::
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+::
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+Färdiga Kapslingar:
+30-16:|Elinsert Q:\Mallar\FastEl\Symboler\1.Färdiga kapslingar\30-16.fcw;
+30-25:|Elinsert Q:\Mallar\FastEl\Symboler\1.Färdiga kapslingar\30-25.fcw;
+45-16:|Elinsert Q:\Mallar\FastEl\Symboler\1.Färdiga kapslingar\45-16.fcw;
+45-25:|Elinsert Q:\Mallar\FastEl\Symboler\1.Färdiga kapslingar\45-25.fcw;
+60-16:|Elinsert Q:\Mallar\FastEl\Symboler\1.Färdiga kapslingar\60-16.fcw;
+60-25:|Elinsert Q:\Mallar\FastEl\Symboler\1.Färdiga kapslingar\60-25.fcw;
+Täckplåtar:
+Täckplåtar Central:|imenu Q:\Mallar\FastEl\Extra\Ikoner\Täckplåt Central.fcw;
+Täckplåtar Stv:|imenu Q:\Mallar\FastEl\Extra\Ikoner\Täckplåt Stv.fcw;
+Ryggplåtar:
+Ryggplåtar Centraler>:
+ 30:|Elinsert Q:\Mallar\FastEl\Symboler\1.Ryggplåtar\R30.fcw;
+ 45:|Elinsert Q:\Mallar\FastEl\Symboler\1.Ryggplåtar\R45.fcw;
+ 60:|Elinsert Q:\Mallar\FastEl\Symboler\1.Ryggplåtar\R60.fcw;
+Ryggplåtar stv:|imenu Q:\Mallar\FastEl\Extra\Ikoner\Ryggplåtar.fcw;
+Lastbrytare:
+LAstbrytare:|imenu Q:\Mallar\FastEl\Symboler\lastbrytare\;
+Sidplåtar:
+Sidplåtar>:
+ 16:|Elinsert Q:\Mallar\FastEl\Symboler\1.Sidplåtar\S16.fcw;
+ 25:|Elinsert Q:\Mallar\FastEl\Symboler\1.Sidplåtar\S25.fcw;
+ 32:|Elinsert Q:\Mallar\FastEl\Symboler\1.Sidplåtar\S32.fcw;
+Gavelplåtar>:
+ Gavel Med sockel:|Elinsert Q:\Mallar\FastEl\Symboler\2.Gavelplåt - stv\Gavel Med sockel.fcw;
+ Gavel Utan Sockel:|Elinsert Q:\Mallar\FastEl\Symboler\2.Gavelplåt - stv\Gavel utan sockel.fcw;
+Dörrar:
+Dörrar:|imenu Q:\Mallar\FastEl\Extra\Ikoner\Dörrar.fcw;
+Dörrar med komponenter:|imenu Q:\Mallar\FastEl\Extra\Ikoner\Dörrar med komponenter.fcw;
+Tak/Bottenplåtar:
+Tak/Bottenplåtar:|imenu Q:\Mallar\FastEl\Extra\Ikoner\Tak Bottenplåt.fcw;
+Sockel Stv:|Elinsert Q:\Mallar\FastEl\Symboler\2. Sockel - stv\Sockel Ställverk.fcw;
+Delning och Sammankoppling:
+Med Sockel:|imenu Q:\Mallar\FastEl\Extra\Ikoner\Delning och sammanfogning med sockel Ny.fcw;
+Utan Sockel:|imenu Q:\Mallar\FastEl\Extra\Ikoner\Delning och sammanfogning utan sockel.fcw;
+Front Komponenter:
+Front Komponenter Centraler:|imenu Q:\Mallar\FastEl\Extra\Ikoner\Front komponenter central.fcw;
+Front Komponenter Stv:|imenu Q:\Mallar\FastEl\Extra\Ikoner\Front komponenter stv.fcw;
+:
+30:|Elinsert Q:\Mallar\FastEl\Symboler\1.Ryggplåtar\R30.fcw;
+45:|Elinsert Q:\Mallar\FastEl\Symboler\1.Ryggplåtar\R45.fcw;
+60:|Elinsert Q:\Mallar\FastEl\Symboler\1.Ryggplåtar\R60.fcw;
+DM:|
+
+
+
+
+
+#299,SEBAB:
+#200,#symbol\extra\MDA.ico:[Byt ikonrad / välj ikonrad]{|CMENU;#symbol\extra\vxl.cmn;}|EXTRAICONVXL;
+
+#202,DRWLINE:[Grov röd linje]|styrlinjeopt;4;70;solid;styrlinje;
+#203,#symbol\extra\Icons\snap.bmp:[Stegavstånd 0,5 / Stegavstånd 0,1]{|gridv 1;snapv 10;}|gridv 5;snapv 10;
+#204,#symbol\extra\Icons\nollnummer.bmp:[Nollnummer]|NOLL;
+#205,#symbol\extra\Icons\Diazed.bmp:[DIII / DII]{|ELINSERT;Q:\Mallar\Cad\FastEl symboler\Nya symboler från dala\Ny\Symboler\Front Komponenter\DII ENKEL;}|ELINSERT;Q:\Mallar\Cad\FastEl symboler\Nya symboler från dala\Ny\Symboler\Front Komponenter\DIII;
+#206,#symbol\extra\Icons\sak.bmp:[Automatsäkringar / Moduler]{|ELINSERT;Q:\Mallar\Cad\FastEl symboler\Nya symboler från dala\Ny\Symboler\Moduler\TABModul;}|ELINSERT;Q:\Mallar\Cad\FastEl symboler\Nya symboler från dala\Ny\Symboler\Moduler\sak;
+#207,#symbol\extra\Icons\tp30.bmp:[bakom dörr / utan dörr]{|imenu;Q:\Mallar\Cad\FastEl symboler\Nya symboler från dala\Ny\Symboler\1.Täckplåt 30;}|imenu;Q:\Mallar\Cad\FastEl symboler\Nya symboler från dala\Ny\Symboler\1.Täckplåt bakom dörr 30;
+#208,#symbol\extra\Icons\tp45.bmp:[bakom dörr / utan dörr]{|imenu;Q:\Mallar\Cad\FastEl symboler\Nya symboler från dala\Ny\Symboler\1.Täckplåt 45;}|imenu;Q:\Mallar\Cad\FastEl symboler\Nya symboler från dala\Ny\Symboler\1.Täckplåt bakom dörr 45;
+#209,#symbol\extra\Icons\tp60.bmp:[bakom dörr / utan dörr]{|imenu;Q:\Mallar\Cad\FastEl symboler\Nya symboler från dala\Ny\Symboler\1.Täckplåt 60;}|imenu;Q:\Mallar\Cad\FastEl symboler\Nya symboler från dala\Ny\Symboler\1.Täckplåt bakom dörr 60;
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+ 230, Område,		Område
+ 270, Område,		Sektionsnummer
+1020, Område,		Ledningar Område
+1021, Område,		Bussledning Område
+1000, Stomme,		Väggar
+1001, Stomme, 		Fönster
+1002, Stomme, 		Dörrar
+1003, Stomme, 		Väggskugga
+1004, Stomme, 		Trappa
+ 270, Stomme,		Sektionsnummer
+ 100, Centraler,	Central	
+  30, Belysning,	Armaturer
+ 270, Belysning,	Sektionsnummer
+1020, Belysning,	Ledningar belysning
+1021, Belysning,	Ledningar belysning
+1022, Belysning		Täckningsområde belysning
+1020, Centraler,	Ledningar Centraler
+1021, Centraler,	Ledningar Centraler
+  40, Värme,		Värme
+  50, Värme,		Värme
+  60, Värme,		Värme
+1020, Värme,		Ledningar Värme
+1021, Värme,		Ledningar Värme
+ 230, Grindar,		Grindar
+9999, Stomme,           Ledningar
+9999, Stomme,           Täckningsområde
+
+
+ 

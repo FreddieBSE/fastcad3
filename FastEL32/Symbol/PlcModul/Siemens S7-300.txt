@@ -1,0 +1,271 @@
+#Namn: CPU 315-2DP
+#Sortering: 100
+#Komponent: 1
+#Typ: CPU
+#Kod:"  T{CPU 315-2DP}m{L+;M}    j{PE}   ub{DP 1}ub{MPI 3}"
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 315-2DP
+#Material - Typ: CPU
+#Material - Height: 125
+#Material - Width: 40
+---------------------------------------------------------------------
+#Namn: Di 4x24VDC
+#Sortering: 300
+#Komponent: 1
+#Typ: IN
+#Fri placering: 1
+#Kod:" T{DI4 x 24 V=}o{;1}  o{;2}  o{24 VDC;3}  o{M;4}  o{;5}  o{;6}  o{24 VDC;7}  o{M;8} "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: Di 4x24VDC
+#Material - Height: 125
+#Material - Width: 40
+---------------------------------------------------------------------
+#Namn: Do 4x24VDC 0,5A
+#Sortering: 310
+#Komponent: 1
+#Typ: UT
+#Kod:" T{DO4 x 24 V= 0,5A}o{;1}  o{;2}  o{M;3}  o{M;A4}  o{;5}  o{;6}  o{M;7}  o{M;A8}"
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: Do 4x24VDC 0,5A
+#Material - Height: 125
+#Material - Width: 40
+---------------------------------------
+#Namn: PM-E 24VDC
+#Sortering: 320
+#Komponent: 1
+#Fri placering: 1
+#Typ: IN
+#Kod: " T{PM-E 24VDC}+{24 VDC;2} -{ ;3M}  o{24 VDC;6}   o{AUX1;A4}   o{ ;7M}  o{AUX2;A8}  "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: Digital ingång
+#Material - Height: 125.000
+#Material - Width: 40.000
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 399
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: Di16x24VDC-1
+#Sortering: 500
+#Komponent: 1
+#Typ: IN
+#Kod:" T{DI16 x 24 V=}o{;2}  o{;3}   o{;4}   o{;5}   o{;6}   o{;7}   o{;8}   o{;9} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: Di16x24VDC
+#Material - Height: 125
+#Material - Width: 40
+#Material - Artikel: 6ES7321-1BH02-0AA0
+---------------------------------------------------------------------
+#Namn: Di16x24VDC-2
+#Sortering: 501
+#Typ: IN
+#Kod:" T{DI16 x 24 V=}o{;12}  o{;13}   o{;14}   o{;15}   o{;16}   o{;17}   o{;18}   o{;19}   -{;20} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 509
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: Do16x24VDC-1
+#Sortering: 510
+#Komponent: 1
+#Typ: UT
+#Kod:" T{DO16 x 24 V= 0,5A}M{1L+;1;10}  o{;2}   o{;3}   o{;4}   o{;5}   o{;6}   o{;7}   o{;8}   o{;9} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: Do16x24VDC
+#Material - Height: 125
+#Material - Width: 40
+#Material - Artikel: 6ES7322-1BH01-0AA0
+---------------------------------------------------------------------
+#Namn: Do16x24VDC-2
+#Sortering: 511
+#Komponent: 1
+#Typ: UT
+#Kod:" T{DO16 x 24 V= 0,5A}M{2L+;11;20}  o{;12}   o{;13}   o{;14}   o{;15}   o{;16}   o{;17}   o{;18}   o{;19} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 599
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: Di32x24VDC-1
+#Sortering: 1000
+#Komponent: 1
+#Typ: IN
+#Kod:" T{DI32 x 24 V=}H{L+;1}  h{;2}   h{;3}   h{;4}   h{;5}   h{;6}   h{;7}   h{;8}   h{;9}  h{ ;10} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: Di32x24VDC
+#Material - Height: 125
+#Material - Width: 40
+---------------------------------------------------------------------
+#Namn: Di32x24VDC-2
+#Sortering: 1001
+#Typ: IN
+#Kod:" T{DI32 x 24 V=}H{ ;11}  h{;12}   h{;13}   h{;14}   h{;15}   h{;16}   h{;17}   h{;18}   h{;19}  h{1M;20} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: Di32x24VDC-3
+#Sortering: 1002
+#Typ: IN
+#Kod:" T{DI32 x 24 V=}H{ ;21}  h{;22}   h{;23}   h{;24}   h{;25}   h{;26}   h{;27}   h{;28}   h{;29}  h{ ;30} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: Di32x24VDC-4
+#Sortering: 1003
+#Typ: IN
+#Kod:" T{DI32 x 24 V=}H{ ;31}  h{;32}   h{;33}   h{;34}   h{;35}   h{;36}   h{;37}   h{;38}   h{;39}  h{2M;40} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 1004
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: Do32x24VDC-1
+#Sortering: 1005
+#Komponent: 1
+#Typ: UT
+#Kod:" T{DO32 x 24 V= 0,5A}H{1L+;1}  h{;2}   h{;3}   h{;4}   h{;5}   h{;6}   h{;7}   h{;8}   h{;9}  H{1M;10} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: Do32x24VDC
+#Material - Height: 125
+#Material - Width: 40
+---------------------------------------------------------------------
+#Namn: Do32x24VDC-2
+#Sortering: 1006
+#Typ: UT
+#Kod:" T{DO32 x 24 V= 0,5A}H{2L+;11}  h{;12}   h{;13}   h{;14}   h{;15}   h{;16}   h{;17}   h{;18}   h{;19}  H{2M;20} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: Do32x24VDC-3
+#Sortering: 1007
+#Typ: UT
+#Kod:" T{DO32 x 24 V= 0,5A}H{3L+;21}  h{;22}   h{;23}   h{;24}   h{;25}   h{;26}   h{;27}   h{;28}   h{;29}  H{3M;30} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: Do32x24VDC-4
+#Sortering: 1008
+#Typ: UT
+#Kod:" T{DO32 x 24 V= 0,5A}H{4L+;31}  h{;32}   h{;33}   h{;34}   h{;35}   h{;36}   h{;37}   h{;38}   h{;39}  H{4M;40} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------- Felsäkra ingångar
+#Sortering: 1009
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: Di24x24VDC-1
+#Sortering: 1010
+#Komponent: 1
+#Typ: IN
+#Kod:" T{DI 24 x DC 24V}+{1L+;1} -{1M;2}   o{1Vs;4}   o{;5}   o{;6}   o{;7}   o{;8}   o{;9}   o{;10} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: Di32x24VDC
+#Material - Height: 125
+#Material - Width: 40
+#Material - Artikel: 6ES7326-1BK02-0AB0
+---------------------------------------------------------------------
+#Namn: Di24x24VDC-2
+#Sortering: 1011
+#Typ: IN
+#Kod:" T{DI 24 x DC 24V}o{2Vs;11}   o{;12}   o{;13}   o{;14}   o{;15}   o{;16}   o{;17} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: Di24x24VDC-3
+#Sortering: 1012
+#Typ: IN
+#Kod:" T{DI 24 x DC 24V}+{2L+;1} -{2M;2}   o{3Vs;24}   o{;25}   o{;26}   o{;27}   o{;28}   o{;29}   o{;30} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: Di24x24VDC-4
+#Sortering: 1013
+#Typ: IN
+#Kod:" T{DI 24 x DC 24V}o{4Vs;31}   o{;32}   o{;33}   o{;34}   o{;35}   o{;36}   o{;37} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: --------Felsäkra utgångar
+#Sortering: 1014
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: Do8x24VDC-1
+#Sortering: 1015
+#Komponent: 1
+#Typ: UT
+#Kod:" T{DO 8 x DC24 V/2A}o{;5}o{;6}   o{;8}o{;9}   o{;11}o{;12}   o{;14}o{;15}   M{2L+/2M;17;18} M{2L+/2M;19;20} M{1L+/1M;21;22} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: D08x24VDC
+#Material - Height: 125
+#Material - Width: 40
+#Material - Artikel: 6ES7326-2BF41-0AB0
+---------------------------------------------------------------------
+#Namn: Do8x24VDC-2
+#Sortering: 1016
+#Typ: UT
+#Kod:" T{DO 8 x DC24 V/2A}o{;25}o{;26}   o{;28}o{;29}   o{;31}o{;32}   o{;34}o{;35}   M{3L+/3M;37;38} M{3L+/3M;39;40} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 1019
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: Ai2 x 13BITS
+#Sortering: 1020
+#Komponent: 1
+#Typ: IN
+#Kod:" T{AI2 x 13BITS}o{;1}o{ ;2}  o{24 VDC;3}  o{M;4}    o{;5}o{ ;6}  o{24 VDC;7}  o{M;8} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: Ai2 x 13BITS
+#Material - Height: 125
+#Material - Width: 40
+---------------------------------------------------------------------
+#Namn: Ao2 U
+#Sortering: 1025
+#Komponent: 1
+#Typ: UT
+#Kod:" T{AO2 U}H{CH0 QV0;1} h{CH0 SO+;2} h{CH0 Mana;3} h{CH0 SO-;4}  H{CH1 QV0;5} h{CH1 SO+;6} h{CH1 Mana;7} h{CH1 SO-;8} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: Ao2 U
+#Material - Height: 125
+#Material - Width: 40
+---------------------------------------------------------------------
+#Namn: --------
+#Sortering: 1099
+#Typ: IN
+#Kod:" 0"
+---------------------------------------------------------------------
+#Namn: EM 4 F-DI DC24V
+#Sortering: 2000
+#Komponent: 1
+#Typ: Säkerhet
+#Kod: "T{;;EM 4 F-DI DC24V}f{DI0} u{Vs1}  f{DI1} u{Vs1}  f{DI2} u{Vs1}  f{DI3} u{Vs1} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 4 F-DI DC24V
+#Material - Height: 125
+#Material - Width: 40
+---------------------------------------------------------------------
+#Namn: EM 4 F-DO DC24V/2A
+#Sortering: 2100
+#Komponent: 1
+#Typ: UT
+#Kod: "M{;L+;M} T{EM 4 F-DO DC24V/2A} o{DO0;P} o{DO0;M}   o{DO1;P} o{DO1;M}   o{DO2;P} o{DO2;M}   o{DO3;P} o{DO3;M} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 4 F-DO DC24V/2A
+#Material - Height: 125
+#Material - Width: 40
+

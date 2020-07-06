@@ -1,0 +1,43 @@
+ 230, Område,		Område
+ 270, Område,		Sektionsnummer
+1020, Område,		Ledningar Område
+1021, Område,		Bussledning Område
+1000, Stomme, Väggar
+1001, Stomme, Fönster
+1002, Stomme, Dörrar
+1003, Stomme, Väggskugga
+1004, Stomme, Trappa
+ 270, Stomme,		Sektionsnummer
+1010, Kanalisation,	Kanaler
+ 100, Centraler,          Central
+ 170, Brandlarm,	Brandlarm
+ 240, Brandlarm,	Brandlarm
+  10, Brandlarm,	Brandlarm
+ 270, Brandlarm,	Sektionsnummer
+1020, Brandlarm,        Ledningar Brand
+1021, Brandlarm,        Bussledning Brand
+ 180, Inbrottslarm,	Inbrottslarm
+ 240, Inbrottslarm,	Inbrottslarm
+  10, Inbrottslarm,	Inbrottslarm
+ 270, Inbrottslarm,	Sektionsnummer
+ 250, Inbrottslarm,	OR-karta
+1020, Inbrottslarm,     Ledningar Inbrott
+1021, Inbrottslarm,     Bussledning Inbrott
+ 210, Övervakning,	Övervakning
+ 240, Övervakning,	Övervakning
+  10, Övervakning,	Övervakning
+ 270, Övervakning,	Sektionsnummer
+1020, Övervakning,	Ledningar Övervakning
+1021, Övervakning,	Bussledning Övervakning
+ 220, Passage,		Passage
+ 240, Passage,		Passage
+  10, Passage,		Passage
+ 270, Passage,		Sektionsnummer
+1020, Passage,		Ledningar Passage
+1021, Passage,		Bussledning Passage
+ 250, OR-karta,		OR-Karta
+ 260, Utrymning,	Ytrymning
+9999, Stomme,           Ledningar
+9999, Stomme,           Bussledning
+9999, Stomme,           Sektionsnummer
+

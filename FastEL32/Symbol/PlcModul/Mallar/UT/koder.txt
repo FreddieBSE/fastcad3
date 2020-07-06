@@ -1,0 +1,12 @@
+M matning.fcw
+m matning utan anslutningar.fcw
+o uttag.fcw
+  mellanrum.fcw
+| linje.fcw
+R relauttag.fcw
+r relaextrauttag.fcw
+- relamellanrum.fcw
+v växlande.fcw
+h hane.fcw
+H hanematning.fcw
+T text.fcw

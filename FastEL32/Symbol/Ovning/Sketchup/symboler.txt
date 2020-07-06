@@ -1,0 +1,50 @@
+Kopplingsdosa infälld	2100	kopplingsdosa.jpg	200	200
+Brytare 1 pol infälld	1100	brytare.jpg	200	200
+Kronomkopplare 1 pol infälld	1100	kron.jpg	200	200
+Korskopplare infälld	1100	brytare.jpg	200	200
+Trapp/kors-kopplare infälld	1100	brytare.jpg	200	200
+Dubbel trappomkopplare	1100	kron.jpg	200	200
+Uttag infällt	300	uttag.jpg	200	245
+Ojordat uttag inf	300	uttag.jpg	200	245
+Jordat uttag inf	300	uttag.jpg	200	245
+Petsäkert ojordat uttag inf	300	uttag.jpg	200	245
+Petsäkert jordat inf	300	uttag.jpg	200	245
+Lamputtag infällt	2200	lamputtag-vägg.jpg	200	200
+Lamputlopp vägg	2200	lamputtag-vägg.jpg	200	200
+Lamputlopp	-1	lamputtag-tak.png	200	200
+Kopplingsdosa (fylld)	2100	kopplingsdosa.jpg	200	200
+Brytare 1 pol (fylld)	1100	brytare.jpg	200	200
+Kronomkopplare 1 pol (fylld)	1100	kron.jpg	200	200
+Korskopplare (fylld)	1100	brytare.jpg	200	200
+Trapp/kors-kopplare (fylld)	1100	brytare.jpg	200	200
+Ojordat uttag (fylld)	300	uttag.jpg	200	245
+Uttag jordat (fylld)	300	uttag.jpg	200	245
+Uttag petsäkert (fylld)	300	uttag.jpg	200	245
+Petsäkert jordat (fylld)	300	uttag.jpg	200	245
+Lamputtag (fylld)	2200	lamputtag-vägg.jpg	200	200
+
+
+Kopplingsdosa utvändig	2100	kopplingsdosa.jpg	200	200
+Brytare 1 pol utv	1100	brytare.jpg	200	200
+Kronomkopplare 1 pol utv	1100	kron.jpg	200	200
+Korsomkopplare utv	1100	brytare.jpg	200	200
+Trapp/kors-kopplare utv	1100	brytare.jpg	200	200
+Dubbel trappomkopplare utv	1100	kron.jpg	200	200
+Uttag utvändigt	300	uttag.jpg	200	245
+Jordat uttag utv	300	uttag.jpg	200	245
+Ojordat uttag utv	300	uttag.jpg	200	245
+Petsäkert uttag utv	300	uttag.jpg	200	245
+Petsäkert jordat utv	300	uttag.jpg	200	245
+Lamputtag	2200	lamputtag-vägg.jpg	200	200
+Kopplingsdosa	2100	kopplingsdosa.jpg	200	200
+Brytare 1 pol	1100	brytare.jpg	200	200
+Kronomkopplare 1 pol	1100	kron.jpg	200	200
+Korsomkopplare	1100	brytare.jpg	200	200
+Trapp/kors-kopplare	1100	brytare.jpg	200	200
+Dubbel trappomkopplare	1100	kron.jpg	200	200
+Uttag	300	uttag.jpg	200	245
+Uttag jordat	300	uttag.jpg	200	245
+Uttag ojordat	300	uttag.jpg	200	245
+Uttag petsäkert	300	uttag.jpg	200	245
+Uttag petsäkert jordat	300	uttag.jpg	200	245
+

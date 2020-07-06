@@ -1,0 +1,205 @@
+#Namn: LOGO! 230RC in(8)
+#Sortering: 100
+#Typ: IN
+#Kod:" T{LOGO! 230RC}-{N}+{L}  o{I1}   o{I2}   o{I3}   o{I4}   o{I5}   o{I6}   o{I7}   o{I8} "
+#Fri placering: 1
+#Komponent: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: LOGO! 230RC
+#Material - Typ: PLC
+#Material - Height: 90
+#Material - Width: 72
+---------------------------------------------------------------------
+#Namn: LOGO! 230RC ut(4)
+#Sortering: 101
+#Typ: UT
+#Fri placering: 1
+#Kod:" T{LOGO! 230RC}   R{Q1;1;2}   R{Q2;1;2}   R{Q3;1;2}   R{Q4;1;2} "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 102
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Exp DM8 230R in(4)
+#Sortering: 110
+#Typ: IN
+#Kod:" T{Exp DM8 230RC}-{N}+{L}  o   o   o   o "
+#Fri placering: 1
+#Komponent: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: LOGO! Exp DM8 230R
+#Material - Typ: Expansionsenhet
+#Material - Height: 90
+#Material - Width: 36
+---------------------------------------------------------------------
+#Namn: Exp DM8 230R ut(4)
+#Sortering: 111
+#Typ: UT
+#Fri placering: 1
+#Kod:" T{Exp DM8 230RC}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2} "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 112
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Exp DM16 230R in(8)
+#Sortering: 120
+#Typ: IN
+#Kod:" T{Exp DM16 230RC}-{N}+{L}  o   o   o   o   o   o   o   o "
+#Fri placering: 1
+#Komponent: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: LOGO! Exp DM16 230R
+#Material - Typ: Expansionsenhet
+#Material - Height: 90
+#Material - Width: 36
+---------------------------------------------------------------------
+#Namn: Exp DM16 230R ut(8)
+#Sortering: 121
+#Typ: UT
+#Fri placering: 1
+#Kod:" T{Exp DM16 230RC}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2} "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 122
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: LOGO! 24 in(8)
+#Sortering: 130
+#Typ: IN
+#Kod:" T{LOGO! 24}-{M}+{L+}  o{I1}   o{I2}   o{I3}   o{I4}   o{I5}   o{I6}   o{I7}   o{I8} "
+#Fri placering: 1
+#Komponent: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: LOGO! 24
+#Material - Typ: CPU
+#Material - Height: 90
+#Material - Width: 72
+---------------------------------------------------------------------
+#Namn: LOGO! 24 ut(4)
+#Sortering: 131
+#Typ: UT
+#Fri placering: 1
+#Kod:" T{LOGO! 24}o{Q1}o{M}   o{Q2}o{M}   o{Q3}o{M}   o{Q4}o{M} "
+---------------------------------------------------------------------
+#Namn: LOGO! 24R ut(4)
+#Sortering: 132
+#Typ: UT
+#Fri placering: 1
+#Kod:" T{LOGO! 24}   R{Q1;1;2}   R{Q2;1;2}   R{Q3;1;2}   R{Q4;1;2} "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 133
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Exp DM8 24 in(4)
+#Sortering: 140
+#Typ: IN
+#Kod:" T{Exp DM8 24}-{M}+{L+}  o   o   o   o "
+#Fri placering: 1
+#Komponent: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: LOGO! DM8 24
+#Material - Typ: Expansionsenhet
+#Material - Height: 90
+#Material - Width: 36
+---------------------------------------------------------------------
+#Namn: Exp DM8 24 ut(4)
+#Sortering: 141
+#Typ: UT
+#Fri placering: 1
+#Kod:" T{Exp DM8 24}  o   o   o   o "
+---------------------------------------------------------------------
+#Namn: Exp DM8 24R ut(4)
+#Sortering: 142
+#Typ: UT
+#Fri placering: 1
+#Kod:" T{Exp DM8 24R}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2} "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 143
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: Exp DM16 24 in(8)
+#Sortering: 150
+#Typ: IN
+#Kod:" T{Exp DM16 24}-{M}+{L+}  o   o   o   o   o   o   o   o "
+#Fri placering: 1
+#Komponent: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: LOGO! DM16 24
+#Material - Typ: Expansionsenhet
+#Material - Height: 90
+#Material - Width: 36
+---------------------------------------------------------------------
+#Namn: Exp DM16 24 ut(8)
+#Sortering: 151
+#Typ: UT
+#Fri placering: 1
+#Kod:" T{Exp DM16 24}  o   o   o   o   o   o   o   o "
+---------------------------------------------------------------------
+#Namn: Exp DM16 24R ut(8)
+#Sortering: 152
+#Typ: UT
+#Fri placering: 1
+#Kod:" T{Exp DM16 24R}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2}   R{;1;2} "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 153
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: LOGO! AM 2
+#Sortering: 160
+#Typ: IN
+#Kod:" T{LOGO! AM 2}+{L1}-{M}  o{L2}o{M}   o{PE}o{I1}o{M1}o{U1}o{PE}   o{I2}o{M2}o{U2}o{PE} "
+#Fri placering: 1
+#Komponent: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: LOGO! AM 2
+#Material - Typ: Expansionsenhet
+#Material - Height: 90
+#Material - Width: 36
+---------------------------------------------------------------------
+#Namn: LOGO! AM 2 PT100
+#Sortering: 161
+#Typ: IN
+#Kod:" T{LOGO! AM 2 PT100}+{L1}-{M}o{L2}o{M}   o{PE}o{M1+}o{IC1}o{M1-}o{PE}   o{M2+}o{IC2}o{M2-}o{PE} "
+#Fri placering: 1
+#Komponent: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: LOGO! AM 2 PT100
+#Material - Typ: Expansionsenhet
+#Material - Height: 90
+#Material - Width: 36
+---------------------------------------------------------------------
+#Namn: LOGO! AM 2 AQ
+#Sortering: 162
+#Typ: UT
+#Kod:" T{LOGO! AM 2 AQ}   M{L+;M}m{L+;M}   o{PE}o{V1}o{M1}o{PE}   o{PE}o{V2}o{M2}o{PE} "
+#Fri placering: 1
+#Komponent: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: LOGO! AM 2 AQ
+#Material - Typ: Expansionsenhet
+#Material - Height: 90
+#Material - Width: 36
+---------------------------------------------------------------------
+#Namn: LOGO! TD
+#Sortering: 163
+#Typ: IN
+#Kod:" T{LOGO! TD}+- H{Communication} "
+#Fri placering: 1
+#Komponent: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: LOGO! TD
+#Material - Typ: Expansionsenhet
+#Material - Height: 90
+#Material - Width: 36
+---------------------------------------------------------------------
+

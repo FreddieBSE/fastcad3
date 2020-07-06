@@ -1,0 +1,13 @@
+Heldragen linje	L:|lstyle solid;PLINE;
+Punktstreckad linje:|lstyle center line;PLINE;
+Streckad linje:|lstyle dash;PLINE;
+--------:
+Heldragen pil:|lstyle solid;PATHA;
+Punktstreckad pil:|lstyle center line;PATHA;
+Streckad pil:|lstyle dash;PATHA;
+--------:
+Heldragen dubbel pil:|lstyle solid;PATHDA;
+Punktstreckad dubbel pil:|lstyle center line;PATHDA;
+Streckad dubbel pil:|lstyle dash;PATHDA;
+--------:
+Pilhuvud (ändrar alla):ASTYLE;

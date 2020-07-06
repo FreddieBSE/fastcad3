@@ -1,0 +1,14 @@
+Heldragen rektangel:|lstyle solid;fstyle hollow;BOX;
+Punktstreckad rektangel:|lstyle center line;fstyle hollow;BOX;
+Streckad rektangel:|lstyle dash;fstyle hollow;BOX;
+Fylld rektangel:|lstyle solid;fstyle solid;BOX;
+Snedstreckad rektangel:|lstyle solid;fstyle Wide right hatch;BOX;
+--------:
+Fylld polygon:|lstyle solid;fstyle solid;POLY;
+Snedstreckad polygon:|lstyle solid;fstyle Wide right hatch;POLY;
+--------:
+Allmän apparat:|ApparatH;
+Märk skåp:|markskap;
+--------:
+Revideringsmoln:|rmoln;
+

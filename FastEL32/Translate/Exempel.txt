@@ -1,0 +1,11 @@
+// Sammansatta ord först
+Gul Grön:Yellow-Green 
+
+// Enskilda ord sedan
+Blå:Blue
+Grå:Grey
+Grön:Green
+Gul:Yellow
+Röd:Red
+Svart:Black
+

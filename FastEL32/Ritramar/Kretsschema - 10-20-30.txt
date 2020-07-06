@@ -1,0 +1,5 @@
+Kretsschema
+Ram för kretsschema.
+Kolumner märkta:
+10..19 på blad 1 
+20..29 på blad 2 ...

@@ -1,0 +1,13 @@
+#499,ABB-kapslingar:
+#400,pkcentral_abb:[Byt kapsling]|;
+#402,pkcentral_lgh:[Lägenhetscentraler]|ABBKAPSLINGLGH;#Symbol\Ex\ABB\LGH\;
+#404,pkcentral_ram:[Kapslingar EDF]ABBKAPSLINGCEWEEDF;
+#405,pkcentral_split:[Dela fack]{|ABBKAPSLINGSPLIT;}|ABBKAPSLINGSPLITX;
+#406,pkcentral_tomplat:[Tomplåt]|ELINSERT;#Symbol\Ex\ABB\CeweEDF\tom.fcw;
+#407,pkcentral_slits:[Slits]|ELINSERT;#Symbol\Ex\ABB\CeweEDF\norm.FCW;
+#408,pkcentral_diazed:[Diazed]|ELINSERT;#Symbol\Ex\ABB\CeweEDF\diazed.fcw;
+#409,pkcentral_dinskena:[DIN-skena]|ELINSERT;#Symbol\Ex\ABB\CeweEDF\Dinskena.fcw;
+#410,pkcentral_montageplat:[Montageplåt]|ELINSERT;#Symbol\Ex\ABB\CeweEDF\Montageplåt.fcw;
+#411,pkcentral_nslb:[XLP00-plåt]|ELINSERT;#Symbol\Ex\ABB\CeweEDF\SLF.fcw;
+#412,pkcentral_matartavla:[Mätartavla]|ELINSERT;#Symbol\Ex\ABB\CeweEDF\Mätartavla.fcw;
+#413,pkcentral_abb:[Beställning på ABB Business OnLine]|ABBKAPSLINGORDER;

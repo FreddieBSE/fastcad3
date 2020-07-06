@@ -1,0 +1,288 @@
+#Namn: CPU 221 AC/DC/Relay
+#Sortering: 100
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{CPU 221}   n{M}   j   "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 221
+#Material - Typ: CPU
+#Material - Height: 80
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: CPU 221 ingångar
+#Sortering: 101
+#Typ: IN
+#Kod:"  -{1M}   o{i0.0}   o{i0.1}   o{i0.2}   o{i0.3}   -{2M}   o{i0.4}   o{i0.5} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 221 utgångar relä
+#Sortering: 102
+#Typ: UT
+#Kod:"  R{Q0.0;1L}---r{Q0.1}---r{Q0.2}   R{Q0.3} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 103
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: CPU 221 DC/DC/DC
+#Sortering: 104
+#Komponent: 1
+#Typ: CPU
+#Kod:" m{L+;M}   n{24V}T{CPU 221}   n{M}   j   "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 221
+#Material - Typ: CPU
+#Material - Height: 80
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: CPU 221 ingångar
+#Sortering: 105
+#Typ: IN
+#Kod:"  -{1M}   o{i0.0}   o{i0.1}   o{i0.2}   o{i0.3}   -{2M}   o{i0.4}   o{i0.5} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 221 utgångar
+#Sortering: 106
+#Typ: UT
+#Kod:" M{;1L+;M}   o{Q0.0}   o{Q0.1}   o{Q0.2}   o{Q0.3} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 107
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: CPU 222 AC/DC/Relay
+#Sortering: 110
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{CPU 222}   n{M}   j   "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 222
+#Material - Typ: CPU
+#Material - Height: 80
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: CPU 222 ingångar
+#Sortering: 111
+#Komponent: 1
+#Typ: IN
+#Kod:" -{1M}  o{i0.0}   o{i0.1}   o{i0.2}   o{i0.3}   -{2M}  o{i0.4}   o{i0.5}   o{i0.6}   o{i0.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 222 utgångar relä
+#Sortering: 112
+#Typ: UT
+#Kod:"  R{Q0.0;1L}---r{Q0.1}---r{Q0.2}---r{Q0.3}   R{Q0.4}---r{Q0.5}---r{Q0.6}---r{Q0.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 113
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: CPU 222 DC/DC/DC
+#Sortering: 114
+#Komponent: 1
+#Typ: CPU
+#Kod:" m{L+;M}   n{24V}T{CPU 222}   n{M}   j   "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 222
+#Material - Typ: CPU
+#Material - Height: 80
+#Material - Width: 90
+---------------------------------------------------------------------
+#Namn: CPU 222 ingångar
+#Sortering: 115
+#Komponent: 1
+#Typ: IN
+#Kod:" -{1M}  o{i0.0}   o{i0.1}   o{i0.2}   o{i0.3}   -{2M}  o{i0.4}   o{i0.5}   o{i0.6}   o{i0.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 222 utgångar
+#Sortering: 116
+#Typ: UT
+#Kod:" M{;1L+;M}   o{Q0.0}   o{Q0.1}   o{Q0.2}   o{Q0.3}   o{Q0.4}   o{Q0.5} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 117
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: CPU 224 AC/DC/Relay
+#Sortering: 120
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{CPU 224}   n{M}   j   "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 224
+#Material - Typ: CPU
+#Material - Height: 80
+#Material - Width: 120.5
+---------------------------------------------------------------------
+#Namn: CPU 224 ingångar 0.0-0.7
+#Sortering: 121
+#Typ: IN
+#Kod:"  -{1M}   o{i0.0}   o{i0.1}   o{i0.2}   o{i0.3}   o{i0.4}   o{i0.5}   o{i0.6}   o{i0.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 224 ingångar 1.0-1.5
+#Sortering: 122
+#Typ: IN
+#Kod:"  -{2M}   o{i1.0}   o{i1.1}   o{i1.2}   o{i1.3}   o{i1.4}   o{i1.5}  "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 224 utgångar relä 0.0-0.6
+#Sortering: 123
+#Typ: UT
+#Kod:"   R{Q0.0;1L}---r{Q0.1}---r{Q0.2}---r{Q0.3}   R{Q0.4;2L}---r{Q0.5}---r{Q0.6} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 224 utgångar relä 0.7-1.1
+#Sortering: 124
+#Typ: UT
+#Kod:"   R{Q0.7;1L}---r{Q1.0}---r{Q1.1} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 125
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: CPU 224 DC/DC/DC
+#Sortering: 126
+#Komponent: 1
+#Typ: CPU
+#Kod:" m{L+;M}   n{24V}T{CPU 224}   n{M}   j   "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 224
+#Material - Typ: CPU
+#Material - Height: 80
+#Material - Width: 120.5
+---------------------------------------------------------------------
+#Namn: CPU 224 ingångar 0.0-0.7
+#Sortering: 127
+#Typ: IN
+#Kod:"  -{1M}   o{i0.0}   o{i0.1}   o{i0.2}   o{i0.3}   o{i0.4}   o{i0.5}   o{i0.6}   o{i0.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 224 ingångar 1.0-1.5
+#Sortering: 128
+#Typ: IN
+#Kod:"  -{2M}   o{i1.0}   o{i1.1}   o{i1.2}   o{i1.3}   o{i1.4}   o{i1.5}  "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 224 utgångar 0.0-0.4
+#Sortering: 129
+#Typ: UT
+#Kod:" M{;1L+;M}   o{Q0.0}   o{Q0.1}   o{Q0.2}   o{Q0.3}   o{Q0.4} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 224 utgångar 0.5-1.1
+#Sortering: 130
+#Typ: UT
+#Kod:" M{;2L+;M}   o{Q0.5}   o{Q0.6}   o{Q0.7}   o{Q1.0}   o{Q1.1} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 131
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: CPU 226 AC/DC/Relay
+#Sortering: 140
+#Komponent: 1
+#Typ: CPU
+#Kod:" M{L1;N}n{24V}T{CPU 226}   n{M}   j   "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 226
+#Material - Typ: CPU
+#Material - Height: 80
+#Material - Width: 196
+---------------------------------------------------------------------
+#Namn: CPU 226 ingångar 0.0-0.7
+#Sortering: 141
+#Typ: IN
+#Kod:"  -{1M}   o{i0.0}   o{i0.1}   o{i0.2}   o{i0.3}   o{i0.4}   o{i0.5}   o{i0.6}   o{i0.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 226 ingångar 1.0-1.7
+#Sortering: 142
+#Typ: IN
+#Kod:"  -{2M}   o{i1.0}   o{i1.1}   o{i1.2}   o{i1.3}   o{i1.4}   o{i1.5}   o{i1.7}   o{i1.7}"
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 226 ingångar 2.0-2.7
+#Sortering: 143
+#Typ: IN
+#Kod:"    o{i2.0}   o{i2.1}   o{i2.2}   o{i2.3}   o{i2.4}   o{i2.5}   o{i2.6}   o{i2.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 226 utgångar relä 0.0-0.3
+#Sortering: 144
+#Typ: UT
+#Kod:"   R{Q0.0;1L}---r{Q0.1}---r{Q0.2}---r{Q0.3} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 226 utgångar relä 0.4-1.0
+#Sortering: 145
+#Typ: UT
+#Kod:"   R{Q0.4;2L}---r{Q0.5}---r{Q0.6}---r{Q0.7}---r{Q1.0}"
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 226 utgångar relä 1.0-1.7
+#Sortering: 146
+#Typ: UT
+#Kod:"   R{Q1.0;3L}---r{Q1.1}---r{Q1.2}---r{Q1.3}---r{Q1.4}---r{Q1.5}---r{Q1.6}---r{Q1.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 147
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: CPU 226 DC/DC/DC
+#Sortering: 150
+#Komponent: 1
+#Typ: CPU
+#Kod:" m{L+;M}   n{24V}T{CPU 226}   n{M}   j   "
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: CPU 226
+#Material - Typ: CPU
+#Material - Height: 80
+#Material - Width: 196
+---------------------------------------------------------------------
+#Namn: CPU 226 ingångar 0.0-0.7
+#Sortering: 151
+#Typ: IN
+#Kod:"  -{1M}   o{i0.0}   o{i0.1}   o{i0.2}   o{i0.3}   o{i0.4}   o{i0.5}   o{i0.6}   o{i0.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 226 ingångar 1.0-1.7
+#Sortering: 152
+#Typ: IN
+#Kod:"  -{2M}   o{i1.0}   o{i1.1}   o{i1.2}   o{i1.3}   o{i1.4}   o{i1.5}   o{i1.7}   o{i1.7}"
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 226 ingångar 2.0-2.7
+#Sortering: 153
+#Typ: IN
+#Kod:"    o{i2.0}   o{i2.1}   o{i2.2}   o{i2.3}   o{i2.4}   o{i2.5}   o{i2.6}   o{i2.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 226 utgångar 0.0-0.7
+#Sortering: 154
+#Typ: UT
+#Kod:" M{;1L+;M}   o{Q0.0}   o{Q0.1}   o{Q0.2}   o{Q0.3}   o{Q0.4}   o{Q0.5}   o{Q0.6}   o{Q0.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: CPU 226 utgångar 1.0-1.7
+#Sortering: 155
+#Typ: UT
+#Kod:" M{;2L+;M}   o{Q1.0}   o{Q1.1}   o{Q1.2}   o{Q1.3}   o{Q1.4}   o{Q1.5}   o{Q1.6}   o{Q1.7} "
+#Fri placering: 1
+---------------------------------------------------------------------
+

@@ -1,0 +1,460 @@
+Arkiv(C):
+Ny ritning>:
+ Utan ritram:|TEMPLATEM;#Ritramar\METRIC.FCT;NEW;
+ --------:
+ Liggande A4:|TEMPLATEM;#Ritramar\Fler\Liggande A4.FCT;NEW;
+ Liggande A4 skala 2-1:|TEMPLATEM;#Ritramar\Fler\Liggande A4 Skala 2_1.FCT;NEW;
+ Stående A4:|TEMPLATEM;#Ritramar\Stående A4.FCT;NEW;
+ Stående A4 skala 2-1:|TEMPLATEM;#Ritramar\Fler\Stående A4 skala 2_1.FCT;NEW;
+ --------:
+ Välj ritmall...:|TEMPLATE;
+ Ny ritning (med vald ritmall):|NEW;
+Öppna...	^O:|OPEN;
+Spara	^S:~SAVE;
+Spara som...:|SAVEAS;
+--------:
+Skriv ut...	^P:|ELPRINT;
+!1,0:|;
+Info om PDF:|pdfinfo;
+-----------:
+Anteckningar (sparas i ritningen):|ELNOTES;
+Skydda ritningen:|PROTECT;
+-----------:
+Extra backup...:|elasave;
+-----------:
+-----------:
+-----------:
+Avsluta:|EXIT;
+Menyer:
+Vertikalt (stående) kretsschema:|ELMENU;#Menyer\vertik.mnu;
+Horisontellt (liggande) kretsschema:|ELMENU;#Menyer\horison.mnu;
+Installation:|ELMENU;#Menyer\insta.mnu;
+Larm:|ELMENU;#Menyer\larm.mnu;
+Enlinje:|ELMENU;#Menyer\enlinje.mnu;
+Pneumatik och hydraulik:|ELMENU;#Menyer\fluid.mnu;
+FastCAD:|ELMENU;#Menyer\fastcad.mnu;
+----------:
+Fler...:|othermenus;
+Inställning:
+Rutmönster (Grid)>:
+ Välj... :SGRID;
+ Flytta  :AGRID;
+ Ändra...:EGRID;
+----------  :
+Information>:
+ Hur stor är ritningen...:|EXTENTS;
+ --------:
+ Lista	LI:LIST;
+ Mät area:|AREA;
+ Räkna allt:|COUNTA;
+ Räkna:|COUNT;
+ ----------:
+ Koordinat:ID;
+ Bäring   :BEARING;
+ Avstånd (ett värde):DISTANCE;
+ Avstånd (kombinerad):DIST2;
+ Längd längs:LENGTH;
+ ----------:
+ Kalkylator :CALC;
+---------:
+Hårkors till/från	^T:XHTOG;
+Automatisk punktlåsning...:ATCHMODE;
+----------:
+Lager>:
+ Dialog...:LAYERDLG;
+ -----:
+ Sätt aktivt...:SETLAYER;
+ Göm:HIDE;
+ Visa:SHOW;
+ Göm alla:HIDEA;
+ Visa alla:SHOWA;
+ Frys:FREEZE;
+ Tina:THAW;
+ Frys alla:FREEZEA;
+ Tina alla:THAWA;
+ Lista:LISTLYR;
+Sheets (skikt/blad)>:
+ Dialog...:|SHEET;
+ Flytta till sheet...:|MOVESHT;
+ Kopiera till sheet...:|COPYSHT;
+----------:
+Inställningar FastCAD>:
+ Text...:TSPEC;
+ Färg...:COLOR;
+ Pilhuvud...:ASTYLE;
+ Måttsättning...:DSTYLES;
+ Linjestil:LSTYLE;
+ Fyllnadsstil:FSTYLE;
+ Linjebredd:LWIDTHD;
+ Penntjocklek:PTHICK;
+ Frames till/från	^F:FRAMETOG;
+ Välj med...   :SELBY;
+ ---------:
+ FastCAD...:OPTIONS;
+ Verktyg...:|TOOLS;
+Färginställningar>:
+ Ladda in:|LOADCMAP;
+ Spara aktuell:|SAVECMAP;
+ Använd ritningens:|DWGCMAP;
+Makro>:
+ Ladda Makro...:|LOADMAC;
+ Edit Makro...:|EDITMAC;
+ Spara Makro...:|SAVEMAC;
+ Radera Makro:|CLEARM;
+ List Variabler:|LISTVARS;
+ ----------:
+ Step Debugging:|;
+ Step ON:STEP;
+ Step OFF:NOSTEP;
+Actions>:
+ Skapa:|ACTION;
+ Visa:|ACTVIS;
+ Göm:|ACTHIDE;
+---------:
+Enheter...:|UNITS;
+DWG/DXF...:|ACADOPT;
+Visa:
+Rita om	^R:~REDRAW;
+-----:
+Panorera              :~PAN;^D;^D;
+Zooma fönster         :~ZWIN;^D;^D;
+Zooma (flytta) centrum:~ZCEN;^D;
+Zooma in              :~ZIN;^D;
+Zooma ut              :~ZOUT;^D;
+Zooma bredd på vy     :~ZWID;^D;
+Zooma höjd på vy      :~ZHGT;^D;
+Zooma allt            :~ZEXT;
+Zooma till sparad vy  :~ZNAME;^D;
+Zooma till (sök) text :~ZTEXT;^D;
+Zooma senaste         :~ZLAST;
+Rita:
+Linje (el)	L:|lstyle solid;PLINE;
+Mer linjer>:
+ Linje:|LINE;
+ Dubbellinje:|DBLN;
+ Vinkelrätt:|LNPRP;
+ Vinkelrätt med längd:|LNPRPL;
+ Tangent till två objekt:|TANGENT;
+Path && polygoner>:
+ Rektangel    :|BOX;
+ Path         :|PATH;
+ Polygon      :|POLY;
+ Regelbunden polygon:|RPOLY;
+Kurvor && splines>:
+ Bezier                  :|BEZ;
+ Kubisk B-spline         :|SPLINE;
+ Sluten kubisk B-spline  :|SPOLY;
+ Parabolisk spline       :|PSPLINE;
+ Sluten parabolisk spline:|PSPOLY;
+Cirklar>:
+ Centrum och punkt på:|CIRP;
+ Diameter och centrum:|CIRD;
+ Radie och centrum   :|CIRR;
+ 2-punkts-cirkel     :|CIR2;
+ 3-punkts-cirkel     :|CIR3;
+ -----------:
+ Tangent till 2 cirklar/bågar:|CIRTAN2;
+ Tangent till 3 cirklar/bågar:|CIRTAN3;
+ Dubbelcirkel:|DONUT;
+Bågar>:
+ Centrum-start-slut  :|ARCS;
+ Centrum och radie   :|ARCR;
+ Start-mitt-slutpunkt:|ARC3;
+ Start-slut-mittpunkt:|ARCB;
+ Kedjebågar          :|CARCD;
+ Tårtbit             :|ARCW;
+Ellipser>:
+ Centrum och axelpunkter     :|ELIPP;
+ Cirkel i vinkel till fönster:|ELIPC;
+ Centrum och lutning         :|ELIPI;
+ Elliptisk båge              :|ELIPA;
+Punkt:|POINT;
+Pilar>:
+ På path:|PATHA;
+ På linje:|LINEA;
+ På båge (vid slut):|ARCA;
+ På båge (vid start):|ARCAS;
+ På kubisk B-spline:|SPLINEA;
+Dubbelpil>:
+ På path:|PATHDA;
+ På linje:|LINEDA;
+ På båge:|ARCDA;
+ På kubisk B-spline:|SPLINEDA;
+Revideringsmoln>:
+ Revideringsmoln:|RMOLN;
+ Revideringspil:|RPIL;
+ Nytt:|RNEW;
+--------------:
+Avrunda/klipp hörn>:
+ Avrunda utan trim:|FIL;
+ Avrunda med trim:|TFIL;
+ -------:
+ Klipp utan trim:|CHAM;
+ Klipp med trim:|TCHAM;
+Offset>:
+ Ett objekt:|OFFSET1;
+ På en kedja:|OFFSET;
+ Skapa kopia:|OFFSETCPY;
+-------:
+Måttsättning>:
+ Linjär     :|DIML;
+ Horisontell:|DIMH;
+ Vertikal   :|DIMV;
+ Parallell  :|DIMP;
+ Vinkel     :|DIMA;
+ Radie      :|DIMR;
+ Diameter   :|DIMD;
+ Ordinate   :|DIMO;
+ Baslinje   :|DIMB;
+ Mät avstånd:|DIST;
+ ------------:
+ Inställning...:DSTYLES;
+------------:
+Skapa MultiPoly:|MPOLY2;
+------------:
+Symboler>:
+ Infoga...                                :|INSSYMD;
+ ------:
+ Skapa symbol                             :|DEFSYM;
+ Skapa kontrollpunkter (Control Points)   :|CTRLP;
+ Klona symboldefinition                   :|CLONESYM;
+ Byt namn på symbolreferenser             :|RENSYM;
+ Ändra symboldefinition                  :|EDSYMDEF;
+ Lista symboldefinition                  :|LISTSYM;
+ Radera symboldefinition                 :|DELSYM;
+ Radera oanvända symboldefinitioner      :|PURGESYM;
+ Ladda in detaljer som symboldefinitioner:|LDSYMDEF;
+ ------:
+ Skala om alla symboldefinitioner         :|CHANGESS;
+ Byt färg på alla symboldefinitioner     :|CHANGESC;
+ Sätt färg enligt referenser för alla symboler:|CHANGESCBB;
+ ----------   :
+ Skapa attribut:|ATTRIB;
+ Lista alla attribut:|EXTRACT;
+Infoga>:
+ Detalj (dynamisk):|PAR;
+ -----------:
+ Detalj (grundläggande):|PART;
+ Detalj i matris:|PARY;
+ Detalj i cirkulär matris:|CPARY;
+ -----------:
+ Bild...:|PICT;
+ XREF...:XREF; 
+ -----------:
+ Spara detalj:|CPART;
+Ändra:
+Ångra	^Z:~UNDO;
+Gör om	^Y:|REDO;
+--------:
+Radera del av symbol (el)	F8:|ERASESYM;
+Radera (el)	E:|ELERASE;
+Kopiera (el)	K:|ELCOPY;
+Flytta (el)	M:|ELMOVE;
+Tänj (el)	S:|ELSTRETCH;
+Redigera text (el) 	F9:|ELTEDIT;
+----:
+Mer flytta>:
+ Visuell flytta (Mov)	MM:|MOV;
+ Visuell flytta (Drag)  :|DRAG;
+ Flytta                  :|MOVE;
+Mer kopiera>:
+ Visuell kopiera (Cop)	KK:|COP;
+ Visuell kopiera          :|DRAGCPY;
+ Kopiera                  :|COPY;
+ ----:
+ Kopiera till lager       :|LAYERCPY;
+ Anslut (connect)         :|CONNECTC;
+ ----------:
+ Skalade kopior (visuell) :|DYNSCLC;
+ Skalade kopior           :|SCLCPY;
+ Roterade kopior (visuell):|DYNROTC;
+ Roterade kopior          :|ROTCPY;
+ Speglade kopior          :|MIRCPY;
+ ----------:
+ Kopiera matris (el)      :|instcopy;
+ Kopiera matris           :|REPEAT;
+ Koiera cirkulär matris   :|CARY;
+Mer skala>:
+ Skala kombinerad:|SCA;
+ Skala med värde :|SCALE;
+ Skala visuell   :|DYNSCL;
+ Skala X/Y       :|SCALEXY;
+Mer rotera>:
+ Rotera kombinerad:|ROT;
+ Rotera med värde :|ROTATE;
+ Rotera visuell   :|DYNROT;
+ Rotera rikta in (align):|ROTALN;
+Anslut (connect)      :|CONNECT;
+Spegla       :|MIRROR;
+------------:
+Trimma>:
+ Trimma (el)	T:|trimx;
+ Trimma:|TRIM;
+ Trimma till objekt:|TRIMTO;
+ Trimma till korsning:|TRIMINT;
+ Trimma till längd:|TRIML;
+ Trimma till insidan:|TRIMIE;
+ Trimma till utsidan:|TRIMOE;
+Bryt            :|BREAK;
+Splitta/dela    :|SPLIT;
+Explodera:|EXPL;
+Ändra noder/hörn>:
+ Infoga:|INSNODE;
+ Ta bort:|DELNODE;
+---------:
+Klippbordet>:
+ Klipp ut	^X:|CLIPCUT;
+ Kopiera	^C:|CLIPCOPY;
+ Klistra in	^V:|ELPASTE;
+ ---------:
+ Inställningar...:|CLIPOPT;
+---------:
+Numerisk ändra	Ä:|edit;
+Visuell ändra:|DYNEDIT;
+Ändra egenskaper>:
+ Ett objekt...:|PEDIT;
+ Flera objekt...:|CHANGE;
+ -----------:
+ Färg:|CHANGEC;
+ Sätt till symbolens färg:|CHGCBB;
+ Fyllnads (2a) färg:|CHANGEC2;
+ Penntjocklek:|CHANGEPT;
+ Lager:|CHANGEL;
+ Linjestil:|CHANGELS;
+ Fyllnadsstil:|CHANGEFS;
+ Linjebredd:|CHANGELW;
+ Måttsättning:|CHANGED;
+ Text:|CHANGETX;
+ Text inställningar:|CHANGET;
+ Pilspets AV/PÅ:|AHEAD;
+------------:
+Ordning>:
+ Lägg framför     :|FRONT;
+ Lägg ovanför	  :|ABOVE;
+ Lägg under:|BELOW;
+ Lägg bakom       :|BACK;
+---------:
+Hela ritningen>:
+ Bakgrundsfärg:|bkgnd;
+ DOStecken till Windows:|dostowin;
+ Windowstecken till DOS:|wintodos;
+ Ändra origo:|ORIGIN;
+---------:
+Gruppera:|GROUP;
+Ogruppera:|UNGROUP;
+PLås:
+Ändpunkt	F5:EPT;^D;
+Korspunkt	F4:INT;^D;^D;
+Mittpunkt	F3:MID;^D;
+Centrum	F2:CEN;^D;
+--------:
+Flytta referenspunkt	REF:REF;
+--------:
+Närmaste punkt på:ON;^D;
+Mitt emellan två punkter:MID2;^D;^D;
+Mitt emellan två ändpunkter:MID2;EPT;^D;EPT;^D;
+Mitt emellan två centrum:MID2;CEN;^D;CEN;^D;
+--------:
+Parallell till:PRL;^D;
+Vinkelrät mot:PRP;^D;
+Vinkel mot:ANG;^D;
+Procent längs:%;^D;
+Avstånd längs:DIST;^D;
+Gradtal på:DEG;^D;
+Vinkel (bäring):BRNG;^D;
+Tangent till:TAN;^D;
+---------------:
+Behåll X (vertikal):SAMEX;
+Behåll Y (horisontell):SAMEY;
+---------------------:
+Samma egenskap som (tillfällig):LIKE;^D;
+Samma egenskap som (varaktig):KEEP;^D;
+Text:
+Text (fler funktioner):|tex;
+Text (grundläggande)  :|TEXT;
+--------------:
+Numrering             :|NUMBER;
+Text från fil:|TFILE;
+Behåll senaste höjd och vinkel:|KEEPTHA;
+--------------:
+Ändra en placerad text:|TEXEDIT;
+Kopiera en placerad text:|TEXCOPY;
+--------------:
+Räkna upp:|tinc;
+Sök:|tfind;
+Sök och ersätt:|treplace;
+Ändra flera texter:|TED;
+---------:
+Exportera texter:|TEXPORT;
+---------:
+Text till spline:|TEXPLODE;
+Text till spline (multipoly):|TEXPLODEMP;
+---------:
+Inställningar...:|TSPEC;
+Hjälp:
+Webbaserad manual:|MANUAL;
+Övningsmeny:|OVNING;
+Video (komma igång mm):|VIDEO;
+----------------:
+Hjälp:|Opendoc;#FastELH.chm;
+Om:|OM;
+PK Datas hemsida:|PKDATA;
+----------------:
+PK Data Live Support:|LIVESUPPORT;
+---------------------:
+FastCAD>:
+ Hjälp (engelsk):|HELP;
+ Om:|VER;
+ Hemsida:|WEBINFO;
+#99,FastEL Zoom:
+#0,Gemensam_zoomin:[Zoom In / HK Zoom Ut]{~ZOUT;2;}~ZIN;2;
+#1,Gemensam_zoomext:[Zoom allt / HK zoom ritram]{~zname;Hela;}~zext;
+#2,Gemensam_zoomwin:[Zoom fönster / HK Zooma senaste]{~ZLAST;}~zwin;
+#4,Gemensam_text:[Text / HK - Andra texter]{|CMENU;#ikoner\cmenu\text.cmn;}|tex;
+#5,Gemensam_linje:[Heldragen linje / HK - Andra varianter]{|CMENU;#ikoner\cmenu\Line.cmn;}|lstyle solid;PLINE;
+#6,Gemensam_rekt:[Rektangel / HK - Andra varianter]{|CMENU;#ikoner\cmenu\boxKrets.cmn;}|lstyle solid;fstyle hollow;box;
+#7,Gemensam_cirkel:[Cirkel / HK - Andra varianter]{|CMENU;#ikoner\cmenu\circle.cmn;}|lstyle solid;fstyle hollow;CIR;
+#9,Gemensam_undo:[Ångra / HK Gör om]{redo;}~undo;
+#10,Gemensam_raderaDel:[Radera del av symbol]|erasesym;
+#11,Gemensam_sudd:[Radera]|elerase;
+#12,Gemensam_copy:[Kopiera / HK Klippbordet]{|CMENU;#ikoner\cmenu\klipp.cmn;}|elcopy;
+#13,Gemensam_flytta:[Flytta / HK - Ändra mer]{|CMENU;#ikoner\cmenu\andraKrets.cmn;}|elmove;
+#14,Gemensam_tanj:[Tänj / HK - Ändra mer]{|CMENU;#ikoner\cmenu\andraKrets.cmn;}|elstretch;
+#15,Gemensam_edittext:[Redigera text/ HK - Ändra mer]{|CMENU;#ikoner\cmenu\edittext.cmn;}|eltedit;
+#16,Gemensam_trim:[Trimma / HK Mer trimma och bryt upp]{|CMENU;#ikoner\cmenu\trim.cmn;}|trimx;
+#17,Gemensam_spegla:[Spegla]|mircpy;
+#18,Gemensam_egensk:[Ändra egenskaper / HK - Ändra mer]{|CMENU;ikoner\cmenu\egensk.cmn;}|egenskaper;
+#20,Gemensam_centrum:[Punktlåsning centrum]CEN;^D;
+#21,Gemensam_mitt:[Punktlåsning mittpunkt]MID;^D;
+#22,Gemensam_int:[Punktlåsning korspunkt]INT;^D;^D;
+#23,Gemensam_ept:[Punktlåsning ändpunkt]EPT;^D;
+#24,Gemensam_mellan:[Punktlåsning mitt emellan två punkter]MID2;^D;^D;
+#25,SHEETS:[Sheets (Skikt/Blad)]|SHEET;
+#399,FastCAD ikoner:
+#300,mirror:[Spegla]|MIRROR;
+#301,offset1:[Offset Ett objekt]|OFFSET1;
+#302,offset:[Offset På en kedja]|OFFSET;
+#303,trim:[Trimma]|TRIMX;
+#304,trimto:[Trimma till]|TRIMTO;
+#305,trimint:[Trim till korsning]|TRIMINT;
+#306,break:[Bryt]|BREAK;
+#307,split:[Splitta/dela]|SPLIT;
+#308,changels:[Ändra egenskaper Linjestil]|CHANGELS;
+#309,changefs:[Ändra egenskaper Fyllnadsstil]|CHANGEFS;
+#310,DRWLINE:[Linje (el)]|PLINE;
+#311,DRWLINEP:[Linje Vinkelrätt]|LNPRP;
+#312,DRWDLINE:[Dubbel linje]|DBLN;
+#313,DRWCIRP:[Cirkel]|CIRP;
+#314,DRWARCS:[Båge Centrum-start-slut]|ARCS;
+#315,DRWARC3:[Både Start-mitt-slutpunkt]|ARCB;
+#316,DRWTEXT:[Text (fler funktioner)]|TEX;
+#317,DRWBOX:[Rektangel]|BOX;
+#318,DRWPATH:[Path]|PATH;
+#319,DRWPOLY:[Polygon]|POLY;
+#320,DRWSPLN:[Spline]|SPLINE;
+#321,DRWPARW:[Path med pil]|PATHA;
+#322,DRWFIL:[Runda hörn]|FIL;
+#323,DRWFILT:[Runda hörn med trim]|TFIL;
+#324,DRWHDIM:[Horisontell måttsättning]|DIMH;
+#325,DRWVDIM:[Vertikal måttsättning]|DIMV;
+#326,DRWODIM:[Ordinate måttsättning]|DIMO;

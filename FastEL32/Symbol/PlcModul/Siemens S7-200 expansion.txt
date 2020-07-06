@@ -1,0 +1,287 @@
+#Namn: EM 221 DI 8 x 24 VDC
+#Sortering: 200
+#Komponent: 1
+#Typ: IN
+#Kod:" -{1M}  o   o   o   o   -{2M}  o   o   o   o "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 221 DI 8 x 24 VDC
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 46
+---------------------------------------------------------------------
+#Namn: EM 221 DI 16 x 24 VDC
+#Sortering: 201
+#Komponent: 1
+#Typ: IN
+#Kod:" -{1M}  o   o   o   o   -{2M}  o   o   o   o "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 221 DI 16 x 24 VDC
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 71.2
+---------------------------------------------------------------------
+#Namn: EM 221 DI 16-2 Expansion 8 ingångar
+#Sortering: 202
+#Typ: IN
+#Kod:" -{3M}  o   o   o   o   -{4M}  o   o   o   o "
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 203
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: EM 222 DO 4 x 24 VDC
+#Sortering: 210
+#Komponent: 1
+#Typ: UT
+#Kod:" M{;0L+;0M}  o   M{;1L+;1M}  o   M{;2L+;2M}  o   M{;3L+;3M}  o "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 221 DI 16 x 24 VDC
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 46
+---------------------------------------------------------------------
+#Namn: EM 222 DO 4 x relä
+#Sortering: 211
+#Komponent: 1
+#Typ: UT
+#Kod:" M{;L+;0M}   R{;0L}   R{;1L}   R{;2L}   R{;3L} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 222 DO 4 x relä
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 46
+---------------------------------------------------------------------
+#Namn: EM 222 DO 8 x 24 VDC
+#Sortering: 212
+#Komponent: 1
+#Typ: UT
+#Kod:" M{;1L+;1M}  o   o   o   o  M{;2L+;2M}  o   o   o   o  "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 222 DO 8 x 24 VDC
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 46
+---------------------------------------------------------------------
+#Namn: EM 222 DO 8 x relä
+#Sortering: 213
+#Komponent: 1
+#Typ: UT
+#Kod:" M{;L+;M}  R{;1L}---r---r---r   R{;2L}---r---r---r "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 222 DO 8 x relä
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 46
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 214
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: EM 223 24 VDC 4 In/4 Out
+#Sortering: 220
+#Komponent: 1
+#Typ: IN
+#Kod:" -{1M}  o  o  o  o "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 223 24 VDC 4 In/4 Out
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 46
+---------------------------------------------------------------------
+#Namn: EM 223 24 VDC 4 Out
+#Sortering: 221
+#Typ: UT
+#Kod:" M{;1L+;1M}  o   o   o   o "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 222
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: EM 223 24 VDC 4 In/4 Relä
+#Sortering: 230
+#Komponent: 1
+#Typ: IN
+#Kod:" -{1M}  o  o  o  o "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 223 24 VDC 4 In/4 Relä
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 46
+---------------------------------------------------------------------
+#Namn: EM 223 24 VDC 4 Relä
+#Sortering: 231
+#Komponent: 1
+#Typ: UT
+#Kod:" M{;1L+;1M}  R---r---r---r "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 232
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: EM 223 24 VDC 8 In/8 Out
+#Sortering: 240
+#Komponent: 1
+#Typ: IN
+#Kod:" -{1M}  o   o   o   o   -{2M}  o   o   o   o "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 223 24 VDC 8 In/8 Out
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 46
+---------------------------------------------------------------------
+#Namn: EM 223 24 VDC 8 Out
+#Sortering: 241
+#Typ: UT
+#Kod:" M{;1L+;1M}  o   o   o   o  M{;2L+;2M}  o   o   o   o  "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 242
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: EM 223 24 VDC 8 In/8 Relä
+#Sortering: 250
+#Komponent: 1
+#Typ: IN
+#Kod:" -{1M}  o   o   o   o   -{2M}  o   o   o   o "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 223 24 VDC 8 In/8 Relä
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 71.2
+---------------------------------------------------------------------
+#Namn: EM 223 8DQ relä
+#Sortering: 251
+#Typ: UT
+#Kod:" M{;L+;M}  R{;1L}---r---r---r   R{;2L}---r---r---r "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 252
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: EM 223 24 VDC 16 In/16 Out
+#Sortering: 260
+#Komponent: 1
+#Typ: IN
+#Kod:" -{1M}  o   o   o   o   o   o   o   o "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 223 24 VDC 16 In/16 Out
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 137.3
+---------------------------------------------------------------------
+#Namn: EM 223 16DI-2
+#Sortering: 261
+#Typ: IN
+#Kod:" -{2M}  o   o   o   o   o   o   o   o "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: EM 223 24 VDC 16 Out
+#Sortering: 262
+#Typ: UT
+#Kod:" M{;1L+;1M}  o   o   o   o  M{;2L+;2M}  o   o   o   o  "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: EM 223 16DQ-2 DC
+#Sortering: 263
+#Typ: UT
+#Kod:" M{;3L+;3M}  o   o   o   o   o   o   o   o  "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 264
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: EM 223 24 VDC 16 In/16 Relä
+#Sortering: 270
+#Komponent: 1
+#Typ: IN
+#Kod:" -{1M}  o   o   o   o   o   o   o   o "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 223 24 VDC 16 In/16 Relä
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 137.3
+---------------------------------------------------------------------
+#Namn: EM 223 16DI-2
+#Sortering: 271
+#Typ: IN
+#Kod:" -{2M}  o   o   o   o   o   o   o   o "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: EM 223 24 VDC 16 relä
+#Sortering: 272
+#Typ: UT
+#Kod:" M{;L+;M}  R{;1L}---r---r---r   R{;2L}---r---r---r "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: EM 223 16DQ-2 relä
+#Sortering: 273
+#Typ: UT
+#Kod:"  R{;3L}---r---r---r   R{;4L}---r---r---r "
+#Fri placering: 1
+---------------------------------------------------------------------
+#Namn: -------
+#Sortering: 274
+#Beskrivning: CPU
+#Kod:" "
+---------------------------------------------------------------------
+#Namn: EM 231 Analog Input
+#Sortering: 280
+#Komponent: 1
+#Typ: IN
+#Kod:" +{L+}-{M}   o{RA} o{A+} o{A-}   o{RB} o{B+} o{B-}   o{RC} o{C+} o{C-}   o{RD} o{D+} o{DB-} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 231 Analog Input
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 71.2
+---------------------------------------------------------------------
+#Namn: EM 232 Analog Output
+#Sortering: 281
+#Komponent: 1
+#Typ: IN
+#Kod:"  o{L+}j o{M}     o{M0}   o{V0}   o{I0}     o{M1}   o{V1}   o{I1} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 231 Analog Output
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 46
+---------------------------------------------------------------------
+#Namn: EM 231 Analog Input RTD
+#Sortering: 281
+#Komponent: 1
+#Typ: IN
+#Kod:" +{L+}-{M}   o{A+}   o{A-}   o{a+}   o{a-}   o{B+}   o{B-}   o{b+}   o{b-} "
+#Fri placering: 1
+#Material - Fabrikat: Siemens
+#Material - Beskrivning: EM 231 Analog Input RTD
+#Material - Typ: Expansionsenhet
+#Material - Height: 80
+#Material - Width: 71.2
+---------------------------------------------------------------------
+
